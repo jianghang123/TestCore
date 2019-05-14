@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestCore.Api</name>
+    </assembly>
+    <members>
+        <member name="T:TestCore.Api.BaseControllers.ApiControllers">
+            <summary>
+            API基类
+            </summary>
+        </member>
+        <member name="P:TestCore.Api.BaseControllers.ApiControllers.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:TestCore.Api.BaseControllers.ApiControllers.UserInfo">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="M:TestCore.Api.BaseControllers.ApiControllers.GetCurUserInfo">
+            <summary>
+            获取用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestCore.Api.BaseControllers.ApiControllers.AddCurUserInfo(TestCore.Domain.Entity.Users)">
+            <summary>
+            添加用户信息
+            </summary>
+        </member>
+        <member name="M:TestCore.Api.BaseControllers.ApiControllers.ErrorLog(System.String,System.Exception)">
+            <summary>
+             全局异常错误记录持久化 
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:TestCore.Api.BaseControllers.ApiControllers.WriteLog(System.String)">
+            <summary>
+            自定义操作记录
+            </summary>
+            <param name="throwMsg"></param>
+        </member>
+        <member name="M:TestCore.Api.BaseControllers.ApiControllers.HideEmail(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestCore.Api.BaseControllers.ApiControllers.HideString(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="origStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TestCore.Api.Controllers.ValuesController">
+            <summary>
+            公共类
+            </summary>
+        </member>
+        <member name="M:TestCore.Api.Controllers.ValuesController.LogIn(TestCore.Domain.InputEntity.LogInInput)">
+            <summary>
+            登录
+            </summary>
+            <param name="logInInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestCore.Api.Controllers.ValuesController.GetUserInfo">
+            <summary>
+            获取用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:TestCore.Api.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TestCore.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:TestCore.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:TestCore.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,System.IServiceProvider)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="serviceProvider"></param>
+        </member>
+    </members>
+</doc>

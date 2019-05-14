@@ -1,0 +1,4044 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Base_Lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="StatusEnum_Disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="StatusEnum_Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="SysUser_UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="SysUser_UserName_Required" xml:space="preserve">
+    <value>User Name Required</value>
+  </data>
+  <data name="SysUser_UserPwd" xml:space="preserve">
+    <value>UserPwd</value>
+  </data>
+  <data name="SysUser_UserPwd_Required" xml:space="preserve">
+    <value>User Password Required</value>
+  </data>
+  <data name="SysGameConfig_GameName" xml:space="preserve">
+    <value>GameName</value>
+  </data>
+  <data name="SysGameConfig_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysGameConfig_ExchangeRate" xml:space="preserve">
+    <value>ExchangeRate</value>
+  </data>
+  <data name="SysGameConfig_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SysGameConfig_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysGameConfig_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysGameConfig_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysGameConfig_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysGameConfig_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysPan_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysPan_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysPan_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysPan_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysPan_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysBrokerageSet_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SysBrokerageSet_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysBrokerageSet_UserLevel" xml:space="preserve">
+    <value>UserLevel</value>
+  </data>
+  <data name="SysBrokerageSet_ValidMemberCount" xml:space="preserve">
+    <value>ValidMemberCount</value>
+  </data>
+  <data name="SysBrokerageSet_SupplyMoney" xml:space="preserve">
+    <value>SupplyMoney</value>
+  </data>
+  <data name="SysBrokerageSet_BackPercent" xml:space="preserve">
+    <value>BackPercent</value>
+  </data>
+  <data name="SysBrokerageSet_Payer" xml:space="preserve">
+    <value>Payer</value>
+  </data>
+  <data name="SysBrokerageSet_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysBrokerageSet_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysBrokerageSet_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysBrokerageSet_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="InternalMessageType_SubjectType" xml:space="preserve">
+    <value>SubjectType</value>
+  </data>
+  <data name="InternalMessageType_SubjectName" xml:space="preserve">
+    <value>SubjectName</value>
+  </data>
+  <data name="SysExchangeRate_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="SysExchangeRate_Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="SysExchangeRate_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysExchangeRate_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysExchangeRate_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysExchangeRate_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysProxyBrokerage_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="SysProxyBrokerage_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="SysProxyBrokerage_UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="SysProxyBrokerage_ValidMemberCount" xml:space="preserve">
+    <value>ValidMemberCount</value>
+  </data>
+  <data name="SysProxyBrokerage_NetProfit" xml:space="preserve">
+    <value>NetProfit</value>
+  </data>
+  <data name="SysProxyBrokerage_Brokerage" xml:space="preserve">
+    <value>Brokerage</value>
+  </data>
+  <data name="SysProxyBrokerage_HistoryDebt" xml:space="preserve">
+    <value>HistoryDebt</value>
+  </data>
+  <data name="SysProxyBrokerage_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysProxyBrokerage_Auditor" xml:space="preserve">
+    <value>Auditor</value>
+  </data>
+  <data name="SysProxyBrokerage_AuditTime" xml:space="preserve">
+    <value>AuditTime</value>
+  </data>
+  <data name="SysProxyBrokerage_PayStatus" xml:space="preserve">
+    <value>PayStatus</value>
+  </data>
+  <data name="SysProxyBrokerage_Payer" xml:space="preserve">
+    <value>Payer</value>
+  </data>
+  <data name="SysProxyBrokerage_PayTime" xml:space="preserve">
+    <value>PayTime</value>
+  </data>
+  <data name="SysProxyBrokerage_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysProxyBrokerage_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="Notice_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Notice_NoticeContent" xml:space="preserve">
+    <value>NoticeContent</value>
+  </data>
+  <data name="Notice_BeginTime" xml:space="preserve">
+    <value>BeginTime</value>
+  </data>
+  <data name="Notice_BeginTimeEst" xml:space="preserve">
+    <value>BeginTimeEst</value>
+  </data>
+  <data name="Notice_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="Notice_InvalidTime" xml:space="preserve">
+    <value>InvalidTime</value>
+  </data>
+  <data name="Notice_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Notice_Lang" xml:space="preserve">
+    <value>Lang</value>
+  </data>
+  <data name="Notice_ProjectType" xml:space="preserve">
+    <value>ProjectType</value>
+  </data>
+  <data name="Notice_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="Notice_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysUserLog_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SysUserLog_UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="SysUserLog_RoleId" xml:space="preserve">
+    <value>RoleId</value>
+  </data>
+  <data name="SysUserLog_NodeId" xml:space="preserve">
+    <value>NodeId</value>
+  </data>
+  <data name="SysUserLog_LogType" xml:space="preserve">
+    <value>LogType</value>
+  </data>
+  <data name="SysUserLog_Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="SysUserLog_ActionType" xml:space="preserve">
+    <value>ActionType</value>
+  </data>
+  <data name="SysUserLog_ActionDesc" xml:space="preserve">
+    <value>ActionDesc</value>
+  </data>
+  <data name="SysUserLog_LogTime" xml:space="preserve">
+    <value>LogTime</value>
+  </data>
+  <data name="SysUserLog_LogTimeEst" xml:space="preserve">
+    <value>LogTimeEst</value>
+  </data>
+  <data name="SysUser_NickName" xml:space="preserve">
+    <value>NickName</value>
+  </data>
+  <data name="SysUser_SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="SysUser_RoleId" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="SysUser_Auditor" xml:space="preserve">
+    <value>Auditor</value>
+  </data>
+  <data name="SysUser_AuditTime" xml:space="preserve">
+    <value>AuditTime</value>
+  </data>
+  <data name="SysUser_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysUser_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysUser_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysUser_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysUser_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysRoleRight_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SysRoleRight_RoleId" xml:space="preserve">
+    <value>RoleId</value>
+  </data>
+  <data name="SysRoleRight_NodeId" xml:space="preserve">
+    <value>NodeId</value>
+  </data>
+  <data name="SysRoleRight_RightId" xml:space="preserve">
+    <value>RightId</value>
+  </data>
+  <data name="SysRoleRight_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysRoleRight_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemLevel_MemIdL0" xml:space="preserve">
+    <value>MemIdL0</value>
+  </data>
+  <data name="MemLevel_MemIdL1" xml:space="preserve">
+    <value>MemIdL1</value>
+  </data>
+  <data name="MemLevel_MemIdL2" xml:space="preserve">
+    <value>MemIdL2</value>
+  </data>
+  <data name="MemLevel_MemIdL3" xml:space="preserve">
+    <value>MemIdL3</value>
+  </data>
+  <data name="MemLevel_MemIdL4" xml:space="preserve">
+    <value>MemIdL4</value>
+  </data>
+  <data name="MemLevel_MemIdL5" xml:space="preserve">
+    <value>MemIdL5</value>
+  </data>
+  <data name="MemLevel_MemIdL6" xml:space="preserve">
+    <value>MemIdL6</value>
+  </data>
+  <data name="MemLevel_MemIdL7" xml:space="preserve">
+    <value>MemIdL7</value>
+  </data>
+  <data name="MemLevel_MemIdL8" xml:space="preserve">
+    <value>MemIdL8</value>
+  </data>
+  <data name="MemLevel_ParentPath" xml:space="preserve">
+    <value>ParentPath</value>
+  </data>
+  <data name="MemLevel_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="MemLevel_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemLevel_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="MemLevel_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="Member_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="Member_PromoterId" xml:space="preserve">
+    <value>PromoterId</value>
+  </data>
+  <data name="Member_SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Member_MemberType" xml:space="preserve">
+    <value>Member/Agent</value>
+  </data>
+  <data name="Member_CashCreditType" xml:space="preserve">
+    <value>AccountType</value>
+  </data>
+  <data name="MemLevel_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Member_UserPwd" xml:space="preserve">
+    <value>UserPwd</value>
+  </data>
+  <data name="Member_WalletPwd" xml:space="preserve">
+    <value>WalletPwd</value>
+  </data>
+  <data name="Member_Wallet" xml:space="preserve">
+    <value>Center Wallet</value>
+  </data>
+  <data name="Member_Integral" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="Member_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Member_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Member_HandicapType" xml:space="preserve">
+    <value>HandicapType</value>
+  </data>
+  <data name="Member_ReferralCode" xml:space="preserve">
+    <value>ReferralCode</value>
+  </data>
+  <data name="Member_IsValidEmail" xml:space="preserve">
+    <value>IsValidEmail</value>
+  </data>
+  <data name="Member_IsValidMobile" xml:space="preserve">
+    <value>IsValidMobile</value>
+  </data>
+  <data name="Member_IsBindCard" xml:space="preserve">
+    <value>IsBindCard</value>
+  </data>
+  <data name="Member_IsSupplyData" xml:space="preserve">
+    <value>IsSupplyData</value>
+  </data>
+  <data name="Member_LastLoginTime" xml:space="preserve">
+    <value>LastLoginTime</value>
+  </data>
+  <data name="Member_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Member_CreateTime" xml:space="preserve">
+    <value>RegisterTime</value>
+  </data>
+  <data name="Member_CreateTimeEst" xml:space="preserve">
+    <value>RegisterTimeEst</value>
+  </data>
+  <data name="Member_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="Member_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="Member_IsForgotPwd" xml:space="preserve">
+    <value>IsForgotPwd</value>
+  </data>
+  <data name="GameAllBetMember_Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="GameAllBetMember_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="GameAllBetMember_VipHandicaps" xml:space="preserve">
+    <value>VipHandicaps</value>
+  </data>
+  <data name="GameAllBetMember_OrHandicaps" xml:space="preserve">
+    <value>OrHandicaps</value>
+  </data>
+  <data name="GameAllBetMember_OrHallRebate" xml:space="preserve">
+    <value>OrHallRebate</value>
+  </data>
+  <data name="GameAllBetMember_DvHallRebate" xml:space="preserve">
+    <value>DvHallRebate</value>
+  </data>
+  <data name="GameAllBetMember_LaxHallRebate" xml:space="preserve">
+    <value>LaxHallRebate</value>
+  </data>
+  <data name="GameAllBetMember_LstHallRebate" xml:space="preserve">
+    <value>LstHallRebate</value>
+  </data>
+  <data name="GameAllBetMember_MaxWin" xml:space="preserve">
+    <value>MaxWin</value>
+  </data>
+  <data name="GameAllBetMember_MaxLose" xml:space="preserve">
+    <value>MaxLose</value>
+  </data>
+  <data name="GameAllBetMember_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="GameAllBetMember_LastLoginTime" xml:space="preserve">
+    <value>LastLoginTime</value>
+  </data>
+  <data name="SysWebConfig_Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="SysWebConfig_SiteTitle" xml:space="preserve">
+    <value>SiteTitle</value>
+  </data>
+  <data name="SysWebConfig_SiteSkin" xml:space="preserve">
+    <value>SiteSkin</value>
+  </data>
+  <data name="SysWebConfig_Lang" xml:space="preserve">
+    <value>Lang</value>
+  </data>
+  <data name="SysWebConfig_CurrencyId" xml:space="preserve">
+    <value>MoneyType</value>
+  </data>
+  <data name="SysWebConfig_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysWebConfig_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysWebConfig_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysWebConfig_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysWebConfig_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="NoticeType_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NoticeType_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="NoticeType_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysPayChannel_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysPayChannel_MinAmount" xml:space="preserve">
+    <value>MinAmount</value>
+  </data>
+  <data name="SysPayChannel_MaxAmount" xml:space="preserve">
+    <value>MaxAmount</value>
+  </data>
+  <data name="SysPayChannel_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysPayChannel_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysPayChannel_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysPayChannel_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysBankCard_AccountNo" xml:space="preserve">
+    <value>AccountNo</value>
+  </data>
+  <data name="SysBankCard_BankType" xml:space="preserve">
+    <value>BankType</value>
+  </data>
+  <data name="SysBankCard_AccountName" xml:space="preserve">
+    <value>AccountName</value>
+  </data>
+  <data name="SysBankCard_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysBankCard_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="SysBankCard_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysBankCard_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysBankCard_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysBankCard_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="InternalMessage_SubjectType" xml:space="preserve">
+    <value>SubjectType</value>
+  </data>
+  <data name="InternalMessage_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="InternalMessage_IsRead" xml:space="preserve">
+    <value>IsRead</value>
+  </data>
+  <data name="InternalMessage_Sender" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="InternalMessage_Receiver" xml:space="preserve">
+    <value>Receiver</value>
+  </data>
+  <data name="InternalMessage_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="InternalMessage_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="InternalMessage_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="InternalMessage_EventId" xml:space="preserve">
+    <value>EventId</value>
+  </data>
+  <data name="GameAllBetLoginLog_Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="GameAllBetLoginLog_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="GameAllBetLoginLog_Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="SysResource_DbId" xml:space="preserve">
+    <value>DbId</value>
+  </data>
+  <data name="SysResource_Lang" xml:space="preserve">
+    <value>Lang</value>
+  </data>
+  <data name="SysResource_TableId" xml:space="preserve">
+    <value>TableId</value>
+  </data>
+  <data name="SysResource_TableName" xml:space="preserve">
+    <value>TableName</value>
+  </data>
+  <data name="SysResource_PkId" xml:space="preserve">
+    <value>PKId</value>
+  </data>
+  <data name="SysResource_FieldName" xml:space="preserve">
+    <value>FieldName</value>
+  </data>
+  <data name="SysResource_ResValue" xml:space="preserve">
+    <value>ResValue</value>
+  </data>
+  <data name="SysResource_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysResource_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysResource_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysBankType_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="SysBankType_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysBankType_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysBankType_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="SysBankType_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysBankType_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysBankType_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysBankType_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemberInfo_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemberInfo_RealName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="MemberInfo_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="MemberInfo_MobileCountry" xml:space="preserve">
+    <value>MobileCountry</value>
+  </data>
+  <data name="MemberInfo_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="MemberInfo_IdCard" xml:space="preserve">
+    <value>IdCard</value>
+  </data>
+  <data name="MemberInfo_Passport" xml:space="preserve">
+    <value>Passport</value>
+  </data>
+  <data name="MemberInfo_Birthdate" xml:space="preserve">
+    <value>Birthdate</value>
+  </data>
+  <data name="MemberInfo_ClientIp" xml:space="preserve">
+    <value>ClientIp</value>
+  </data>
+  <data name="MemberInfo_Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="MemberInfo_QQ" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="MemberInfo_MSN" xml:space="preserve">
+    <value>MSN</value>
+  </data>
+  <data name="MemberInfo_Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="MemberInfo_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="MemberInfo_QuestionId" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="MemberInfo_Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="MemberInfo_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="MemberInfo_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="MemberInfo_ZipCode" xml:space="preserve">
+    <value>ZipCode</value>
+  </data>
+  <data name="MemberInfo_SiteUrl1" xml:space="preserve">
+    <value>SiteUrl1</value>
+  </data>
+  <data name="MemberInfo_SiteUrl2" xml:space="preserve">
+    <value>SiteUrl2</value>
+  </data>
+  <data name="MemberInfo_SiteUrl3" xml:space="preserve">
+    <value>SiteUrl3</value>
+  </data>
+  <data name="MemberInfo_Suggest" xml:space="preserve">
+    <value>Suggest</value>
+  </data>
+  <data name="MemberInfo_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemberInfo_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemberInfo_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemberInfo_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="Host_HostId" xml:space="preserve">
+    <value>HostId</value>
+  </data>
+  <data name="Host_HashCode" xml:space="preserve">
+    <value>HashCode</value>
+  </data>
+  <data name="SysRole_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysRole_IsSupper" xml:space="preserve">
+    <value>IsSupper</value>
+  </data>
+  <data name="SysRole_GroupId" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="SysRole_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysRole_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SysRole_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysRole_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysRole_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysRole_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemApproveTicket_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemApproveTicket_Ticket" xml:space="preserve">
+    <value>Ticket</value>
+  </data>
+  <data name="MemApproveTicket_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="MemApproveTicket_SendTo" xml:space="preserve">
+    <value>SendTo</value>
+  </data>
+  <data name="MemApproveTicket_UserIP" xml:space="preserve">
+    <value>UserIP</value>
+  </data>
+  <data name="MemApproveTicket_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MemApproveTicket_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemApproveTicket_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysLang_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysLang_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="SysLang_ResTag" xml:space="preserve">
+    <value>ResTag</value>
+  </data>
+  <data name="SysLang_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysLang_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysRight_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysRight_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="SysRight_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysRight_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SysRight_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysRight_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysRight_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysRight_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemLoginLog_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemLoginLog_ActionType" xml:space="preserve">
+    <value>ActionType</value>
+  </data>
+  <data name="MemLoginLog_Browser" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="MemLoginLog_ClientIp" xml:space="preserve">
+    <value>ClientIp</value>
+  </data>
+  <data name="MemLoginLog_OS" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="MemLoginLog_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemLoginLog_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemLoginLog_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemLoginLog_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="VUserRole_UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="VUserRole_IsSupper" xml:space="preserve">
+    <value>IsSupper</value>
+  </data>
+  <data name="VUserRole_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="VUserRole_RoleStatus" xml:space="preserve">
+    <value>RoleStatus</value>
+  </data>
+  <data name="VUserRole_RoleId" xml:space="preserve">
+    <value>RoleId</value>
+  </data>
+  <data name="VUserRole_RoleName" xml:space="preserve">
+    <value>RoleName</value>
+  </data>
+  <data name="SysAdminNode_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysAdminNode_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="SysAdminNode_SortIndex" xml:space="preserve">
+    <value>Sort Index</value>
+  </data>
+  <data name="SysAdminNode_Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="SysAdminNode_Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="SysAdminNode_Controller" xml:space="preserve">
+    <value>Controller</value>
+  </data>
+  <data name="SysAdminNode_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="SysAdminNode_RouteId" xml:space="preserve">
+    <value>Route Id</value>
+  </data>
+  <data name="SysAdminNode_QueryString" xml:space="preserve">
+    <value>Query String</value>
+  </data>
+  <data name="SysAdminNode_Rights" xml:space="preserve">
+    <value>Rights</value>
+  </data>
+  <data name="SysAdminNode_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysAdminNode_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SysAdminNode_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysAdminNode_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysAdminNode_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemOnline_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemOnline_SessionId" xml:space="preserve">
+    <value>SessionId</value>
+  </data>
+  <data name="MemOnline_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="MemOnline_LoginTime" xml:space="preserve">
+    <value>LoginTime</value>
+  </data>
+  <data name="MemOnline_RefUrl" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="MemOnline_IPAddr" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MemOnline_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemOnline_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemBetLog_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemBetLog_GameId" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="MemBetLog_ChildGameId" xml:space="preserve">
+    <value>ChildGameId</value>
+  </data>
+  <data name="MemBetLog_BetAmount" xml:space="preserve">
+    <value>BetAmount</value>
+  </data>
+  <data name="MemBetLog_ValidAmount" xml:space="preserve">
+    <value>ValidAmount</value>
+  </data>
+  <data name="MemBetLog_WinOrLoss" xml:space="preserve">
+    <value>WinOrLoss</value>
+  </data>
+  <data name="MemBetLog_Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="MemBetLog_BetTime" xml:space="preserve">
+    <value>BetTime</value>
+  </data>
+  <data name="MemBetLog_BetTimeEst" xml:space="preserve">
+    <value>BetTimeEst</value>
+  </data>
+  <data name="MemBetLog_BetContent" xml:space="preserve">
+    <value>BetContent</value>
+  </data>
+  <data name="MemBetLog_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MemBetLog_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemBetLog_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemBetLog_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemBetLog_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="MemBankCard_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemBankCard_BankType" xml:space="preserve">
+    <value>BankType</value>
+  </data>
+  <data name="MemBankCard_BankBranch" xml:space="preserve">
+    <value>BankBranch</value>
+  </data>
+  <data name="MemBankCard_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="MemBankCard_CardNumber" xml:space="preserve">
+    <value>CardNumber</value>
+  </data>
+  <data name="MemBankCard_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MemBankCard_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="MemBankCard_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemBankCard_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemBankCard_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemBankCard_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="PasswordChangeLog_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="PasswordChangeLog_PwdType" xml:space="preserve">
+    <value>PwdType</value>
+  </data>
+  <data name="PasswordChangeLog_OldPassword" xml:space="preserve">
+    <value>OldPassword</value>
+  </data>
+  <data name="PasswordChangeLog_NewPassword" xml:space="preserve">
+    <value>NewPassword</value>
+  </data>
+  <data name="PasswordChangeLog_UserIP" xml:space="preserve">
+    <value>UserIP</value>
+  </data>
+  <data name="PasswordChangeLog_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="PasswordChangeLog_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="SysActvityConfig_ActivityCode" xml:space="preserve">
+    <value>ActivityCode</value>
+  </data>
+  <data name="SysActvityConfig_ActivityName" xml:space="preserve">
+    <value>ActivityName</value>
+  </data>
+  <data name="SysActvityConfig_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SysActvityConfig_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="SysActvityConfig_ActivityType" xml:space="preserve">
+    <value>ActivityType</value>
+  </data>
+  <data name="SysActvityConfig_BeginTime" xml:space="preserve">
+    <value>BeginTime</value>
+  </data>
+  <data name="SysActvityConfig_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="SysActvityConfig_CycleType" xml:space="preserve">
+    <value>CycleType</value>
+  </data>
+  <data name="SysActvityConfig_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="SysActvityConfig_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SysActvityConfig_BackPercent" xml:space="preserve">
+    <value>BackPercent</value>
+  </data>
+  <data name="SysActvityConfig_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysActvityConfig_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysActvityConfig_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysActvityConfig_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysActvityConfig_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="CashCreditTypeEnum_Cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="CashCreditTypeEnum_Creadit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="ActionTypeEnum_Apply" xml:space="preserve">
+    <value>Drawing Apply</value>
+  </data>
+  <data name="ActionTypeEnum_Audit" xml:space="preserve">
+    <value>Audit status</value>
+  </data>
+  <data name="ActionTypeEnum_Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="ActionTypeEnum_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ActionTypeEnum_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ActionTypeEnum_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="ActionTypeEnum_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="ActionTypeEnum_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="ActionTypeEnum_Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="ActionTypeEnum_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ChargeStatusEnum_Chargeing" xml:space="preserve">
+    <value>Recharge Chargeing</value>
+  </data>
+  <data name="ChargeStatusEnum_Failed" xml:space="preserve">
+    <value>Recharge Failed</value>
+  </data>
+  <data name="ChargeStatusEnum_Finshed" xml:space="preserve">
+    <value>Recharge Finshed</value>
+  </data>
+  <data name="CurrencyEnum_RMB" xml:space="preserve">
+    <value>RMB</value>
+  </data>
+  <data name="CurrencyEnum_USD" xml:space="preserve">
+    <value>USD</value>
+  </data>
+  <data name="FlowTypeEnum_Draw" xml:space="preserve">
+    <value>DrawFromWallet</value>
+  </data>
+  <data name="FlowTypeEnum_GameToGame" xml:space="preserve">
+    <value>GameToGame</value>
+  </data>
+  <data name="FlowTypeEnum_GameToWallet" xml:space="preserve">
+    <value>GameToWallet</value>
+  </data>
+  <data name="FlowTypeEnum_PayToWallet" xml:space="preserve">
+    <value>PayToWallet</value>
+  </data>
+  <data name="FlowTypeEnum_WalletToGame" xml:space="preserve">
+    <value>WalletToGame</value>
+  </data>
+  <data name="GameEnum_Allbet" xml:space="preserve">
+    <value>Allbet</value>
+  </data>
+  <data name="GameEnum_Lottery" xml:space="preserve">
+    <value>Lottery</value>
+  </data>
+  <data name="GameEnum_Sport" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="GameEnum_VedioGame" xml:space="preserve">
+    <value>VedioGame</value>
+  </data>
+  <data name="GameEnum_Wallet" xml:space="preserve">
+    <value>Wallet</value>
+  </data>
+  <data name="LogTypeEnum_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="LogTypeEnum_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="MemberStatusEnum_Allow" xml:space="preserve">
+    <value>Allow</value>
+  </data>
+  <data name="MemberStatusEnum_Lock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="MemberStatusEnum_Uncheck" xml:space="preserve">
+    <value>Uncheck</value>
+  </data>
+  <data name="MemberTypeEnum_Member" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="MemberTypeEnum_Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="OrderBusinessType_Draw" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="OrderBusinessType_Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="PasswodTypeEnum_LoginPwd" xml:space="preserve">
+    <value>LoginPwd</value>
+  </data>
+  <data name="PasswodTypeEnum_PayPwd" xml:space="preserve">
+    <value>PayPwd</value>
+  </data>
+  <data name="PayChannelEnum_Alipay" xml:space="preserve">
+    <value>Alipay</value>
+  </data>
+  <data name="PayChannelEnum_AlipayTransfer" xml:space="preserve">
+    <value>AlipayTransfer</value>
+  </data>
+  <data name="PayChannelEnum_BankTransfer" xml:space="preserve">
+    <value>BankTransfer</value>
+  </data>
+  <data name="PayChannelEnum_QuickOnline" xml:space="preserve">
+    <value>QuickOnline</value>
+  </data>
+  <data name="PayChannelEnum_WeChat" xml:space="preserve">
+    <value>WeChat Pay</value>
+  </data>
+  <data name="PaymentMenuEnum_Deposit" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="PaymentMenuEnum_Freebet" xml:space="preserve">
+    <value>Free bets</value>
+  </data>
+  <data name="PaymentMenuEnum_History" xml:space="preserve">
+    <value>Wallet History</value>
+  </data>
+  <data name="PaymentMenuEnum_Transfer" xml:space="preserve">
+    <value>Wallet Transfer</value>
+  </data>
+  <data name="PaymentMenuEnum_Upload" xml:space="preserve">
+    <value>Uploading</value>
+  </data>
+  <data name="PaymentMenuEnum_Withdrawal" xml:space="preserve">
+    <value>Draw money</value>
+  </data>
+  <data name="PayStatusEnum_Failed" xml:space="preserve">
+    <value>Pay Failed</value>
+  </data>
+  <data name="PayStatusEnum_Finshed" xml:space="preserve">
+    <value>Pay Finshed</value>
+  </data>
+  <data name="PayStatusEnum_Paying" xml:space="preserve">
+    <value>Paying</value>
+  </data>
+  <data name="PayWayEnum_Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="PayWayEnum_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="RebateStatusTypeEnum_Applying" xml:space="preserve">
+    <value>In review</value>
+  </data>
+  <data name="RebateStatusTypeEnum_CanApply" xml:space="preserve">
+    <value>May apply</value>
+  </data>
+  <data name="RebateStatusTypeEnum_Passed" xml:space="preserve">
+    <value>Already Passed</value>
+  </data>
+  <data name="RebateStatusTypeEnum_Refuse" xml:space="preserve">
+    <value>Refuse</value>
+  </data>
+  <data name="ResultTypeEnum_Success" xml:space="preserve">
+    <value>Succeed</value>
+  </data>
+  <data name="ResultTypeEnum_Fail" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="RightTypeEnum_audit" xml:space="preserve">
+    <value>Check Permission</value>
+  </data>
+  <data name="RightTypeEnum_create" xml:space="preserve">
+    <value>Add Permission</value>
+  </data>
+  <data name="RightTypeEnum_delete" xml:space="preserve">
+    <value>Delete Permission</value>
+  </data>
+  <data name="RightTypeEnum_edit" xml:space="preserve">
+    <value>Edit Permission</value>
+  </data>
+  <data name="RightTypeEnum_none" xml:space="preserve">
+    <value>Do not have Permission</value>
+  </data>
+  <data name="RightTypeEnum_payment" xml:space="preserve">
+    <value>Zahlungsbefugnis</value>
+  </data>
+  <data name="RightTypeEnum_view" xml:space="preserve">
+    <value>Competence</value>
+  </data>
+  <data name="AccountStatusEnum_Allow" xml:space="preserve">
+    <value>Allow</value>
+  </data>
+  <data name="AccountStatusEnum_Lock" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="AccountStatusEnum_Uncheck" xml:space="preserve">
+    <value>Uncheck</value>
+  </data>
+  <data name="SysUser_UserName_Remote" xml:space="preserve">
+    <value>User Name already exists</value>
+  </data>
+  <data name="SysResource_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysUser_Email_Error" xml:space="preserve">
+    <value>Please enter your email address</value>
+  </data>
+  <data name="SysUser_Email_NotExist" xml:space="preserve">
+    <value>Email was not found, please contact your administrator</value>
+  </data>
+  <data name="SysUser_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="SysResource_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysUserLog_Ip" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="GameAllBetMember_Password_Error" xml:space="preserve">
+    <value>Password cant be empty</value>
+  </data>
+  <data name="MemberInfo_Mobile_Error" xml:space="preserve">
+    <value>Mobile phone format has a problem</value>
+  </data>
+  <data name="Member_ParentId_Required" xml:space="preserve">
+    <value>The superior Id required</value>
+  </data>
+  <data name="Member_UserPwd_Required" xml:space="preserve">
+    <value>Login password is required</value>
+  </data>
+  <data name="Member_WalletPwd_Required" xml:space="preserve">
+    <value>The wallet password is required</value>
+  </data>
+  <data name="SysActvityConfig_ActivityName_Required" xml:space="preserve">
+    <value>Activity name cannot be empty</value>
+  </data>
+  <data name="SysAdminNode_Name_Required" xml:space="preserve">
+    <value>Node name cannot be empty</value>
+  </data>
+  <data name="SysBankCard_AccountName_Required" xml:space="preserve">
+    <value>Bank account name cannot be empty</value>
+  </data>
+  <data name="SysBankCard_AccountNo_Required" xml:space="preserve">
+    <value>Bank account can't be empty</value>
+  </data>
+  <data name="SysBankType_Name_Required" xml:space="preserve">
+    <value>Bank name cannot be empty</value>
+  </data>
+  <data name="SysBrokerageSet_Name_Required" xml:space="preserve">
+    <value>Workers name cannot be empty</value>
+  </data>
+  <data name="SysGameConfig_GameName_Required" xml:space="preserve">
+    <value>The game name cannot be empty</value>
+  </data>
+  <data name="SysLang_Name_Required" xml:space="preserve">
+    <value>Language category name cannot be empty</value>
+  </data>
+  <data name="SysPayChannel_Name_Required" xml:space="preserve">
+    <value>Pay channel name cannot be empty</value>
+  </data>
+  <data name="SysProxyBrokerage_UserName_Required" xml:space="preserve">
+    <value>{0} cannot be empty</value>
+  </data>
+  <data name="Sys_Name_Required" xml:space="preserve">
+    <value>The name cannot be empty</value>
+  </data>
+  <data name="SysUser_Login_Password" xml:space="preserve">
+    <value>Password cant be empty</value>
+  </data>
+  <data name="SysUser_Login_UserName" xml:space="preserve">
+    <value>User name cannot be empty</value>
+  </data>
+  <data name="SysUser_Login_ValidationCode" xml:space="preserve">
+    <value>Verification code cannot be empty</value>
+  </data>
+  <data name="NoticeType_TypeName_Required" xml:space="preserve">
+    <value>{0} can not be empty</value>
+  </data>
+  <data name="SysUser_NickName_Required" xml:space="preserve">
+    <value>NickName Required</value>
+  </data>
+  <data name="Operation_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Operation_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="SysUser_ConfirmPassword" xml:space="preserve">
+    <value>ConfirmPassword</value>
+  </data>
+  <data name="SysLang_ResTag_Remote" xml:space="preserve">
+    <value>Language is</value>
+  </data>
+  <data name="SysLang_ResTag_Required" xml:space="preserve">
+    <value>Language can't be empty</value>
+  </data>
+  <data name="SysActvityConfig_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysActvityConfig_MultiType" xml:space="preserve">
+    <value>MultiType</value>
+  </data>
+  <data name="SysActvityConfig_Multiples" xml:space="preserve">
+    <value>Multiples</value>
+  </data>
+  <data name="SysActvityConfig_MaxBonus" xml:space="preserve">
+    <value>MaxBonus</value>
+  </data>
+  <data name="SysActvityConfig_MaxSingle" xml:space="preserve">
+    <value>MaxSingle</value>
+  </data>
+  <data name="SysActvityConfig_IsAllowedDraw" xml:space="preserve">
+    <value>IsAllowedDraw</value>
+  </data>
+  <data name="SysBankType_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="MemNeedAmount_ActivityId" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="MemNeedAmount_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemNeedAmount_Capital" xml:space="preserve">
+    <value>Capital</value>
+  </data>
+  <data name="MemNeedAmount_Bonus" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="MemNeedAmount_GameId" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="MemNeedAmount_SubGameId" xml:space="preserve">
+    <value>SubGame</value>
+  </data>
+  <data name="MemNeedAmount_NeedAmount" xml:space="preserve">
+    <value>NeedAmount</value>
+  </data>
+  <data name="MemNeedAmount_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemNeedAmount_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="MemNeedAmount_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MemNeedAmount_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="Member_MemId" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="ActivityTypeEnum_DepositCashback" xml:space="preserve">
+    <value>DepositCashback</value>
+  </data>
+  <data name="ActivityTypeEnum_FristRecharge" xml:space="preserve">
+    <value>FristRecharge</value>
+  </data>
+  <data name="Member_MemId_HasExist" xml:space="preserve">
+    <value>UserName Exist</value>
+  </data>
+  <data name="Member_MemId_Required" xml:space="preserve">
+    <value>UserName Require</value>
+  </data>
+  <data name="MemActionLog_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="MemActionLog_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemActionLog_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="MemActionLog_LogType" xml:space="preserve">
+    <value>LogType</value>
+  </data>
+  <data name="MemActionLog_Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="MemActionLog_ActionType" xml:space="preserve">
+    <value>ActionType</value>
+  </data>
+  <data name="MemActionLog_ActionDesc" xml:space="preserve">
+    <value>ActionDesc</value>
+  </data>
+  <data name="MemActionLog_Browser" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="MemActionLog_Ip" xml:space="preserve">
+    <value>Ip</value>
+  </data>
+  <data name="MemActionLog_LogTime" xml:space="preserve">
+    <value>LogTime</value>
+  </data>
+  <data name="MemActionLog_LogTimeEst" xml:space="preserve">
+    <value>LogTimeEst</value>
+  </data>
+  <data name="ProjectTypeEnum_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="ProjectTypeEnum_Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="GameEnum_WM" xml:space="preserve">
+    <value>AB</value>
+  </data>
+  <data name="PayStatusEnum_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="GenderEnum_Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="GenderEnum_Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="QuestionEnum_MotherName" xml:space="preserve">
+    <value>Your mother's  name ?</value>
+  </data>
+  <data name="QuestionEnum_PleaseSelectOne" xml:space="preserve">
+    <value>Please select</value>
+  </data>
+  <data name="QuestionEnum_YoungDream" xml:space="preserve">
+    <value>Your job ?</value>
+  </data>
+  <data name="QuestionEnum_YoungNick" xml:space="preserve">
+    <value>Your nick ?</value>
+  </data>
+  <data name="MemActionLog_ClientType" xml:space="preserve">
+    <value>ClientType</value>
+  </data>
+  <data name="MemberInfo_Answer_Require" xml:space="preserve">
+    <value>Answer Required</value>
+  </data>
+  <data name="MemberInfo_Email_Exist" xml:space="preserve">
+    <value>The email already exists</value>
+  </data>
+  <data name="MemberInfo_MobileCountry_Require" xml:space="preserve">
+    <value>MCC Required</value>
+  </data>
+  <data name="MemberInfo_Mobile_Require" xml:space="preserve">
+    <value>Mobile Required</value>
+  </data>
+  <data name="MemberInfo_QuestionId_Require" xml:space="preserve">
+    <value>Question Required</value>
+  </data>
+  <data name="MemberInfo_RealName_Require" xml:space="preserve">
+    <value>RealName Required</value>
+  </data>
+  <data name="MemberInfo_ZipCode_Require" xml:space="preserve">
+    <value>ZipCode Required</value>
+  </data>
+  <data name="MemberInfo_Email_Require" xml:space="preserve">
+    <value>Email Required</value>
+  </data>
+  <data name="DepositChannelEnum_ATM" xml:space="preserve">
+    <value>ATM</value>
+  </data>
+  <data name="DepositChannelEnum_CDM" xml:space="preserve">
+    <value>CDM</value>
+  </data>
+  <data name="DepositChannelEnum_InternetBanking" xml:space="preserve">
+    <value>InternetBanking</value>
+  </data>
+  <data name="DepositChannelEnum_MobileBanking" xml:space="preserve">
+    <value>MobileBanking</value>
+  </data>
+  <data name="DepositChannelEnum_OverTheCounter" xml:space="preserve">
+    <value>OverTheCounter</value>
+  </data>
+  <data name="MemBetLog_BetId" xml:space="preserve">
+    <value>OrderNo</value>
+  </data>
+  <data name="MemBetLog_Rebate" xml:space="preserve">
+    <value>Rebate</value>
+  </data>
+  <data name="ActionTypeEnum_FindBackPwd" xml:space="preserve">
+    <value>FindBackPwd</value>
+  </data>
+  <data name="ActionTypeEnum_UpdateProfile" xml:space="preserve">
+    <value>UpdateProfile</value>
+  </data>
+  <data name="MemberInfo_IdCard_Require" xml:space="preserve">
+    <value>IdCard Require</value>
+  </data>
+  <data name="Pwd_Confirm" xml:space="preserve">
+    <value>The password and confirmation password do not match.</value>
+  </data>
+  <data name="Pwd_Length" xml:space="preserve">
+    <value>The {0} must be at least {2} and at max {1} characters long.</value>
+  </data>
+  <data name="ActionTypeEnum_WalletTransfer" xml:space="preserve">
+    <value>WalletTransfer</value>
+  </data>
+  <data name="Notice_Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="Notice_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTime Est</value>
+  </data>
+  <data name="OrderBusinessType_Compensate" xml:space="preserve">
+    <value>Compensate Order</value>
+  </data>
+  <data name="OrderBusinessType_GameToWallet" xml:space="preserve">
+    <value>Game To Wallet</value>
+  </data>
+  <data name="OrderBusinessType_WalletToGame" xml:space="preserve">
+    <value>Wallet To Game</value>
+  </data>
+  <data name="InternalMessage_Read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="InternalMessage_Unread" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+  <data name="InternalMessage_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="InternalMessage_UnDelete" xml:space="preserve">
+    <value>UnDelete</value>
+  </data>
+  <data name="InternalMessage_Message_Required" xml:space="preserve">
+    <value>The message cannot be empty</value>
+  </data>
+  <data name="InternalMessage_SubjectType_Required" xml:space="preserve">
+    <value>Please select a type</value>
+  </data>
+  <data name="MemPromotionStat_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemPromotionStat_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="MemPromotionStat_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="MemPromotionStat_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="MemPromotionStat_TotalNumber" xml:space="preserve">
+    <value>TotalNumber</value>
+  </data>
+  <data name="MemPromotionStat_CurrentNumber" xml:space="preserve">
+    <value>CurrentNumber</value>
+  </data>
+  <data name="MemPromotionStat_BeginDate" xml:space="preserve">
+    <value>BeginDate</value>
+  </data>
+  <data name="MemPromotionStat_EndDate" xml:space="preserve">
+    <value>EndDate</value>
+  </data>
+  <data name="MemPromotionStat_ConsumeAmount" xml:space="preserve">
+    <value>ConsumeAmount</value>
+  </data>
+  <data name="MemPromotionStat_Bonus" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="MemPromotionStat_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MemPromotionStat_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemPromotionStat_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemPromotionStat_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="MemPromotionStat_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="MemPromotionStat_ApplyTime" xml:space="preserve">
+    <value>ApplyTime</value>
+  </data>
+  <data name="MemPromotionStat_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="MemSaleStatusEnum_Applying" xml:space="preserve">
+    <value>Applying</value>
+  </data>
+  <data name="MemSaleStatusEnum_Default" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="MemSaleStatusEnum_Pass" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="MemSaleStatusEnum_Refuse" xml:space="preserve">
+    <value>Refuse</value>
+  </data>
+  <data name="GameEnum_EBet" xml:space="preserve">
+    <value>EBet</value>
+  </data>
+  <data name="MemOfflinePay_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemOfflinePay_BankTypeId" xml:space="preserve">
+    <value>BankTypeId</value>
+  </data>
+  <data name="MemOfflinePay_Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="MemOfflinePay_OfflinePayWay" xml:space="preserve">
+    <value>OfflinePayWay</value>
+  </data>
+  <data name="MemOfflinePay_PayName" xml:space="preserve">
+    <value>PayName</value>
+  </data>
+  <data name="MemOfflinePay_PayAccount" xml:space="preserve">
+    <value>PayAccount</value>
+  </data>
+  <data name="MemOfflinePay_ReceiptAccount" xml:space="preserve">
+    <value>ReceiptAccount</value>
+  </data>
+  <data name="MemOfflinePay_PayTime" xml:space="preserve">
+    <value>PayTime</value>
+  </data>
+  <data name="MemOfflinePay_WaterOrderId" xml:space="preserve">
+    <value>WaterOrderId</value>
+  </data>
+  <data name="MemOfflinePay_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemOfflinePay_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="GameRebateStat_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="GameRebateStat_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="GameRebateStat_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="GameRebateStat_BeginDate" xml:space="preserve">
+    <value>BeginDate</value>
+  </data>
+  <data name="GameRebateStat_EndDate" xml:space="preserve">
+    <value>EndDate</value>
+  </data>
+  <data name="GameRebateStat_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="GameRebateStat_BetAmount" xml:space="preserve">
+    <value>BetAmount</value>
+  </data>
+  <data name="GameRebateStat_ReturnPercent" xml:space="preserve">
+    <value>ReturnPercent</value>
+  </data>
+  <data name="GameRebateStat_ReturnAmount" xml:space="preserve">
+    <value>ReturnAmount</value>
+  </data>
+  <data name="GameRebateStat_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="GameRebateStat_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="GameRebateStat_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="GameRebateStat_CreateTimeEdt" xml:space="preserve">
+    <value>CreateTimeEdt</value>
+  </data>
+  <data name="GameRebateStat_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="GameRebateStat_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="GameRebateStat_UpdateTimeEdt" xml:space="preserve">
+    <value>UpdateTimeEdt</value>
+  </data>
+  <data name="MemOrderExtar_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemOrderExtar_BankTypeId" xml:space="preserve">
+    <value>BankTypeId</value>
+  </data>
+  <data name="MemOrderExtar_Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="MemOrderExtar_PayWay" xml:space="preserve">
+    <value>PayWay</value>
+  </data>
+  <data name="MemOrderExtar_PayName" xml:space="preserve">
+    <value>PayName</value>
+  </data>
+  <data name="MemOrderExtar_PayAccount" xml:space="preserve">
+    <value>PayAccount</value>
+  </data>
+  <data name="MemOrderExtar_ReceiptAccount" xml:space="preserve">
+    <value>ReceiptAccount</value>
+  </data>
+  <data name="MemOrderExtar_PayTime" xml:space="preserve">
+    <value>PayTime</value>
+  </data>
+  <data name="MemOrderExtar_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="MemOrderExtar_TradeNo" xml:space="preserve">
+    <value>TradeNo</value>
+  </data>
+  <data name="MemOrderExtar_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemOrderExtar_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemOrder_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemOrder_OrderId" xml:space="preserve">
+    <value>OrderId</value>
+  </data>
+  <data name="MemOrder_OrderType" xml:space="preserve">
+    <value>OrderType</value>
+  </data>
+  <data name="MemOrder_PayChannel" xml:space="preserve">
+    <value>PayChannel</value>
+  </data>
+  <data name="MemOrder_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="MemOrder_Fee" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="MemOrder_RealAmount" xml:space="preserve">
+    <value>RealAmount</value>
+  </data>
+  <data name="MemOrder_AuditTime" xml:space="preserve">
+    <value>AuditTime</value>
+  </data>
+  <data name="MemOrder_Auditor" xml:space="preserve">
+    <value>Auditor</value>
+  </data>
+  <data name="MemOrder_TradeNo" xml:space="preserve">
+    <value>TradeNo</value>
+  </data>
+  <data name="MemOrder_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemOrder_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemOrder_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MemOrder_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="MemWalletLog_OrderId" xml:space="preserve">
+    <value>OrderId</value>
+  </data>
+  <data name="MemWalletLog_MGFId" xml:space="preserve">
+    <value>MGFId</value>
+  </data>
+  <data name="MemWalletLog_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemWalletLog_OriginAmount" xml:space="preserve">
+    <value>OriginAmount</value>
+  </data>
+  <data name="MemWalletLog_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="MemWalletLog_FinalAmount" xml:space="preserve">
+    <value>FinalAmount</value>
+  </data>
+  <data name="MemWalletLog_FlowType" xml:space="preserve">
+    <value>FlowType</value>
+  </data>
+  <data name="MemWalletLog_OperUser" xml:space="preserve">
+    <value>OperUser</value>
+  </data>
+  <data name="MemWalletLog_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="MemWalletLog_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MemWalletLog_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="MemWalletLog_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="MemOrder_MemBankId" xml:space="preserve">
+    <value>MemBankId</value>
+  </data>
+  <data name="SysFavorite_AddFail" xml:space="preserve">
+    <value>AddFail</value>
+  </data>
+  <data name="SysFavorite_AddSussess" xml:space="preserve">
+    <value>AddSussess</value>
+  </data>
+  <data name="SysFavorite_DeleteFail" xml:space="preserve">
+    <value>Delete Fail</value>
+  </data>
+  <data name="SysFavorite_DeleteSuccess" xml:space="preserve">
+    <value>Delete Success</value>
+  </data>
+  <data name="MemBankCard_Address_Require" xml:space="preserve">
+    <value> Address Required</value>
+  </data>
+  <data name="MemBankCard_BankBranch_Require" xml:space="preserve">
+    <value>BankBranch Required</value>
+  </data>
+  <data name="MemBankCard_CardNumber_Require" xml:space="preserve">
+    <value> CardNimber Required</value>
+  </data>
+  <data name="MemBankCard_MemId_Require" xml:space="preserve">
+    <value>Account Required</value>
+  </data>
+  <data name="OrderStautsEnum_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="OrderStautsEnum_Fail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="OrderStautsEnum_Paying" xml:space="preserve">
+    <value>Applying</value>
+  </data>
+  <data name="OrderStautsEnum_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="OrderTypeEnum_Draw" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="OrderTypeEnum_Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="SysAccount_AccountNo" xml:space="preserve">
+    <value>AccountNo</value>
+  </data>
+  <data name="SysAccount_AccountName" xml:space="preserve">
+    <value>AccountName</value>
+  </data>
+  <data name="SysAccount_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SysAccount_BankType" xml:space="preserve">
+    <value>BankType</value>
+  </data>
+  <data name="SysAccount_DepositBank" xml:space="preserve">
+    <value>DepositBank</value>
+  </data>
+  <data name="SysAccount_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="SysAccount_OwnerType" xml:space="preserve">
+    <value>OwnerType</value>
+  </data>
+  <data name="SysAccount_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysAccount_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysAccount_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="SysAccount_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysAccount_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysUser_ConfirmWalletPassword" xml:space="preserve">
+    <value>Confirm Wallet Password</value>
+  </data>
+  <data name="WalletPwd_Confirm" xml:space="preserve">
+    <value>The wallet password and confirmation password do not match.</value>
+  </data>
+  <data name="FlowTypeEnum_ActvityBonus" xml:space="preserve">
+    <value>ActvityBonus</value>
+  </data>
+  <data name="FlowTypeEnum_AgentBrokerage" xml:space="preserve">
+    <value>AgentBrokerage</value>
+  </data>
+  <data name="FlowTypeEnum_DeductMoney" xml:space="preserve">
+    <value>DeductMoney</value>
+  </data>
+  <data name="FlowTypeEnum_GameRebate" xml:space="preserve">
+    <value>GameRebate</value>
+  </data>
+  <data name="FlowTypeEnum_SaleBonus" xml:space="preserve">
+    <value>PromotionBonus</value>
+  </data>
+  <data name="NeedAmountStatusEnum_Enough" xml:space="preserve">
+    <value>Enough</value>
+  </data>
+  <data name="NeedAmountStatusEnum_UnEnough" xml:space="preserve">
+    <value>UnEnough</value>
+  </data>
+  <data name="SysActvityConfig_ActivityCode_Exists" xml:space="preserve">
+    <value>The code already exists</value>
+  </data>
+  <data name="SysActvityConfig_ActivityCode_Required" xml:space="preserve">
+    <value>ActivityCode Required</value>
+  </data>
+  <data name="SysUser_ReferralLink" xml:space="preserve">
+    <value>ReferralLink</value>
+  </data>
+  <data name="Member_ReferralLink" xml:space="preserve">
+    <value>ReferralLink</value>
+  </data>
+  <data name="FundGameTrade_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundGameTrade_FlowType" xml:space="preserve">
+    <value>FlowType</value>
+  </data>
+  <data name="FundGameTrade_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="FundGameTrade_FromGameId" xml:space="preserve">
+    <value>FromGameId</value>
+  </data>
+  <data name="FundGameTrade_ToGameId" xml:space="preserve">
+    <value>ToGameId</value>
+  </data>
+  <data name="FundGameTrade_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundGameTrade_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundGameTrade_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="FundSysTrade_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="FundSysTrade_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundSysTrade_FlowType" xml:space="preserve">
+    <value>FlowType</value>
+  </data>
+  <data name="FundSysTrade_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundSysTrade_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="FundSysTrade_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundSysTrade_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="FundSysTrade_PayTime" xml:space="preserve">
+    <value>PayTime</value>
+  </data>
+  <data name="FundSysTrade_PayTimeEst" xml:space="preserve">
+    <value>PayTimeEst</value>
+  </data>
+  <data name="FundSysTrade_Payer" xml:space="preserve">
+    <value>Payer</value>
+  </data>
+  <data name="FundAgentRebate_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="FundAgentRebate_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="FundAgentRebate_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundAgentRebate_AgentType" xml:space="preserve">
+    <value>AgentType</value>
+  </data>
+  <data name="FundAgentRebate_MemberCount" xml:space="preserve">
+    <value>MemberCount</value>
+  </data>
+  <data name="FundAgentRebate_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="FundAgentRebate_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundAgentRebate_Payer" xml:space="preserve">
+    <value>Payer</value>
+  </data>
+  <data name="FundAgentRebate_PayTime" xml:space="preserve">
+    <value>PayTime</value>
+  </data>
+  <data name="FundAgentRebate_PayTimeEst" xml:space="preserve">
+    <value>PayTimeEst</value>
+  </data>
+  <data name="FundAgentRebate_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundAgentRebate_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="FundAgentRebate_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="FundMemSale_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundMemSale_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="FundMemSale_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="FundMemSale_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="FundMemSale_BeginDate" xml:space="preserve">
+    <value>BeginDate</value>
+  </data>
+  <data name="FundMemSale_EndDate" xml:space="preserve">
+    <value>EndDate</value>
+  </data>
+  <data name="FundMemSale_Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="FundMemSale_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="FundMemSale_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="FundMemSale_TotalAmount" xml:space="preserve">
+    <value>TotalAmount</value>
+  </data>
+  <data name="FundMemSale_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundMemSale_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundMemSale_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="FundMemSale_PayUser" xml:space="preserve">
+    <value>PayUser</value>
+  </data>
+  <data name="FundMemSale_PayTime" xml:space="preserve">
+    <value>PayTime</value>
+  </data>
+  <data name="FundMemSale_PayTimeEst" xml:space="preserve">
+    <value>PayTimeEst</value>
+  </data>
+  <data name="FundMemSale_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="FundMemOrder_OrderId" xml:space="preserve">
+    <value>OrderId</value>
+  </data>
+  <data name="FundMemOrder_OrderType" xml:space="preserve">
+    <value>OrderType</value>
+  </data>
+  <data name="FundMemOrder_PayChannel" xml:space="preserve">
+    <value>PayChannel</value>
+  </data>
+  <data name="FundMemOrder_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundMemOrder_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="FundMemOrder_FlowType" xml:space="preserve">
+    <value>FlowType</value>
+  </data>
+  <data name="FundMemOrder_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundMemOrder_TradeNo" xml:space="preserve">
+    <value>TradeNo</value>
+  </data>
+  <data name="FundMemOrder_MemAccountId" xml:space="preserve">
+    <value>MemAccountId</value>
+  </data>
+  <data name="FundMemOrder_SysAccountId" xml:space="preserve">
+    <value>SysAccountId</value>
+  </data>
+  <data name="FundMemOrder_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundMemOrder_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="FundMemOrder_Auditor" xml:space="preserve">
+    <value>Auditor</value>
+  </data>
+  <data name="FundMemOrder_AditorTime" xml:space="preserve">
+    <value>AditorTime</value>
+  </data>
+  <data name="FundMemOrder_AditorTimeEst" xml:space="preserve">
+    <value>AditorTimeEst</value>
+  </data>
+  <data name="FundMemOrder_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="FundMemOrderExt_BankTypeId" xml:space="preserve">
+    <value>BankTypeId</value>
+  </data>
+  <data name="FundMemOrderExt_BankName" xml:space="preserve">
+    <value>BankName</value>
+  </data>
+  <data name="FundMemOrderExt_PayWay" xml:space="preserve">
+    <value>PayWay</value>
+  </data>
+  <data name="FundMemOrderExt_PayName" xml:space="preserve">
+    <value>PayName</value>
+  </data>
+  <data name="FundMemOrderExt_PayAccount" xml:space="preserve">
+    <value>PayAccount</value>
+  </data>
+  <data name="FundMemOrderExt_TradeNo" xml:space="preserve">
+    <value>TradeNo</value>
+  </data>
+  <data name="FundMemOrderExt_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="FundMemOrderExt_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundMemOrderExt_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="FundMemWalletLog_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundMemWalletLog_SourceType" xml:space="preserve">
+    <value>SourceType</value>
+  </data>
+  <data name="FundMemWalletLog_PkId" xml:space="preserve">
+    <value>PkId</value>
+  </data>
+  <data name="FundMemWalletLog_OriginAmount" xml:space="preserve">
+    <value>OriginAmount</value>
+  </data>
+  <data name="FundMemWalletLog_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="FundMemWalletLog_FinalAmount" xml:space="preserve">
+    <value>FinalAmount</value>
+  </data>
+  <data name="FundMemWalletLog_FlowType" xml:space="preserve">
+    <value>FlowType</value>
+  </data>
+  <data name="FundMemWalletLog_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="FundMemWalletLog_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundMemWalletLog_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="Member_ReferralCode_IsExist" xml:space="preserve">
+    <value>Referral Code Is Exist</value>
+  </data>
+  <data name="FundMemOrderExt_TransferTime" xml:space="preserve">
+    <value>Remittance Time</value>
+  </data>
+  <data name="SourceTypeEnum_GameTrade" xml:space="preserve">
+    <value>GameTrade</value>
+  </data>
+  <data name="SourceTypeEnum_MemOrder" xml:space="preserve">
+    <value>MemOrder</value>
+  </data>
+  <data name="SourceTypeEnum_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="SourceTypeEnum_AgentBrokerage" xml:space="preserve">
+    <value>Brokerage</value>
+  </data>
+  <data name="FundStatusEnum_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="FundStatusEnum_Fail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="FundStatusEnum_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="GameTradeStatusEnum_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="GameTradeStatusEnum_FromFail" xml:space="preserve">
+    <value>FromFail</value>
+  </data>
+  <data name="GameTradeStatusEnum_FromSuccess" xml:space="preserve">
+    <value>FromSuccess</value>
+  </data>
+  <data name="GameTradeStatusEnum_ToFail" xml:space="preserve">
+    <value>ToFail</value>
+  </data>
+  <data name="GameTradeStatusEnum_ToSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="OrderStautsEnum_Refuse" xml:space="preserve">
+    <value>Refuse</value>
+  </data>
+  <data name="FlowTypeEnum_BackToWallet" xml:space="preserve">
+    <value>Back To Wallet</value>
+  </data>
+  <data name="GameTradeStatusEnum_BackSuccess" xml:space="preserve">
+    <value>Back Success</value>
+  </data>
+  <data name="Member_MemId_SpecificSymbol" xml:space="preserve">
+    <value>6~15位，只能包含字符、数字</value>
+  </data>
+  <data name="MemShare_GameId" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="MemShare_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="MemShare_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="MemShare_Share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="MemShare_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysCurrencyRate_CurrencyId" xml:space="preserve">
+    <value>CurrencyId</value>
+  </data>
+  <data name="SysCurrencyRate_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysCurrencyRate_Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="SysCurrencyRate_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysCurrency_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysCurrency_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysCurrency_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SiteGameConfig_EffecBetMax" xml:space="preserve">
+    <value>EffecBetMax</value>
+  </data>
+  <data name="SiteGameConfig_EffecBetMin" xml:space="preserve">
+    <value>EffecBetMin</value>
+  </data>
+  <data name="SiteGameConfig_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="SiteGameConfig_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SiteGameConfig_Rabate" xml:space="preserve">
+    <value>Rabate</value>
+  </data>
+  <data name="SiteGameConfig_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SiteGameConfig_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SiteGameShare_EffecMember" xml:space="preserve">
+    <value>EffecMember</value>
+  </data>
+  <data name="SiteGameShare_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="SiteGameShare_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SiteGameShare_ProfitMax" xml:space="preserve">
+    <value>ProfitMax</value>
+  </data>
+  <data name="SiteGameShare_ProfitMin" xml:space="preserve">
+    <value>ProfitMin</value>
+  </data>
+  <data name="SiteGameShare_Share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="SiteGameShare_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SiteGameShare_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SiteGameShare_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="Data_Duplication" xml:space="preserve">
+    <value>Data Duplication</value>
+  </data>
+  <data name="RoleGroupEnum_Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="RoleGroupEnum_Operate" xml:space="preserve">
+    <value>Operate</value>
+  </data>
+  <data name="RoleGroupEnum_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="SysUser_OperId" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="SysOperator_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysOperSite_Site_CZ" xml:space="preserve">
+    <value>Site exist</value>
+  </data>
+  <data name="FundMemOrder_SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="ActivityTypeEnum_FristPayBack" xml:space="preserve">
+    <value>FristPayBack</value>
+  </data>
+  <data name="ActivityTypeEnum_PayAndBack" xml:space="preserve">
+    <value>PayAndBack</value>
+  </data>
+  <data name="ActivityTypeEnum_RegisterBack" xml:space="preserve">
+    <value>RegisterBack</value>
+  </data>
+  <data name="PromotionTypeEnum_Games" xml:space="preserve">
+    <value>Games</value>
+  </data>
+  <data name="PromotionTypeEnum_NewMember" xml:space="preserve">
+    <value>NewMember</value>
+  </data>
+  <data name="PromotionTypeEnum_Special" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="PromotionTypeEnum_Sports" xml:space="preserve">
+    <value>Sports</value>
+  </data>
+  <data name="PromotionTypeEnum_Vip" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="SysActivityGame_ActivityID" xml:space="preserve">
+    <value>ActivityID</value>
+  </data>
+  <data name="SysActivityGame_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysActivityGame_GameID" xml:space="preserve">
+    <value>GameID</value>
+  </data>
+  <data name="SysActivityGame_SiteID" xml:space="preserve">
+    <value>SiteID</value>
+  </data>
+  <data name="SysActivityRule_ActivityId" xml:space="preserve">
+    <value>ActivityId</value>
+  </data>
+  <data name="SysActivityRule_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="SysActivityRule_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysActivityRule_MaxAmount" xml:space="preserve">
+    <value>MaxAmount</value>
+  </data>
+  <data name="SysActivityRule_MaxBack" xml:space="preserve">
+    <value>MaxBack</value>
+  </data>
+  <data name="SysActivityRule_MinAmount" xml:space="preserve">
+    <value>MinAmount</value>
+  </data>
+  <data name="SysActivityRule_MinBack" xml:space="preserve">
+    <value>MinBack</value>
+  </data>
+  <data name="SysActivityRule_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysActivityRule_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="SysActvityConfig_ContentValue" xml:space="preserve">
+    <value>ContentValue</value>
+  </data>
+  <data name="SysActvityConfig_HasSend" xml:space="preserve">
+    <value>HasSend</value>
+  </data>
+  <data name="ActionTypeEnum_UploadImage" xml:space="preserve">
+    <value>UploadImage</value>
+  </data>
+  <data name="AgentTypeEnum_Agent" xml:space="preserve">
+    <value>Commission</value>
+  </data>
+  <data name="AgentTypeEnum_ZCAgent" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="MemMove_FromMemId" xml:space="preserve">
+    <value>FromMemId</value>
+  </data>
+  <data name="MemMove_MoveTime" xml:space="preserve">
+    <value>MoveTime</value>
+  </data>
+  <data name="MemMove_MoveUser" xml:space="preserve">
+    <value>MoveUser</value>
+  </data>
+  <data name="MemMove_ToMemId" xml:space="preserve">
+    <value>ToMemId</value>
+  </data>
+  <data name="Member_AgentType" xml:space="preserve">
+    <value>AgentType</value>
+  </data>
+  <data name="MemLevel_ChildCount" xml:space="preserve">
+    <value>ChildCount</value>
+  </data>
+  <data name="MemBetLog_SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="SysWebConfig_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="SysWebConfig_OperId" xml:space="preserve">
+    <value>OperId</value>
+  </data>
+  <data name="SysWebConfig_Domain_HasExist" xml:space="preserve">
+    <value>Domain_HasExist</value>
+  </data>
+  <data name="SysWebConfig_Domain_Required" xml:space="preserve">
+    <value>Domain_Required</value>
+  </data>
+  <data name="SysWebConfig_SiteTitle_HasExist" xml:space="preserve">
+    <value>SiteTitle_HasExist</value>
+  </data>
+  <data name="SysWebConfig_SiteTitle_Required" xml:space="preserve">
+    <value>SiteTitle_Required</value>
+  </data>
+  <data name="SysWebConfig_MemId_Disabled" xml:space="preserve">
+    <value>MemId_Disabled</value>
+  </data>
+  <data name="SysWebConfig_MemId_NoExist" xml:space="preserve">
+    <value>MemId_NoExist</value>
+  </data>
+  <data name="SysWebConfig_OperId_Status" xml:space="preserve">
+    <value>OperId_Status</value>
+  </data>
+  <data name="RptMemPeriod_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="RptMemPeriod_GameId" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="RptMemPeriod_EffecBet" xml:space="preserve">
+    <value>EffecBet</value>
+  </data>
+  <data name="RptMemPeriod_WinOrLose" xml:space="preserve">
+    <value>WinOrLose</value>
+  </data>
+  <data name="RptMemPeriod_Rebate" xml:space="preserve">
+    <value>Rebate</value>
+  </data>
+  <data name="RptMemPeriod_RebateRate" xml:space="preserve">
+    <value>RebateRate</value>
+  </data>
+  <data name="RptMemPeriod_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="RptMemPeriod_BeginTime" xml:space="preserve">
+    <value>BeginTime</value>
+  </data>
+  <data name="RptMemPeriod_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="RptMemPeriod_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="RptMemPeriod_SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="RptAgentPeriod_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="RptAgentPeriod_MemType" xml:space="preserve">
+    <value>MemType</value>
+  </data>
+  <data name="RptAgentPeriod_GameId" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="RptAgentPeriod_EffecBet" xml:space="preserve">
+    <value>EffecBet</value>
+  </data>
+  <data name="RptAgentPeriod_WinOrLose" xml:space="preserve">
+    <value>WinOrLose</value>
+  </data>
+  <data name="RptAgentPeriod_Share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="RptAgentPeriod_Rebate" xml:space="preserve">
+    <value>Rebate</value>
+  </data>
+  <data name="RptAgentPeriod_RebateRate" xml:space="preserve">
+    <value>RebateRate</value>
+  </data>
+  <data name="RptAgentPeriod_Fee" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="RptAgentPeriod_OldResult" xml:space="preserve">
+    <value>OldResult</value>
+  </data>
+  <data name="RptAgentPeriod_ThisResult" xml:space="preserve">
+    <value>ThisResult</value>
+  </data>
+  <data name="RptAgentPeriod_ValidResult" xml:space="preserve">
+    <value>ValidResult</value>
+  </data>
+  <data name="RptAgentPeriod_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="RptAgentPeriod_ValidMems" xml:space="preserve">
+    <value>ValidMems</value>
+  </data>
+  <data name="RptAgentPeriod_BeginTime" xml:space="preserve">
+    <value>BeginTime</value>
+  </data>
+  <data name="RptAgentPeriod_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="RptAgentPeriod_SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="RptAgentPeriod_AgentType" xml:space="preserve">
+    <value>AgentType</value>
+  </data>
+  <data name="RptAgentPeriod_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="RptAgentPeriod_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="InternalMessage_SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="SysAccount_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="GameTradeStatusEnum_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="GameTradeStatusEnum_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="GameTradeStatusEnum_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="SysWebConfig_SalePrice" xml:space="preserve">
+    <value>SalePrice</value>
+  </data>
+  <data name="SysWebConfig_StatCycle" xml:space="preserve">
+    <value>StatCycle</value>
+  </data>
+  <data name="FundReport_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FundReport_FeeAmount" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="SourceTypeEnum_ActivityBonus" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="SourceTypeEnum_MemRebate" xml:space="preserve">
+    <value>Rabate</value>
+  </data>
+  <data name="SourceTypeEnum_MemSale" xml:space="preserve">
+    <value>Sale Bonus</value>
+  </data>
+  <data name="FundMemRebateStat_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundMemRebateStat_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="FundMemRebateStat_EffecBet" xml:space="preserve">
+    <value>EffecBet</value>
+  </data>
+  <data name="FundMemRebateStat_WinOrLose" xml:space="preserve">
+    <value>WinOrLose</value>
+  </data>
+  <data name="FundMemRebateStat_Rebate" xml:space="preserve">
+    <value>Rebate</value>
+  </data>
+  <data name="FundMemRebateStat_RebateRate" xml:space="preserve">
+    <value>RebateRate</value>
+  </data>
+  <data name="FundMemRebateStat_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="FundMemRebateStat_BeginTime" xml:space="preserve">
+    <value>BeginTime</value>
+  </data>
+  <data name="FundMemRebateStat_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="FundMemRebateStat_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="FundMemRebateStat_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="FundMemRebateStat_PayStatus" xml:space="preserve">
+    <value>PayStatus</value>
+  </data>
+  <data name="FundMemRebateStat_Payer" xml:space="preserve">
+    <value>Payer</value>
+  </data>
+  <data name="FundMemRebateStat_PayTime" xml:space="preserve">
+    <value>PayTime</value>
+  </data>
+  <data name="FundMemRebateStat_PayTimeEst" xml:space="preserve">
+    <value>PayTimeEst</value>
+  </data>
+  <data name="SysPayPlat_Plat" xml:space="preserve">
+    <value>Plat</value>
+  </data>
+  <data name="SysPayPlat_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SysPayPlat_PayType" xml:space="preserve">
+    <value>PayType</value>
+  </data>
+  <data name="SysPayPlat_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="SysPayPlat_DayLimit" xml:space="preserve">
+    <value>DayLimit</value>
+  </data>
+  <data name="SysPayPlat_TotalLimit" xml:space="preserve">
+    <value>TotalLimit</value>
+  </data>
+  <data name="SysPayPlat_Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="SysPayPlat_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysPayPlat_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="PayStatusEnum_Paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="PayStatusEnum_Unpaid" xml:space="preserve">
+    <value>Unpaid</value>
+  </data>
+  <data name="FundMemWalletLog_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FundMemWalletLog_FeeAmount" xml:space="preserve">
+    <value>FeeAmount</value>
+  </data>
+  <data name="FundMemWalletLog_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="RedemptionPointEnum_Chargeback" xml:space="preserve">
+    <value>Chargeback</value>
+  </data>
+  <data name="RedemptionPointEnum_Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="RedemptionPointEnum_Recharge" xml:space="preserve">
+    <value>Recharge</value>
+  </data>
+  <data name="FundFlowType_MemIOType" xml:space="preserve">
+    <value>MemIOType</value>
+  </data>
+  <data name="FundFlowType_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FundFlowType_OperIOType" xml:space="preserve">
+    <value>OperIOType</value>
+  </data>
+  <data name="FundFlowType_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="FundFlowType_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="FundFlowType_SourceTable" xml:space="preserve">
+    <value>SourceTable</value>
+  </data>
+  <data name="FundFlowType_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundStatusEnum_PartSuccess" xml:space="preserve">
+    <value>Part Success</value>
+  </data>
+  <data name="SourceTypeEnum_DepositAndBack" xml:space="preserve">
+    <value>DepositAndBack</value>
+  </data>
+  <data name="SourceTypeEnum_FirstDepositBack" xml:space="preserve">
+    <value>FirstDepositBack</value>
+  </data>
+  <data name="SourceTypeEnum_FirstPayBack" xml:space="preserve">
+    <value>FirstPayBack</value>
+  </data>
+  <data name="SourceTypeEnum_ManualDiscount" xml:space="preserve">
+    <value>ManualDiscount</value>
+  </data>
+  <data name="SourceTypeEnum_ManualDraw" xml:space="preserve">
+    <value>ManualDraw</value>
+  </data>
+  <data name="SourceTypeEnum_ManualPayment" xml:space="preserve">
+    <value>ManualPayment</value>
+  </data>
+  <data name="SourceTypeEnum_PayAndBack" xml:space="preserve">
+    <value>PayAndBack</value>
+  </data>
+  <data name="RptAgentPeriod_LeftResult" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="MemSale_IsStat" xml:space="preserve">
+    <value>IsStat</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GameEnum_GameBoy" xml:space="preserve">
+    <value>CQ9</value>
+  </data>
+  <data name="GameBoyGameList_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="GameBoyGameList_Gamecode" xml:space="preserve">
+    <value>Gamecode</value>
+  </data>
+  <data name="GameBoyGameList_Gamehall" xml:space="preserve">
+    <value>Gamehall</value>
+  </data>
+  <data name="GameBoyGameList_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="GameBoyGameList_Gamename" xml:space="preserve">
+    <value>Gamename</value>
+  </data>
+  <data name="GameBoyGameList_Gameplat" xml:space="preserve">
+    <value>Gameplat</value>
+  </data>
+  <data name="GameBoyGameList_Gametech" xml:space="preserve">
+    <value>Gametech</value>
+  </data>
+  <data name="GameBoyGameList_Gametype" xml:space="preserve">
+    <value>Gametype</value>
+  </data>
+  <data name="GameBoyGameList_Lang" xml:space="preserve">
+    <value>Lang</value>
+  </data>
+  <data name="GameBoyGameList_Nameset" xml:space="preserve">
+    <value>Nameset</value>
+  </data>
+  <data name="GameBoyGameList_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Member_MemberType_Required" xml:space="preserve">
+    <value>MemberType_Required</value>
+  </data>
+  <data name="SysAccount_AccountNo_Error" xml:space="preserve">
+    <value>Account Error</value>
+  </data>
+  <data name="LiveCasino" xml:space="preserve">
+    <value>LIVE</value>
+  </data>
+  <data name="OperNoAccount" xml:space="preserve">
+    <value>Oper No Account</value>
+  </data>
+  <data name="BankTransfer_Description" xml:space="preserve">
+    <value>Accept all bank deposits in China, all kinds of online bank transfer, bank transfer, ATM transfer and mobile phone transfer.</value>
+  </data>
+  <data name="Electronic_games" xml:space="preserve">
+    <value>Electronic games</value>
+  </data>
+  <data name="Live_entertainment_city" xml:space="preserve">
+    <value>LIVE</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="One_click_go_home" xml:space="preserve">
+    <value>One click go home</value>
+  </data>
+  <data name="Play_now" xml:space="preserve">
+    <value>Play now</value>
+  </data>
+  <data name="Please_note" xml:space="preserve">
+    <value>Please note：</value>
+  </data>
+  <data name="Please_note_Description" xml:space="preserve">
+    <value>The deposit amount needs to be doubled for withdrawal (if the application discount is required to meet the preferential provisions of the water multiple).</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tips：</value>
+  </data>
+  <data name="Tips_Description" xml:space="preserve">
+    <value>Please use a bank card with the same name as the registered account for withdrawal, and we will not allow third-party names to submit the withdrawal application.</value>
+  </data>
+  <data name="Update_dictionary_cache" xml:space="preserve">
+    <value>Update dictionary cache</value>
+  </data>
+  <data name="UserFlows_Description1" xml:space="preserve">
+    <value>You need to transfer to the future of science and technology the latest receivables account;</value>
+  </data>
+  <data name="UserFlows_Description2" xml:space="preserve">
+    <value>Transfer completed Fill in the right deposit form and submit;</value>
+  </data>
+  <data name="UserFlows_Description3" xml:space="preserve">
+    <value>Wait for 5 minutes, refresh the page to check the amount of money;</value>
+  </data>
+  <data name="Sports" xml:space="preserve">
+    <value>Sports</value>
+  </data>
+  <data name="GameBoyGameList_Popular" xml:space="preserve">
+    <value>Popular</value>
+  </data>
+  <data name="ActivityTypeEnum_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="ActivityTypeEnum_FristPlay" xml:space="preserve">
+    <value>Frist Play</value>
+  </data>
+  <data name="GameInfo_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GameInfo_TypeId" xml:space="preserve">
+    <value>TypeId</value>
+  </data>
+  <data name="GameInfo_ProviderId" xml:space="preserve">
+    <value>ProviderId</value>
+  </data>
+  <data name="GameInfo_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="GameInfo_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="GameInfo_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="GameInfo_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="GameInfo_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="GameProvider_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GameProvider_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="GameProvider_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="GameProvider_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="GameProvider_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="GameProvider_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysActvity_ActivityCode" xml:space="preserve">
+    <value>ActivityCode</value>
+  </data>
+  <data name="SysActvity_ActivityName" xml:space="preserve">
+    <value>ActivityName</value>
+  </data>
+  <data name="SysActvity_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysActvity_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SysActvity_ImgUrl" xml:space="preserve">
+    <value>ImgUrl</value>
+  </data>
+  <data name="SysActvity_MImgUrl" xml:space="preserve">
+    <value>MImgUrl</value>
+  </data>
+  <data name="SysActvity_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SysActvity_ContentValue" xml:space="preserve">
+    <value>ContentValue</value>
+  </data>
+  <data name="SysActvity_ActivityType" xml:space="preserve">
+    <value>ActivityType</value>
+  </data>
+  <data name="SysActvity_BeginTime" xml:space="preserve">
+    <value>BeginTime</value>
+  </data>
+  <data name="SysActvity_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="SysActvity_BackType" xml:space="preserve">
+    <value>BackType</value>
+  </data>
+  <data name="SysActvity_BonusMax" xml:space="preserve">
+    <value>BonusMax</value>
+  </data>
+  <data name="SysActvity_BonusTotal" xml:space="preserve">
+    <value>BonusTotal</value>
+  </data>
+  <data name="SysActvity_BonusUsed" xml:space="preserve">
+    <value>BonusUsed</value>
+  </data>
+  <data name="SysActvity_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysActvity_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysActvity_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysActvity_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysActvity_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="GameType_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GameType_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="GameType_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundMemRebateStat_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="FundMemRebateStat_CreateTimeEst" xml:space="preserve">
+    <value>CreateTimeEst</value>
+  </data>
+  <data name="ViewBetLog_Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="GameBoyGameList_IsNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="GameBoyGameList_IsRecommend" xml:space="preserve">
+    <value>Recommend</value>
+  </data>
+  <data name="SysWebConfig_Ip" xml:space="preserve">
+    <value>Ip</value>
+  </data>
+  <data name="GameInfo_StatRatio" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="GameInfo_StatSource" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="NoticeType_StatRatio" xml:space="preserve">
+    <value>StatRatio</value>
+  </data>
+  <data name="NoticeType_StatSource" xml:space="preserve">
+    <value>StatSource</value>
+  </data>
+  <data name="RptBase_BetCount" xml:space="preserve">
+    <value>Bet Count</value>
+  </data>
+  <data name="RptBase_StatResult" xml:space="preserve">
+    <value>Stat Result</value>
+  </data>
+  <data name="Member_LastLoginIp" xml:space="preserve">
+    <value>LastLoginIp</value>
+  </data>
+  <data name="ActionTypeEnum_RedemptionPoint" xml:space="preserve">
+    <value>RedemptionPoint</value>
+  </data>
+  <data name="MemActionLog_Operation" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="SysWebConfig_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="SysWebConfig_Keyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="SysWebConfig_LogoImg" xml:space="preserve">
+    <value>logo</value>
+  </data>
+  <data name="SysWebConfig_QQ" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="SysWebConfig_Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="SysWebConfig_Tel" xml:space="preserve">
+    <value>Tel</value>
+  </data>
+  <data name="SysWebConfig_WX" xml:space="preserve">
+    <value>WeChat</value>
+  </data>
+  <data name="Member_RankId" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="BWTypeEnum_Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="BWTypeEnum_White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="FundMemSale_BeginTimeEst" xml:space="preserve">
+    <value>BeginTimeEst</value>
+  </data>
+  <data name="FundMemSale_EndTimeEst" xml:space="preserve">
+    <value>EndTimeEst</value>
+  </data>
+  <data name="MemRank_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="MemRank_RabateRatio" xml:space="preserve">
+    <value>RabateRatio</value>
+  </data>
+  <data name="MemRank_PayDiscount" xml:space="preserve">
+    <value>Discount Ratio</value>
+  </data>
+  <data name="MemRank_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="MemRank_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="BWType" xml:space="preserve">
+    <value>BWType</value>
+  </data>
+  <data name="SysIp_Ip_HasExist" xml:space="preserve">
+    <value>Ip existed</value>
+  </data>
+  <data name="IPDisablelogin" xml:space="preserve">
+    <value>ip prohibited login,please contact the administrator!</value>
+  </data>
+  <data name="RptTotal_DateEst" xml:space="preserve">
+    <value>Est Date</value>
+  </data>
+  <data name="RptTotal_DrawAmount" xml:space="preserve">
+    <value>Draw Amount</value>
+  </data>
+  <data name="RptTotal_FirstPayAmount" xml:space="preserve">
+    <value>First Pay Amount</value>
+  </data>
+  <data name="RptTotal_FirstPayCount" xml:space="preserve">
+    <value>First Pay Count</value>
+  </data>
+  <data name="RptTotal_PayAmount" xml:space="preserve">
+    <value>Pay Amount</value>
+  </data>
+  <data name="RptTotal_RegCount" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="SysUser_IsChild" xml:space="preserve">
+    <value>Is Child</value>
+  </data>
+  <data name="SysUser_ParentName" xml:space="preserve">
+    <value>Parent</value>
+  </data>
+  <data name="VUserRole_IsChild" xml:space="preserve">
+    <value>Sub User</value>
+  </data>
+  <data name="All_sites" xml:space="preserve">
+    <value>All sites</value>
+  </data>
+  <data name="SysAccount_IOType" xml:space="preserve">
+    <value>In/Out</value>
+  </data>
+  <data name="ActivityTypeEnum_PayGame" xml:space="preserve">
+    <value>Play Game</value>
+  </data>
+  <data name="RptTotal_ActivityBonus" xml:space="preserve">
+    <value>ActivityBonus</value>
+  </data>
+  <data name="RptTotal_Rebate" xml:space="preserve">
+    <value>Rebate</value>
+  </data>
+  <data name="Member_IsContainsChild" xml:space="preserve">
+    <value>Contains Child</value>
+  </data>
+  <data name="FlowTypeEnum_GameToOper" xml:space="preserve">
+    <value>Subtract Points</value>
+  </data>
+  <data name="FlowTypeEnum_OperToGame" xml:space="preserve">
+    <value>Add Points</value>
+  </data>
+  <data name="IPDisableRegister" xml:space="preserve">
+    <value>IP ban registration, please contact the administrator!</value>
+  </data>
+  <data name="SiteOrderConfig_FeeRatio" xml:space="preserve">
+    <value>Fee Ratio</value>
+  </data>
+  <data name="SiteOrderConfig_ManageFee" xml:space="preserve">
+    <value>Manage Fee</value>
+  </data>
+  <data name="SysUser_LimitIp" xml:space="preserve">
+    <value>Limit Ip</value>
+  </data>
+  <data name="MemOnline_DeviceType" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Notice_MemRankId" xml:space="preserve">
+    <value>Member star</value>
+  </data>
+  <data name="Notice_NoteType" xml:space="preserve">
+    <value>Display object</value>
+  </data>
+  <data name="ProjectType_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="ProjectType_Member" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="ProjectType_Proxy" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ActionTypeEnum_SendMessage" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="MemRank_IsDefault" xml:space="preserve">
+    <value>IsDeafult</value>
+  </data>
+  <data name="Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="YesNoEnum_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="YesNoEnum_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SiteGameRabate_MaxRabate" xml:space="preserve">
+    <value>MaxRabate</value>
+  </data>
+  <data name="SiteGameRabate_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="SiteGameRabate_RabateStep" xml:space="preserve">
+    <value>RabateStep</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="H5_games" xml:space="preserve">
+    <value>H5 Games</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="SetBank" xml:space="preserve">
+    <value>BankSetting</value>
+  </data>
+  <data name="SetRabate" xml:space="preserve">
+    <value>RabateSetting</value>
+  </data>
+  <data name="SetRabateStep" xml:space="preserve">
+    <value>StepSetting</value>
+  </data>
+  <data name="GameEnum_BYH5" xml:space="preserve">
+    <value>BYH5</value>
+  </data>
+  <data name="RebatePeriodEnum_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="RebatePeriodEnum_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SiteGameRebateStep_EffecBetMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="FundMemRebateStat_BetNum" xml:space="preserve">
+    <value>BetNum</value>
+  </data>
+  <data name="CalcStatusEnum_HasCalc" xml:space="preserve">
+    <value>HasCalc</value>
+  </data>
+  <data name="CalcStatusEnum_NoCalc" xml:space="preserve">
+    <value>NoCalc</value>
+  </data>
+  <data name="MemBetLog_IsValid" xml:space="preserve">
+    <value>IsValid</value>
+  </data>
+  <data name="ValidStatusEnum_NotValid" xml:space="preserve">
+    <value>NotValid</value>
+  </data>
+  <data name="ValidStatusEnum_Valid" xml:space="preserve">
+    <value>Valid</value>
+  </data>
+  <data name="SourceTypeEnum_ManualDiscountBack" xml:space="preserve">
+    <value>ManualDiscountBack</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="FundAgentBrokerageStat_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundAgentBrokerageStat_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="FundAgentBrokerageStat_AgentType" xml:space="preserve">
+    <value>AgentType</value>
+  </data>
+  <data name="FundAgentBrokerageStat_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Brokerage" xml:space="preserve">
+    <value>Brokerage</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Bonus" xml:space="preserve">
+    <value>Bonus</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Rebate" xml:space="preserve">
+    <value>Rebate</value>
+  </data>
+  <data name="FundAgentBrokerageStat_OldResult" xml:space="preserve">
+    <value>OldResult</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Adjust" xml:space="preserve">
+    <value>Adjust</value>
+  </data>
+  <data name="FundAgentBrokerageStat_ThisResult" xml:space="preserve">
+    <value>ThisResult</value>
+  </data>
+  <data name="FundAgentBrokerageStat_RealPay" xml:space="preserve">
+    <value>RealPay</value>
+  </data>
+  <data name="FundAgentBrokerageStat_LeftResult" xml:space="preserve">
+    <value>LeftResult</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="FundAgentBrokerageStat_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="FundAgentBrokerageStat_UpdateTimeEst" xml:space="preserve">
+    <value>UpdateTimeEst</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_GameId" xml:space="preserve">
+    <value>GameId</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_Share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_EffecBet" xml:space="preserve">
+    <value>EffecBet</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_WinOrLose" xml:space="preserve">
+    <value>WinOrLose</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="AgentBrokerageStatusEnum_Audited" xml:space="preserve">
+    <value>Audited</value>
+  </data>
+  <data name="AgentBrokerageStatusEnum_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="AgentBrokerageStatusEnum_Issued" xml:space="preserve">
+    <value>Issued</value>
+  </data>
+  <data name="SysWebConfig_MemId_LevelError" xml:space="preserve">
+    <value>Agent level error.</value>
+  </data>
+  <data name="AmountCanNot0" xml:space="preserve">
+    <value>Amount can't be 0.</value>
+  </data>
+  <data name="OnlyOperationDefaultStatus" xml:space="preserve">
+    <value>Only operation not audit.</value>
+  </data>
+  <data name="GameEnum_QiLeYou" xml:space="preserve">
+    <value>Qi Le You</value>
+  </data>
+  <data name="Cards_games" xml:space="preserve">
+    <value>Cards games</value>
+  </data>
+  <data name="Member_ChildCount" xml:space="preserve">
+    <value>ChildCount</value>
+  </data>
+  <data name="BackTypeEnum_Fixed" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="BackTypeEnum_Random" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="BackTypeEnum_Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="GetWayEnum_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GetWayEnum_Hand" xml:space="preserve">
+    <value>Hand</value>
+  </data>
+  <data name="MultiTypeEnum_Principal" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="MultiTypeEnum_PrincipalAndInterest" xml:space="preserve">
+    <value>PrincipalAndInterest</value>
+  </data>
+  <data name="SysActvityConfig_BackType" xml:space="preserve">
+    <value>BackType</value>
+  </data>
+  <data name="SysActvityConfig_GetWay" xml:space="preserve">
+    <value>GetWay</value>
+  </data>
+  <data name="SysActvityConfig_ImgUrl" xml:space="preserve">
+    <value>ImgUrl</value>
+  </data>
+  <data name="SysActvityConfig_MaxSend" xml:space="preserve">
+    <value>MaxSend</value>
+  </data>
+  <data name="SysActvityConfig_MImgUrl" xml:space="preserve">
+    <value>MImgUrl</value>
+  </data>
+  <data name="SysActvityConfig_PromotionType" xml:space="preserve">
+    <value>PromotionType</value>
+  </data>
+  <data name="SysActvityConfig_Validdays" xml:space="preserve">
+    <value>Validdays</value>
+  </data>
+  <data name="PayChannelEnum_OnlineBank" xml:space="preserve">
+    <value>Online banking</value>
+  </data>
+  <data name="SysUser_Email_IsNull" xml:space="preserve">
+    <value>Email IsNull</value>
+  </data>
+  <data name="SysWebConfig_WXImage" xml:space="preserve">
+    <value>WXImage</value>
+  </data>
+  <data name="GameDisplayType_Child" xml:space="preserve">
+    <value>Child</value>
+  </data>
+  <data name="GameDisplayType_Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="GameDisplayType_MainAndChild" xml:space="preserve">
+    <value>MainAndChild</value>
+  </data>
+  <data name="GameType_DisplayType" xml:space="preserve">
+    <value>DisplayType</value>
+  </data>
+  <data name="GameChildList_ChildId" xml:space="preserve">
+    <value>ChildId</value>
+  </data>
+  <data name="GameChildList_GameName" xml:space="preserve">
+    <value>GameName</value>
+  </data>
+  <data name="GameChildList_GameTypeId" xml:space="preserve">
+    <value>GameTypeId</value>
+  </data>
+  <data name="GameChildList_ImgUrl" xml:space="preserve">
+    <value>ImgUrl</value>
+  </data>
+  <data name="GameChildList_ParentId" xml:space="preserve">
+    <value>ParentId</value>
+  </data>
+  <data name="GameEnum_LksExteRnalSvc" xml:space="preserve">
+    <value>Lks</value>
+  </data>
+  <data name="FundMemOrder_TransactioId" xml:space="preserve">
+    <value>TransactioId</value>
+  </data>
+  <data name="SiteGameRebateStep_EffecBetMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PayChannelEnum_AlipayWap" xml:space="preserve">
+    <value>AlipayWap</value>
+  </data>
+  <data name="PayChannelEnum_BankCode" xml:space="preserve">
+    <value>BankCode</value>
+  </data>
+  <data name="PayChannelEnum_QQ" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="GameEnum_SanSheng" xml:space="preserve">
+    <value>SanSheng</value>
+  </data>
+  <data name="PromotionTypeEnum_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="BetlogStatusEnum_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="BetlogStatusEnum_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BetlogStatusEnum_HasCalc" xml:space="preserve">
+    <value>HasCalc</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="BetAmount" xml:space="preserve">
+    <value>BetAmount</value>
+  </data>
+  <data name="BetMemberNum" xml:space="preserve">
+    <value>BetMemberNum</value>
+  </data>
+  <data name="BetNum" xml:space="preserve">
+    <value>BetNum</value>
+  </data>
+  <data name="HWinOrLose" xml:space="preserve">
+    <value>HWinOrLose</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>LeagueName</value>
+  </data>
+  <data name="MatchDate" xml:space="preserve">
+    <value>MatchDate</value>
+  </data>
+  <data name="Profitability" xml:space="preserve">
+    <value>Profitability</value>
+  </data>
+  <data name="WinOrLose" xml:space="preserve">
+    <value>WinOrLose</value>
+  </data>
+  <data name="DateInt" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="GameId" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="MemWinOrLose" xml:space="preserve">
+    <value>MemWinOrLose</value>
+  </data>
+  <data name="PayAmount" xml:space="preserve">
+    <value>PayAmount</value>
+  </data>
+  <data name="PayMemNum" xml:space="preserve">
+    <value>PayMemNum</value>
+  </data>
+  <data name="RebateType" xml:space="preserve">
+    <value>RebateType</value>
+  </data>
+  <data name="NotRebate" xml:space="preserve">
+    <value>NotRebate</value>
+  </data>
+  <data name="Rebate" xml:space="preserve">
+    <value>Rebate</value>
+  </data>
+  <data name="RebateWithoutWater" xml:space="preserve">
+    <value>RebateWithoutWater</value>
+  </data>
+  <data name="RebateZero" xml:space="preserve">
+    <value>RebateZero</value>
+  </data>
+  <data name="BetTypeCode" xml:space="preserve">
+    <value>BetTypeCode</value>
+  </data>
+  <data name="Handicap" xml:space="preserve">
+    <value>Handicap</value>
+  </data>
+  <data name="BD" xml:space="preserve">
+    <value>BD</value>
+  </data>
+  <data name="BQC" xml:space="preserve">
+    <value>BQC</value>
+  </data>
+  <data name="BZ" xml:space="preserve">
+    <value>BZ</value>
+  </data>
+  <data name="BZ_GG" xml:space="preserve">
+    <value>BZ_GG</value>
+  </data>
+  <data name="BZ_SBC" xml:space="preserve">
+    <value>BZ_SBC</value>
+  </data>
+  <data name="DS" xml:space="preserve">
+    <value>DS</value>
+  </data>
+  <data name="DX" xml:space="preserve">
+    <value>DX</value>
+  </data>
+  <data name="DX_SBC" xml:space="preserve">
+    <value>DX_SBC</value>
+  </data>
+  <data name="DY" xml:space="preserve">
+    <value>DY</value>
+  </data>
+  <data name="HH_GG" xml:space="preserve">
+    <value>HH_GG</value>
+  </data>
+  <data name="LQ_DS" xml:space="preserve">
+    <value>LQ_DS</value>
+  </data>
+  <data name="LQ_DX" xml:space="preserve">
+    <value>LQ_DX</value>
+  </data>
+  <data name="LQ_RQ" xml:space="preserve">
+    <value>LQ_RQ</value>
+  </data>
+  <data name="LQ_RQ_GG" xml:space="preserve">
+    <value>LQ_RQ_GG</value>
+  </data>
+  <data name="LQ_ZD_DS" xml:space="preserve">
+    <value>LQ_ZD_DS</value>
+  </data>
+  <data name="LQ_ZD_DX" xml:space="preserve">
+    <value>LQ_ZD_DX</value>
+  </data>
+  <data name="LQ_ZD_RQ" xml:space="preserve">
+    <value>LQ_ZD_RQ</value>
+  </data>
+  <data name="RQ" xml:space="preserve">
+    <value>RQ</value>
+  </data>
+  <data name="RQ_GG" xml:space="preserve">
+    <value>RQ_GG</value>
+  </data>
+  <data name="RQ_SBC" xml:space="preserve">
+    <value>RQ_SBC</value>
+  </data>
+  <data name="YS_GG" xml:space="preserve">
+    <value>YS_GG</value>
+  </data>
+  <data name="ZD_BZ" xml:space="preserve">
+    <value>ZD_BZ</value>
+  </data>
+  <data name="ZD_BZ_SBC" xml:space="preserve">
+    <value>ZD_BZ_SBC</value>
+  </data>
+  <data name="ZD_DS" xml:space="preserve">
+    <value>ZD_DS</value>
+  </data>
+  <data name="ZD_DX" xml:space="preserve">
+    <value>ZD_DX</value>
+  </data>
+  <data name="ZD_DX_SBC" xml:space="preserve">
+    <value>ZD_DX_SBC</value>
+  </data>
+  <data name="ZD_DY" xml:space="preserve">
+    <value>ZD_DY</value>
+  </data>
+  <data name="ZD_RQ" xml:space="preserve">
+    <value>ZD_RQ</value>
+  </data>
+  <data name="ZD_RQ_SBC" xml:space="preserve">
+    <value>ZD_RQ_SBC</value>
+  </data>
+  <data name="ZRQ" xml:space="preserve">
+    <value>ZRQ</value>
+  </data>
+  <data name="AgentChildCount" xml:space="preserve">
+    <value>AgentChildCount</value>
+  </data>
+  <data name="MemberChildCount" xml:space="preserve">
+    <value>MemberChildCount</value>
+  </data>
+  <data name="AccountName_Required" xml:space="preserve">
+    <value>Account Name is Required</value>
+  </data>
+  <data name="AccountNo_HasExist" xml:space="preserve">
+    <value>AccountNo HasExist</value>
+  </data>
+  <data name="AccountNo_Required" xml:space="preserve">
+    <value>AccountNo is Required</value>
+  </data>
+  <data name="FundMemOrder_PayPlat" xml:space="preserve">
+    <value>PayPlat</value>
+  </data>
+  <data name="SiteId_Required" xml:space="preserve">
+    <value>Site is required</value>
+  </data>
+  <data name="DistributionEnum_Assigned" xml:space="preserve">
+    <value>Assigned</value>
+  </data>
+  <data name="DistributionEnum_Unallocated" xml:space="preserve">
+    <value>Unallocated</value>
+  </data>
+  <data name="SourceTypeEnum_TakeBackBrokerage" xml:space="preserve">
+    <value>TakeBackBrokerage</value>
+  </data>
+  <data name="CustomerDistribution_CreateId" xml:space="preserve">
+    <value>CreateId</value>
+  </data>
+  <data name="CustomerDistribution_IsDistribution" xml:space="preserve">
+    <value>IsDistribution</value>
+  </data>
+  <data name="CustomerDistribution_ServerId" xml:space="preserve">
+    <value>ServerId</value>
+  </data>
+  <data name="Dial" xml:space="preserve">
+    <value>Dial</value>
+  </data>
+  <data name="DrawRefuse" xml:space="preserve">
+    <value>DrawRefuse</value>
+  </data>
+  <data name="ManualDiscountToGame" xml:space="preserve">
+    <value>ManualDiscountToGame</value>
+  </data>
+  <data name="ManualDiscountToOper" xml:space="preserve">
+    <value>ManualDiscountToOper</value>
+  </data>
+  <data name="MemWinOrLoss" xml:space="preserve">
+    <value>MemWinOrLose</value>
+  </data>
+  <data name="GameEnum_IBO" xml:space="preserve">
+    <value>IBO</value>
+  </data>
+  <data name="FirstPayMemNum" xml:space="preserve">
+    <value>FirstPayMemNum</value>
+  </data>
+  <data name="OperToGameAmount" xml:space="preserve">
+    <value>OperToGameAmount</value>
+  </data>
+  <data name="OperToGameNum" xml:space="preserve">
+    <value>OperToGameNum</value>
+  </data>
+  <data name="GameEnum_CQ9" xml:space="preserve">
+    <value>CQ9</value>
+  </data>
+  <data name="RegisterMemNum" xml:space="preserve">
+    <value>RegisterMemNum</value>
+  </data>
+  <data name="ManualDraw" xml:space="preserve">
+    <value>ManualDraw</value>
+  </data>
+  <data name="ManualPayment" xml:space="preserve">
+    <value>ManualPayment</value>
+  </data>
+  <data name="ManualPaymentNum" xml:space="preserve">
+    <value>ManualPayment Count</value>
+  </data>
+  <data name="PayoutEst" xml:space="preserve">
+    <value>PayoutEst</value>
+  </data>
+  <data name="PayoutTime" xml:space="preserve">
+    <value>PayoutTime</value>
+  </data>
+  <data name="PayoutTimeEst" xml:space="preserve">
+    <value>PayoutTimeEst</value>
+  </data>
+  <data name="FundAgentBrokerageStat_PlatFee" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="SiteGameConfig_Fee" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="Chess" xml:space="preserve">
+    <value>Chess</value>
+  </data>
+  <data name="Eelectric" xml:space="preserve">
+    <value>Eelectric</value>
+  </data>
+  <data name="Lottery" xml:space="preserve">
+    <value>Lottery</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="PayChannelEnum_OnlineBankTransfer" xml:space="preserve">
+    <value>Bank Transfer</value>
+  </data>
+  <data name="GameEnum_GNS" xml:space="preserve">
+    <value>GNS</value>
+  </data>
+  <data name="GameEnum_T9Y" xml:space="preserve">
+    <value>9Y</value>
+  </data>
+  <data name="GameEnum_BG" xml:space="preserve">
+    <value>BG</value>
+  </data>
+  <data name="GameEnum_MG" xml:space="preserve">
+    <value>MG</value>
+  </data>
+  <data name="PayChannelEnum_WeChatWap" xml:space="preserve">
+    <value>WeChat H5</value>
+  </data>
+  <data name="GameEnum_PT" xml:space="preserve">
+    <value>PT</value>
+  </data>
+  <data name="GameEnum_BBIN" xml:space="preserve">
+    <value>BBIN</value>
+  </data>
+  <data name="GameEnum_OG" xml:space="preserve">
+    <value>OG</value>
+  </data>
+  <data name="GameEnum_SHABA" xml:space="preserve">
+    <value>SHABA</value>
+  </data>
+  <data name="GameEnum_BBINelectronic" xml:space="preserve">
+    <value>BBIN electronic</value>
+  </data>
+  <data name="GameEnum_BBINlottery" xml:space="preserve">
+    <value>BBIN lottery</value>
+  </data>
+  <data name="GameEnum_BBINSport" xml:space="preserve">
+    <value>BBIN Sport</value>
+  </data>
+  <data name="IsAgentRebate" xml:space="preserve">
+    <value>IsAgentRebate</value>
+  </data>
+  <data name="AgentRebate" xml:space="preserve">
+    <value>AgentRebate</value>
+  </data>
+  <data name="RealRebate" xml:space="preserve">
+    <value>RealRebate</value>
+  </data>
+  <data name="AgentPay" xml:space="preserve">
+    <value>AgentPay</value>
+  </data>
+  <data name="MemLotteryGameOdd_Odds" xml:space="preserve">
+    <value>Odds</value>
+  </data>
+  <data name="InGameAmount" xml:space="preserve">
+    <value>InAmount</value>
+  </data>
+  <data name="OutGameAmount" xml:space="preserve">
+    <value>OutAmount</value>
+  </data>
+  <data name="CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SiteId" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="BetMemCount" xml:space="preserve">
+    <value>BetMemCount</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="DateTimeEst" xml:space="preserve">
+    <value>DateTimeEst</value>
+  </data>
+  <data name="PayCount" xml:space="preserve">
+    <value>PayCount</value>
+  </data>
+  <data name="PayMemCount" xml:space="preserve">
+    <value>PayMemCount</value>
+  </data>
+  <data name="IsDisplay" xml:space="preserve">
+    <value>IsDisplay</value>
+  </data>
+  <data name="GameBoyGameList_GameImg" xml:space="preserve">
+    <value>GameImg</value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FundAgentEat_Share" xml:space="preserve">
+    <value>EatShare</value>
+  </data>
+  <data name="Updater" xml:space="preserve">
+    <value>Updater</value>
+  </data>
+  <data name="GameId_HasExist" xml:space="preserve">
+    <value>GameId HasExist</value>
+  </data>
+  <data name="MemId_NoExist" xml:space="preserve">
+    <value>MemId NoExist</value>
+  </data>
+  <data name="EatAmount" xml:space="preserve">
+    <value>EatAmount</value>
+  </data>
+  <data name="FundMemOddDifference_DifferenceAmount" xml:space="preserve">
+    <value>DifferenceAmount</value>
+  </data>
+  <data name="FundMemOddDifference_OddsDifference" xml:space="preserve">
+    <value>OddsDifference</value>
+  </data>
+  <data name="Brokerage0" xml:space="preserve">
+    <value>Brokerage0</value>
+  </data>
+  <data name="Brokerage1" xml:space="preserve">
+    <value>Brokerage1</value>
+  </data>
+  <data name="Brokerage2" xml:space="preserve">
+    <value>Brokerage2</value>
+  </data>
+  <data name="RealShare0" xml:space="preserve">
+    <value>RealShare0</value>
+  </data>
+  <data name="RealShare1" xml:space="preserve">
+    <value>RealShare1</value>
+  </data>
+  <data name="RealShare2" xml:space="preserve">
+    <value>RealShare2</value>
+  </data>
+  <data name="FeeRate" xml:space="preserve">
+    <value>FeeRate</value>
+  </data>
+  <data name="PlatFee" xml:space="preserve">
+    <value>PlatFee</value>
+  </data>
+  <data name="ALevel" xml:space="preserve">
+    <value>ALevel</value>
+  </data>
+  <data name="BLevel" xml:space="preserve">
+    <value>BLevel</value>
+  </data>
+  <data name="CLevel" xml:space="preserve">
+    <value>CLevel</value>
+  </data>
+  <data name="GameEnum_KaKaWan" xml:space="preserve">
+    <value>KaKaWan</value>
+  </data>
+  <data name="MemResult" xml:space="preserve">
+    <value>MemResult</value>
+  </data>
+  <data name="PayChannelEnum_Cloudflashover" xml:space="preserve">
+    <value>Cloudflashover</value>
+  </data>
+  <data name="Game_Required" xml:space="preserve">
+    <value>Game_Required</value>
+  </data>
+  <data name="GameChildClassEnum_FengGe" xml:space="preserve">
+    <value>游戏风格</value>
+  </data>
+  <data name="GameChildClassEnum_JiangChi" xml:space="preserve">
+    <value>奖池</value>
+  </data>
+  <data name="GameChildClassEnum_LeiXing" xml:space="preserve">
+    <value>游戏类型</value>
+  </data>
+  <data name="GameChildClassEnum_XianShu" xml:space="preserve">
+    <value>赔付线数</value>
+  </data>
+  <data name="GameBoyGameList_IsJackpot" xml:space="preserve">
+    <value>奖池</value>
+  </data>
+  <data name="GameBoyGameList_Linenumber" xml:space="preserve">
+    <value>线数</value>
+  </data>
+</root>

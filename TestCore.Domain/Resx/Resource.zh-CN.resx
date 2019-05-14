@@ -1,0 +1,4005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Base_Lang" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="StatusEnum_Disable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="StatusEnum_Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="SysUser_UserName" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="SysUser_UserName_Required" xml:space="preserve">
+    <value>用户名称必填</value>
+  </data>
+  <data name="SysUser_UserPwd" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="SysUser_UserPwd_Required" xml:space="preserve">
+    <value>用户密码必填</value>
+  </data>
+  <data name="SysGameConfig_GameName" xml:space="preserve">
+    <value>游戏名称</value>
+  </data>
+  <data name="SysGameConfig_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysGameConfig_ExchangeRate" xml:space="preserve">
+    <value>汇率</value>
+  </data>
+  <data name="SysGameConfig_Description" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysGameConfig_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysGameConfig_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysGameConfig_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysGameConfig_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysGameConfig_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysPan_Name" xml:space="preserve">
+    <value>系统盘名称</value>
+  </data>
+  <data name="SysPan_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysPan_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysPan_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysPan_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysBrokerageSet_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysBrokerageSet_Name" xml:space="preserve">
+    <value>退佣名称</value>
+  </data>
+  <data name="SysBrokerageSet_UserLevel" xml:space="preserve">
+    <value>用户层级</value>
+  </data>
+  <data name="SysBrokerageSet_ValidMemberCount" xml:space="preserve">
+    <value>有效会员数</value>
+  </data>
+  <data name="SysBrokerageSet_SupplyMoney" xml:space="preserve">
+    <value>贡献额度</value>
+  </data>
+  <data name="SysBrokerageSet_BackPercent" xml:space="preserve">
+    <value>佣金比例</value>
+  </data>
+  <data name="SysBrokerageSet_Payer" xml:space="preserve">
+    <value>结算人</value>
+  </data>
+  <data name="SysBrokerageSet_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysBrokerageSet_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysBrokerageSet_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysBrokerageSet_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="InternalMessageType_SubjectType" xml:space="preserve">
+    <value>问题类型</value>
+  </data>
+  <data name="InternalMessageType_SubjectName" xml:space="preserve">
+    <value>问题名称</value>
+  </data>
+  <data name="SysExchangeRate_Currency" xml:space="preserve">
+    <value>币种</value>
+  </data>
+  <data name="SysExchangeRate_Rate" xml:space="preserve">
+    <value>汇率</value>
+  </data>
+  <data name="SysExchangeRate_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysExchangeRate_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysExchangeRate_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysExchangeRate_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysProxyBrokerage_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="SysProxyBrokerage_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="SysProxyBrokerage_UserName" xml:space="preserve">
+    <value>用户名称</value>
+  </data>
+  <data name="SysProxyBrokerage_ValidMemberCount" xml:space="preserve">
+    <value>有效会员数</value>
+  </data>
+  <data name="SysProxyBrokerage_NetProfit" xml:space="preserve">
+    <value>净利润</value>
+  </data>
+  <data name="SysProxyBrokerage_Brokerage" xml:space="preserve">
+    <value>佣金</value>
+  </data>
+  <data name="SysProxyBrokerage_HistoryDebt" xml:space="preserve">
+    <value>前期尚欠</value>
+  </data>
+  <data name="SysProxyBrokerage_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysProxyBrokerage_Auditor" xml:space="preserve">
+    <value>审核人</value>
+  </data>
+  <data name="SysProxyBrokerage_AuditTime" xml:space="preserve">
+    <value>审核日期</value>
+  </data>
+  <data name="SysProxyBrokerage_PayStatus" xml:space="preserve">
+    <value>结算状态</value>
+  </data>
+  <data name="SysProxyBrokerage_Payer" xml:space="preserve">
+    <value>结算人</value>
+  </data>
+  <data name="SysProxyBrokerage_PayTime" xml:space="preserve">
+    <value>审核日期</value>
+  </data>
+  <data name="SysProxyBrokerage_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysProxyBrokerage_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="Notice_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Notice_NoticeContent" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Notice_BeginTime" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="Notice_BeginTimeEst" xml:space="preserve">
+    <value>开始美东日期</value>
+  </data>
+  <data name="Notice_EndTime" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="Notice_InvalidTime" xml:space="preserve">
+    <value>跑马灯上结束日期</value>
+  </data>
+  <data name="Notice_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Notice_Lang" xml:space="preserve">
+    <value>语系</value>
+  </data>
+  <data name="Notice_ProjectType" xml:space="preserve">
+    <value>项目类型</value>
+  </data>
+  <data name="Notice_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="Notice_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysUserLog_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysUserLog_UserName" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="SysUserLog_RoleId" xml:space="preserve">
+    <value>权限名称</value>
+  </data>
+  <data name="SysUserLog_NodeId" xml:space="preserve">
+    <value>节点名称</value>
+  </data>
+  <data name="SysUserLog_LogType" xml:space="preserve">
+    <value>日志类型</value>
+  </data>
+  <data name="SysUserLog_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="SysUserLog_ActionType" xml:space="preserve">
+    <value>行为类型</value>
+  </data>
+  <data name="SysUserLog_ActionDesc" xml:space="preserve">
+    <value>行为描述</value>
+  </data>
+  <data name="SysUserLog_LogTime" xml:space="preserve">
+    <value>日志日期</value>
+  </data>
+  <data name="SysUserLog_LogTimeEst" xml:space="preserve">
+    <value>美东记录时间</value>
+  </data>
+  <data name="SysUser_NickName" xml:space="preserve">
+    <value>昵称</value>
+  </data>
+  <data name="SysUser_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysUser_RoleId" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="SysUser_Auditor" xml:space="preserve">
+    <value>审核人</value>
+  </data>
+  <data name="SysUser_AuditTime" xml:space="preserve">
+    <value>审核日期</value>
+  </data>
+  <data name="SysUser_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysUser_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysUser_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysUser_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysUser_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysRoleRight_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysRoleRight_RoleId" xml:space="preserve">
+    <value>权限名称</value>
+  </data>
+  <data name="SysRoleRight_NodeId" xml:space="preserve">
+    <value>节点</value>
+  </data>
+  <data name="SysRoleRight_RightId" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="SysRoleRight_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysRoleRight_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemLevel_MemIdL0" xml:space="preserve">
+    <value>账号L0</value>
+  </data>
+  <data name="MemLevel_MemIdL1" xml:space="preserve">
+    <value>账号L1</value>
+  </data>
+  <data name="MemLevel_MemIdL2" xml:space="preserve">
+    <value>账号L2</value>
+  </data>
+  <data name="MemLevel_MemIdL3" xml:space="preserve">
+    <value>账号L3</value>
+  </data>
+  <data name="MemLevel_MemIdL4" xml:space="preserve">
+    <value>账号L4</value>
+  </data>
+  <data name="MemLevel_MemIdL5" xml:space="preserve">
+    <value>账号L5</value>
+  </data>
+  <data name="MemLevel_MemIdL6" xml:space="preserve">
+    <value>账号L6</value>
+  </data>
+  <data name="MemLevel_MemIdL7" xml:space="preserve">
+    <value>账号L7</value>
+  </data>
+  <data name="MemLevel_MemIdL8" xml:space="preserve">
+    <value>账号L8</value>
+  </data>
+  <data name="MemLevel_ParentPath" xml:space="preserve">
+    <value>父路径</value>
+  </data>
+  <data name="MemLevel_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="MemLevel_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="MemLevel_Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="MemLevel_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="Member_ParentId" xml:space="preserve">
+    <value>上级</value>
+  </data>
+  <data name="Member_PromoterId" xml:space="preserve">
+    <value>推荐人</value>
+  </data>
+  <data name="Member_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="Member_MemberType" xml:space="preserve">
+    <value>会员/代理</value>
+  </data>
+  <data name="Member_CashCreditType" xml:space="preserve">
+    <value>账户类型</value>
+  </data>
+  <data name="MemLevel_Level" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="Member_UserPwd" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Member_WalletPwd" xml:space="preserve">
+    <value>钱包密码</value>
+  </data>
+  <data name="Member_Wallet" xml:space="preserve">
+    <value>主账号余额</value>
+  </data>
+  <data name="Member_Integral" xml:space="preserve">
+    <value>积分</value>
+  </data>
+  <data name="Member_Currency" xml:space="preserve">
+    <value>币种</value>
+  </data>
+  <data name="Member_Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Member_HandicapType" xml:space="preserve">
+    <value>盘口类型</value>
+  </data>
+  <data name="Member_ReferralCode" xml:space="preserve">
+    <value>推广码</value>
+  </data>
+  <data name="Member_IsValidEmail" xml:space="preserve">
+    <value>邮箱验证</value>
+  </data>
+  <data name="Member_IsValidMobile" xml:space="preserve">
+    <value>手机验证</value>
+  </data>
+  <data name="Member_IsBindCard" xml:space="preserve">
+    <value>银行绑定</value>
+  </data>
+  <data name="Member_IsSupplyData" xml:space="preserve">
+    <value>是否完善资料</value>
+  </data>
+  <data name="Member_LastLoginTime" xml:space="preserve">
+    <value>上次登入日期</value>
+  </data>
+  <data name="Member_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Member_CreateTime" xml:space="preserve">
+    <value>注册日期</value>
+  </data>
+  <data name="Member_CreateTimeEst" xml:space="preserve">
+    <value>美东注册日期</value>
+  </data>
+  <data name="Member_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="Member_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新日期</value>
+  </data>
+  <data name="Member_IsForgotPwd" xml:space="preserve">
+    <value>忘记密码</value>
+  </data>
+  <data name="GameAllBetMember_Client" xml:space="preserve">
+    <value>客户端</value>
+  </data>
+  <data name="GameAllBetMember_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="GameAllBetMember_VipHandicaps" xml:space="preserve">
+    <value>VIP 盘口编号</value>
+  </data>
+  <data name="GameAllBetMember_OrHandicaps" xml:space="preserve">
+    <value>普通厅盘口编号</value>
+  </data>
+  <data name="GameAllBetMember_OrHallRebate" xml:space="preserve">
+    <value>普通厅洗码比</value>
+  </data>
+  <data name="GameAllBetMember_DvHallRebate" xml:space="preserve">
+    <value>电子游戏欧博厅 洗码比</value>
+  </data>
+  <data name="GameAllBetMember_LaxHallRebate" xml:space="preserve">
+    <value>电子游戏 A 厅 洗码比</value>
+  </data>
+  <data name="GameAllBetMember_LstHallRebate" xml:space="preserve">
+    <value>电子游戏 B 厅 洗码比</value>
+  </data>
+  <data name="GameAllBetMember_MaxWin" xml:space="preserve">
+    <value>最大赢额限制</value>
+  </data>
+  <data name="GameAllBetMember_MaxLose" xml:space="preserve">
+    <value>最大输额限制</value>
+  </data>
+  <data name="GameAllBetMember_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="GameAllBetMember_LastLoginTime" xml:space="preserve">
+    <value>最后北京登陆时间</value>
+  </data>
+  <data name="SysWebConfig_Domain" xml:space="preserve">
+    <value>域名</value>
+  </data>
+  <data name="SysWebConfig_SiteTitle" xml:space="preserve">
+    <value>网站标题</value>
+  </data>
+  <data name="SysWebConfig_SiteSkin" xml:space="preserve">
+    <value>网站皮肤</value>
+  </data>
+  <data name="SysWebConfig_Lang" xml:space="preserve">
+    <value>语言类别</value>
+  </data>
+  <data name="SysWebConfig_CurrencyId" xml:space="preserve">
+    <value>币种</value>
+  </data>
+  <data name="SysWebConfig_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysWebConfig_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysWebConfig_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysWebConfig_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysWebConfig_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="NoticeType_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="NoticeType_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="NoticeType_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysPayChannel_Name" xml:space="preserve">
+    <value>支付通道名称</value>
+  </data>
+  <data name="SysPayChannel_MinAmount" xml:space="preserve">
+    <value>最小金额</value>
+  </data>
+  <data name="SysPayChannel_MaxAmount" xml:space="preserve">
+    <value>最大金额</value>
+  </data>
+  <data name="SysPayChannel_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysPayChannel_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysPayChannel_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysPayChannel_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysBankCard_AccountNo" xml:space="preserve">
+    <value>帐户号码</value>
+  </data>
+  <data name="SysBankCard_BankType" xml:space="preserve">
+    <value>银行类型</value>
+  </data>
+  <data name="SysBankCard_AccountName" xml:space="preserve">
+    <value>帐户名称</value>
+  </data>
+  <data name="SysBankCard_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysBankCard_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysBankCard_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysBankCard_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysBankCard_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysBankCard_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="InternalMessage_SubjectType" xml:space="preserve">
+    <value>问题类型</value>
+  </data>
+  <data name="InternalMessage_Message" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="InternalMessage_IsRead" xml:space="preserve">
+    <value>是否阅读</value>
+  </data>
+  <data name="InternalMessage_Sender" xml:space="preserve">
+    <value>发送者</value>
+  </data>
+  <data name="InternalMessage_Receiver" xml:space="preserve">
+    <value>接收者</value>
+  </data>
+  <data name="InternalMessage_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="InternalMessage_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="InternalMessage_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="InternalMessage_EventId" xml:space="preserve">
+    <value>事件ID</value>
+  </data>
+  <data name="GameAllBetLoginLog_Username" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="GameAllBetLoginLog_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="GameAllBetLoginLog_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="SysResource_DbId" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="SysResource_Lang" xml:space="preserve">
+    <value>语言类别</value>
+  </data>
+  <data name="SysResource_TableId" xml:space="preserve">
+    <value>表ID</value>
+  </data>
+  <data name="SysResource_TableName" xml:space="preserve">
+    <value>表名</value>
+  </data>
+  <data name="SysResource_PkId" xml:space="preserve">
+    <value>主键ID</value>
+  </data>
+  <data name="SysResource_FieldName" xml:space="preserve">
+    <value>字段名</value>
+  </data>
+  <data name="SysResource_ResValue" xml:space="preserve">
+    <value>语言资源的值</value>
+  </data>
+  <data name="SysResource_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysResource_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysResource_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysBankType_Code" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="SysBankType_Name" xml:space="preserve">
+    <value>银行名称</value>
+  </data>
+  <data name="SysBankType_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysBankType_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysBankType_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysBankType_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysBankType_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysBankType_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemberInfo_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemberInfo_RealName" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="MemberInfo_Email" xml:space="preserve">
+    <value>邮箱</value>
+  </data>
+  <data name="MemberInfo_MobileCountry" xml:space="preserve">
+    <value>国家电话</value>
+  </data>
+  <data name="MemberInfo_Mobile" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="MemberInfo_IdCard" xml:space="preserve">
+    <value>身份证</value>
+  </data>
+  <data name="MemberInfo_Passport" xml:space="preserve">
+    <value>护照</value>
+  </data>
+  <data name="MemberInfo_Birthdate" xml:space="preserve">
+    <value>生日</value>
+  </data>
+  <data name="MemberInfo_ClientIp" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
+  <data name="MemberInfo_Sex" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="MemberInfo_QQ" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="MemberInfo_MSN" xml:space="preserve">
+    <value>MSN</value>
+  </data>
+  <data name="MemberInfo_Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="MemberInfo_Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="MemberInfo_QuestionId" xml:space="preserve">
+    <value>问题</value>
+  </data>
+  <data name="MemberInfo_Answer" xml:space="preserve">
+    <value>答案</value>
+  </data>
+  <data name="MemberInfo_Country" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="MemberInfo_City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="MemberInfo_ZipCode" xml:space="preserve">
+    <value>邮编</value>
+  </data>
+  <data name="MemberInfo_SiteUrl1" xml:space="preserve">
+    <value>网站URL1</value>
+  </data>
+  <data name="MemberInfo_SiteUrl2" xml:space="preserve">
+    <value>网站URL2</value>
+  </data>
+  <data name="MemberInfo_SiteUrl3" xml:space="preserve">
+    <value>网站URL3</value>
+  </data>
+  <data name="MemberInfo_Suggest" xml:space="preserve">
+    <value>建议</value>
+  </data>
+  <data name="MemberInfo_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemberInfo_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemberInfo_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="MemberInfo_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新日期</value>
+  </data>
+  <data name="Host_HostId" xml:space="preserve">
+    <value>主机ID</value>
+  </data>
+  <data name="Host_HashCode" xml:space="preserve">
+    <value>哈希码</value>
+  </data>
+  <data name="SysRole_Name" xml:space="preserve">
+    <value>角色名称</value>
+  </data>
+  <data name="SysRole_IsSupper" xml:space="preserve">
+    <value>超级管理员</value>
+  </data>
+  <data name="SysRole_GroupId" xml:space="preserve">
+    <value>角色组</value>
+  </data>
+  <data name="SysRole_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysRole_Description" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysRole_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysRole_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysRole_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysRole_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemApproveTicket_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemApproveTicket_Ticket" xml:space="preserve">
+    <value>票</value>
+  </data>
+  <data name="MemApproveTicket_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="MemApproveTicket_SendTo" xml:space="preserve">
+    <value>发送到</value>
+  </data>
+  <data name="MemApproveTicket_UserIP" xml:space="preserve">
+    <value>用户IP</value>
+  </data>
+  <data name="MemApproveTicket_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="MemApproveTicket_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemApproveTicket_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysLang_Name" xml:space="preserve">
+    <value>语言名称</value>
+  </data>
+  <data name="SysLang_Tag" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="SysLang_ResTag" xml:space="preserve">
+    <value>语言的资源名</value>
+  </data>
+  <data name="SysLang_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysLang_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysRight_Name" xml:space="preserve">
+    <value>权限名称</value>
+  </data>
+  <data name="SysRight_Tag" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="SysRight_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysRight_Description" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysRight_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysRight_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysRight_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysRight_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="VUserRole_UserName" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="VUserRole_IsSupper" xml:space="preserve">
+    <value>是否超级管理员</value>
+  </data>
+  <data name="VUserRole_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="VUserRole_RoleStatus" xml:space="preserve">
+    <value>角色状态</value>
+  </data>
+  <data name="VUserRole_RoleId" xml:space="preserve">
+    <value>权限名称</value>
+  </data>
+  <data name="VUserRole_RoleName" xml:space="preserve">
+    <value>角色名</value>
+  </data>
+  <data name="SysAdminNode_Name" xml:space="preserve">
+    <value>节点名称</value>
+  </data>
+  <data name="SysAdminNode_ParentId" xml:space="preserve">
+    <value>父级节点</value>
+  </data>
+  <data name="SysAdminNode_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysAdminNode_Url" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="SysAdminNode_Area" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="SysAdminNode_Controller" xml:space="preserve">
+    <value>控制器</value>
+  </data>
+  <data name="SysAdminNode_Action" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="SysAdminNode_RouteId" xml:space="preserve">
+    <value>路由Id</value>
+  </data>
+  <data name="SysAdminNode_QueryString" xml:space="preserve">
+    <value>查询字符串</value>
+  </data>
+  <data name="SysAdminNode_Rights" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="SysAdminNode_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysAdminNode_Description" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysAdminNode_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysAdminNode_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysAdminNode_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemOrder_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemOrder_OrderId" xml:space="preserve">
+    <value>订单号</value>
+  </data>
+  <data name="MemOrder_TradeNo" xml:space="preserve">
+    <value>第三方支付交易号</value>
+  </data>
+  <data name="MemOrder_PayChannel" xml:space="preserve">
+    <value>支付渠道</value>
+  </data>
+  <data name="MemOrder_DepositWay" xml:space="preserve">
+    <value>存款方式</value>
+  </data>
+  <data name="MemOrder_BusinessType" xml:space="preserve">
+    <value>交易类型</value>
+  </data>
+  <data name="MemOrder_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="MemOrder_Fee" xml:space="preserve">
+    <value>手续费</value>
+  </data>
+  <data name="MemOrder_RealAmount" xml:space="preserve">
+    <value>实际金额</value>
+  </data>
+  <data name="MemOrder_MemBankId" xml:space="preserve">
+    <value>会员绑定银行卡ID</value>
+  </data>
+  <data name="MemOrder_BankTypeId" xml:space="preserve">
+    <value>银行类别</value>
+  </data>
+  <data name="MemOrder_PayAccount" xml:space="preserve">
+    <value>付款账户</value>
+  </data>
+  <data name="MemOrder_ReceiptAccount" xml:space="preserve">
+    <value>收款账户</value>
+  </data>
+  <data name="MemOrder_PayTime" xml:space="preserve">
+    <value>北京支付审核时间</value>
+  </data>
+  <data name="MemOrder_PayTimeEst" xml:space="preserve">
+    <value>美东支付审核时间</value>
+  </data>
+  <data name="MemOrder_Payer" xml:space="preserve">
+    <value>支付操作员</value>
+  </data>
+  <data name="MemOrder_PayStatus" xml:space="preserve">
+    <value>支付状态</value>
+  </data>
+  <data name="MemOrder_ChargeTime" xml:space="preserve">
+    <value>北京审核时间</value>
+  </data>
+  <data name="MemOrder_ChargeTimeEst" xml:space="preserve">
+    <value>美东审核时间</value>
+  </data>
+  <data name="MemOrder_ChargeAuditor" xml:space="preserve">
+    <value>充值审核员</value>
+  </data>
+  <data name="MemOrder_ChargeStatus" xml:space="preserve">
+    <value>充值状态</value>
+  </data>
+  <data name="MemOrder_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemOrder_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemOrder_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新日期</value>
+  </data>
+  <data name="MemOrder_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="MemOrder_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="MemOnline_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemOnline_SessionId" xml:space="preserve">
+    <value>会话标识</value>
+  </data>
+  <data name="MemOnline_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="MemOnline_LoginTime" xml:space="preserve">
+    <value>本次北京登录时间</value>
+  </data>
+  <data name="MemOnline_RefUrl" xml:space="preserve">
+    <value>登录域名</value>
+  </data>
+  <data name="MemOnline_IPAddr" xml:space="preserve">
+    <value>本次登录Ip</value>
+  </data>
+  <data name="MemOnline_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemOnline_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemBetLog_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemBetLog_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="MemBetLog_ChildGameId" xml:space="preserve">
+    <value>子游戏</value>
+  </data>
+  <data name="MemBetLog_BetAmount" xml:space="preserve">
+    <value>投注金额</value>
+  </data>
+  <data name="MemBetLog_ValidAmount" xml:space="preserve">
+    <value>有效投注</value>
+  </data>
+  <data name="MemBetLog_WinOrLoss" xml:space="preserve">
+    <value>派彩</value>
+  </data>
+  <data name="MemBetLog_Result" xml:space="preserve">
+    <value>输赢结果</value>
+  </data>
+  <data name="MemBetLog_BetTime" xml:space="preserve">
+    <value>北京投注时间</value>
+  </data>
+  <data name="MemBetLog_BetTimeEst" xml:space="preserve">
+    <value>美东投注时间</value>
+  </data>
+  <data name="MemBetLog_BetContent" xml:space="preserve">
+    <value>投注内容</value>
+  </data>
+  <data name="MemBetLog_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="MemBetLog_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemBetLog_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="MemBetLog_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemBetLog_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新日期</value>
+  </data>
+  <data name="MemBankCard_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemBankCard_BankType" xml:space="preserve">
+    <value>银行类型</value>
+  </data>
+  <data name="MemBankCard_BankBranch" xml:space="preserve">
+    <value>银行分行</value>
+  </data>
+  <data name="MemBankCard_Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="MemBankCard_CardNumber" xml:space="preserve">
+    <value>卡号</value>
+  </data>
+  <data name="MemBankCard_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="MemBankCard_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="MemBankCard_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemBankCard_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="MemBankCard_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="MemBankCard_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新日期</value>
+  </data>
+  <data name="PasswordChangeLog_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="PasswordChangeLog_PwdType" xml:space="preserve">
+    <value>密码类型</value>
+  </data>
+  <data name="PasswordChangeLog_OldPassword" xml:space="preserve">
+    <value>旧密码</value>
+  </data>
+  <data name="PasswordChangeLog_NewPassword" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="PasswordChangeLog_UserIP" xml:space="preserve">
+    <value>用户IP</value>
+  </data>
+  <data name="PasswordChangeLog_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="PasswordChangeLog_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="SysActvityConfig_ActivityCode" xml:space="preserve">
+    <value>活动代码</value>
+  </data>
+  <data name="SysActvityConfig_ActivityName" xml:space="preserve">
+    <value>活动名称</value>
+  </data>
+  <data name="SysActvityConfig_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysActvityConfig_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="SysActvityConfig_ActivityType" xml:space="preserve">
+    <value>活动类型</value>
+  </data>
+  <data name="SysActvityConfig_BeginTime" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="SysActvityConfig_EndTime" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="SysActvityConfig_CycleType" xml:space="preserve">
+    <value>周期</value>
+  </data>
+  <data name="SysActvityConfig_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="SysActvityConfig_Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="SysActvityConfig_BackPercent" xml:space="preserve">
+    <value>佣金比例</value>
+  </data>
+  <data name="SysActvityConfig_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysActvityConfig_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="SysActvityConfig_Modifier" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="SysActvityConfig_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="SysActvityConfig_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="SysActvityConfig_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysActvityConfig_MultiType" xml:space="preserve">
+    <value>倍数类型</value>
+  </data>
+  <data name="SysActvityConfig_Multiples" xml:space="preserve">
+    <value>流水倍数</value>
+  </data>
+  <data name="SysActvityConfig_MaxBonus" xml:space="preserve">
+    <value>红利上限总额</value>
+  </data>
+  <data name="SysActvityConfig_MaxSingle" xml:space="preserve">
+    <value>单笔最高红利</value>
+  </data>
+  <data name="SysActvityConfig_IsAllowedDraw" xml:space="preserve">
+    <value>是否允许抽奖</value>
+  </data>
+  <data name="CashCreditTypeEnum_Cash" xml:space="preserve">
+    <value>现金</value>
+  </data>
+  <data name="CashCreditTypeEnum_Creadit" xml:space="preserve">
+    <value>信用</value>
+  </data>
+  <data name="ActionTypeEnum_Apply" xml:space="preserve">
+    <value>提款申请</value>
+  </data>
+  <data name="ActionTypeEnum_Audit" xml:space="preserve">
+    <value>审核状态</value>
+  </data>
+  <data name="ActionTypeEnum_Create" xml:space="preserve">
+    <value>新增数据</value>
+  </data>
+  <data name="ActionTypeEnum_Delete" xml:space="preserve">
+    <value>删除数据</value>
+  </data>
+  <data name="ActionTypeEnum_Edit" xml:space="preserve">
+    <value>编辑数据</value>
+  </data>
+  <data name="ActionTypeEnum_Login" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="ActionTypeEnum_Logout" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="ActionTypeEnum_None" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="ActionTypeEnum_Payment" xml:space="preserve">
+    <value>付款操作</value>
+  </data>
+  <data name="ActionTypeEnum_View" xml:space="preserve">
+    <value>浏览  </value>
+  </data>
+  <data name="ChargeStatusEnum_Chargeing" xml:space="preserve">
+    <value>待充值</value>
+  </data>
+  <data name="ChargeStatusEnum_Failed" xml:space="preserve">
+    <value>充值失败</value>
+  </data>
+  <data name="ChargeStatusEnum_Finshed" xml:space="preserve">
+    <value>充值完成</value>
+  </data>
+  <data name="CurrencyEnum_RMB" xml:space="preserve">
+    <value>人民币</value>
+  </data>
+  <data name="CurrencyEnum_USD" xml:space="preserve">
+    <value>美元</value>
+  </data>
+  <data name="FlowTypeEnum_DrawFromWallet" xml:space="preserve">
+    <value>提款</value>
+  </data>
+  <data name="FlowTypeEnum_GameToGame" xml:space="preserve">
+    <value>游戏到游戏</value>
+  </data>
+  <data name="FlowTypeEnum_GameToWallet" xml:space="preserve">
+    <value>游戏到钱包</value>
+  </data>
+  <data name="FlowTypeEnum_PayToWallet" xml:space="preserve">
+    <value>充值</value>
+  </data>
+  <data name="FlowTypeEnum_WalletToGame" xml:space="preserve">
+    <value>钱包到游戏</value>
+  </data>
+  <data name="GameEnum_Allbet" xml:space="preserve">
+    <value>Allbet真人</value>
+  </data>
+  <data name="GameEnum_Lottery" xml:space="preserve">
+    <value>乐透</value>
+  </data>
+  <data name="GameEnum_Sport" xml:space="preserve">
+    <value>运动</value>
+  </data>
+  <data name="GameEnum_VedioGame" xml:space="preserve">
+    <value>游戏视频</value>
+  </data>
+  <data name="GameEnum_Wallet" xml:space="preserve">
+    <value>钱包</value>
+  </data>
+  <data name="LogTypeEnum_Exception" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="LogTypeEnum_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="MemberStatusEnum_Allow" xml:space="preserve">
+    <value>正常使用</value>
+  </data>
+  <data name="MemberStatusEnum_Lock" xml:space="preserve">
+    <value>已锁定</value>
+  </data>
+  <data name="MemberStatusEnum_Uncheck" xml:space="preserve">
+    <value>未审核</value>
+  </data>
+  <data name="MemberTypeEnum_Member" xml:space="preserve">
+    <value>会员</value>
+  </data>
+  <data name="MemberTypeEnum_Agent" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="OrderBusinessType_Draw" xml:space="preserve">
+    <value>取款</value>
+  </data>
+  <data name="OrderBusinessType_Pay" xml:space="preserve">
+    <value>充值</value>
+  </data>
+  <data name="PasswodTypeEnum_LoginPwd" xml:space="preserve">
+    <value>登陆密码</value>
+  </data>
+  <data name="PasswodTypeEnum_PayPwd" xml:space="preserve">
+    <value>支付密码</value>
+  </data>
+  <data name="PayChannelEnum_Alipay" xml:space="preserve">
+    <value>支付宝</value>
+  </data>
+  <data name="PayChannelEnum_AlipayTransfer" xml:space="preserve">
+    <value>支付宝（转账）</value>
+  </data>
+  <data name="PayChannelEnum_BankTransfer" xml:space="preserve">
+    <value>银行转账存款</value>
+  </data>
+  <data name="PayChannelEnum_QuickOnline" xml:space="preserve">
+    <value>网银快捷</value>
+  </data>
+  <data name="PayChannelEnum_WeChat" xml:space="preserve">
+    <value>微信支付</value>
+  </data>
+  <data name="PaymentMenuEnum_Deposit" xml:space="preserve">
+    <value>存款</value>
+  </data>
+  <data name="PaymentMenuEnum_Freebet" xml:space="preserve">
+    <value>免费投注</value>
+  </data>
+  <data name="PaymentMenuEnum_History" xml:space="preserve">
+    <value>历史</value>
+  </data>
+  <data name="PaymentMenuEnum_Transfer" xml:space="preserve">
+    <value>钱包转账</value>
+  </data>
+  <data name="PaymentMenuEnum_Upload" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="PaymentMenuEnum_Withdrawal" xml:space="preserve">
+    <value>提款</value>
+  </data>
+  <data name="PayStatusEnum_Failed" xml:space="preserve">
+    <value>支付失败</value>
+  </data>
+  <data name="PayStatusEnum_Finshed" xml:space="preserve">
+    <value>支付完成</value>
+  </data>
+  <data name="PayStatusEnum_Paying" xml:space="preserve">
+    <value>支付中</value>
+  </data>
+  <data name="PayWayEnum_Offline" xml:space="preserve">
+    <value>线下</value>
+  </data>
+  <data name="PayWayEnum_Online" xml:space="preserve">
+    <value>线上</value>
+  </data>
+  <data name="RebateStatusTypeEnum_Applying" xml:space="preserve">
+    <value>审核中</value>
+  </data>
+  <data name="RebateStatusTypeEnum_CanApply" xml:space="preserve">
+    <value>可申请</value>
+  </data>
+  <data name="RebateStatusTypeEnum_Passed" xml:space="preserve">
+    <value>已通过</value>
+  </data>
+  <data name="RebateStatusTypeEnum_Refuse" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="ResultTypeEnum_Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="ResultTypeEnum_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="RightTypeEnum_audit" xml:space="preserve">
+    <value>审核授权</value>
+  </data>
+  <data name="RightTypeEnum_create" xml:space="preserve">
+    <value>新增权限</value>
+  </data>
+  <data name="RightTypeEnum_delete" xml:space="preserve">
+    <value>删除权限</value>
+  </data>
+  <data name="RightTypeEnum_edit" xml:space="preserve">
+    <value>编辑权限</value>
+  </data>
+  <data name="RightTypeEnum_none" xml:space="preserve">
+    <value>没有权限</value>
+  </data>
+  <data name="RightTypeEnum_payment" xml:space="preserve">
+    <value>付款权限</value>
+  </data>
+  <data name="RightTypeEnum_view" xml:space="preserve">
+    <value>浏览权限</value>
+  </data>
+  <data name="AccountStatusEnum_Allow" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="AccountStatusEnum_Lock" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="AccountStatusEnum_Uncheck" xml:space="preserve">
+    <value>未审核</value>
+  </data>
+  <data name="SysUser_UserName_Remote" xml:space="preserve">
+    <value>用户名已存在</value>
+  </data>
+  <data name="SysResource_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysUser_Email_Error" xml:space="preserve">
+    <value>请输入有效的邮箱</value>
+  </data>
+  <data name="SysUser_Email_NotExist" xml:space="preserve">
+    <value>邮件不存在，请联系管理员</value>
+  </data>
+  <data name="SysUser_Email" xml:space="preserve">
+    <value>邮箱</value>
+  </data>
+  <data name="SysResource_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysUserLog_Ip" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="GameAllBetMember_Password_Error" xml:space="preserve">
+    <value>密码不能为空</value>
+  </data>
+  <data name="Member_ParentId_Required" xml:space="preserve">
+    <value>上级账号必填</value>
+  </data>
+  <data name="Member_UserPwd_Required" xml:space="preserve">
+    <value>登录密码必填</value>
+  </data>
+  <data name="Member_WalletPwd_Required" xml:space="preserve">
+    <value>钱包密码必填</value>
+  </data>
+  <data name="MemberInfo_Mobile_Error" xml:space="preserve">
+    <value>手机格式有问题</value>
+  </data>
+  <data name="SysActvityConfig_ActivityName_Required" xml:space="preserve">
+    <value>活动名称不能为空</value>
+  </data>
+  <data name="SysAdminNode_Name_Required" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="SysAdminNode_ParentId_Required" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="SysBankCard_AccountName_Required" xml:space="preserve">
+    <value>银行账号名不能为空</value>
+  </data>
+  <data name="SysBankCard_AccountNo_Required" xml:space="preserve">
+    <value>银行账号不能为空</value>
+  </data>
+  <data name="SysBankType_Name_Required" xml:space="preserve">
+    <value>银行名称不能为空</value>
+  </data>
+  <data name="SysBrokerageSet_Name_Required" xml:space="preserve">
+    <value>退佣名称不能为空</value>
+  </data>
+  <data name="SysGameConfig_GameName_Required" xml:space="preserve">
+    <value>游戏名称不能为空</value>
+  </data>
+  <data name="SysLang_Name_Required" xml:space="preserve">
+    <value>语言名称不能为空</value>
+  </data>
+  <data name="SysPayChannel_Name_Required" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="SysProxyBrokerage_UserName_Required" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="SysRight_Name_Required" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="SysRole_Name_Required" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="Sys_Name_Required" xml:space="preserve">
+    <value>名称不能为空</value>
+  </data>
+  <data name="SysUser_Login_Password" xml:space="preserve">
+    <value>密码不能为空</value>
+  </data>
+  <data name="SysUser_Login_UserName" xml:space="preserve">
+    <value>用户名不能为空</value>
+  </data>
+  <data name="SysUser_Login_ValidationCode" xml:space="preserve">
+    <value>验证码不能为空</value>
+  </data>
+  <data name="NoticeType_TypeName_Required" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="SysUser_NickName_Required" xml:space="preserve">
+    <value>昵称不能为空</value>
+  </data>
+  <data name="Operation_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Operation_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="SysUser_ConfirmPassword" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="SysLang_ResTag_Remote" xml:space="preserve">
+    <value>语言已存在</value>
+  </data>
+  <data name="SysLang_ResTag_Required" xml:space="preserve">
+    <value>语言不能为空</value>
+  </data>
+  <data name="SysBankType_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="MemNeedAmount_ActivityId" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="MemNeedAmount_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemNeedAmount_Capital" xml:space="preserve">
+    <value>参与金额</value>
+  </data>
+  <data name="MemNeedAmount_Bonus" xml:space="preserve">
+    <value>红利金额</value>
+  </data>
+  <data name="MemNeedAmount_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="MemNeedAmount_SubGameId" xml:space="preserve">
+    <value>子游戏</value>
+  </data>
+  <data name="MemNeedAmount_NeedAmount" xml:space="preserve">
+    <value>所需流水</value>
+  </data>
+  <data name="MemNeedAmount_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemNeedAmount_EndTime" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="MemNeedAmount_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="MemNeedAmount_UpdateTime" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="Member_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="ActivityTypeEnum_DepositCashback" xml:space="preserve">
+    <value>满送</value>
+  </data>
+  <data name="ActivityTypeEnum_FristRecharge" xml:space="preserve">
+    <value>首冲</value>
+  </data>
+  <data name="Member_MemId_HasExist" xml:space="preserve">
+    <value>账号已存在</value>
+  </data>
+  <data name="Member_MemId_Required" xml:space="preserve">
+    <value>账号必填</value>
+  </data>
+  <data name="ActionTypeEnum_UpdatePwd" xml:space="preserve">
+    <value>修改密码</value>
+  </data>
+  <data name="MemActionLog_ActionDesc" xml:space="preserve">
+    <value>行为描述</value>
+  </data>
+  <data name="MemActionLog_ActionType" xml:space="preserve">
+    <value>操作类型</value>
+  </data>
+  <data name="MemActionLog_Browser" xml:space="preserve">
+    <value>浏览器</value>
+  </data>
+  <data name="MemActionLog_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="MemActionLog_Ip" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MemActionLog_LogTime" xml:space="preserve">
+    <value>北京记录时间</value>
+  </data>
+  <data name="MemActionLog_LogTimeEst" xml:space="preserve">
+    <value>美东记录时间</value>
+  </data>
+  <data name="MemActionLog_LogType" xml:space="preserve">
+    <value>日志类型</value>
+  </data>
+  <data name="MemActionLog_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemActionLog_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="MemActionLog_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="GameEnum_WM" xml:space="preserve">
+    <value>AB真人</value>
+  </data>
+  <data name="PayStatusEnum_Closed" xml:space="preserve">
+    <value>关闭订单</value>
+  </data>
+  <data name="GenderEnum_Female" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="GenderEnum_Male" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="QuestionEnum_MotherName" xml:space="preserve">
+    <value>你母亲的名字？</value>
+  </data>
+  <data name="QuestionEnum_PleaseSelectOne" xml:space="preserve">
+    <value>请选择一个问题</value>
+  </data>
+  <data name="QuestionEnum_YoungDream" xml:space="preserve">
+    <value>你幼年时理想的工作？</value>
+  </data>
+  <data name="QuestionEnum_YoungNick" xml:space="preserve">
+    <value>你幼年时的昵称？</value>
+  </data>
+  <data name="MemActionLog_ClientType" xml:space="preserve">
+    <value>客户端类型</value>
+  </data>
+  <data name="MemberInfo_Answer_Require" xml:space="preserve">
+    <value>答案必填</value>
+  </data>
+  <data name="MemberInfo_Email_Exist" xml:space="preserve">
+    <value>邮箱已存在</value>
+  </data>
+  <data name="MemberInfo_MobileCountry_Require" xml:space="preserve">
+    <value>移动国家码必填</value>
+  </data>
+  <data name="MemberInfo_Mobile_Require" xml:space="preserve">
+    <value>手机号必填</value>
+  </data>
+  <data name="MemberInfo_QuestionId_Require" xml:space="preserve">
+    <value>问题必填</value>
+  </data>
+  <data name="MemberInfo_RealName_Require" xml:space="preserve">
+    <value>姓名必填</value>
+  </data>
+  <data name="MemberInfo_ZipCode_Require" xml:space="preserve">
+    <value>邮编必填</value>
+  </data>
+  <data name="MemberInfo_Email_Require" xml:space="preserve">
+    <value>邮箱必填</value>
+  </data>
+  <data name="DepositChannelEnum_ATM" xml:space="preserve">
+    <value>ATM</value>
+  </data>
+  <data name="DepositChannelEnum_CDM" xml:space="preserve">
+    <value>ATM现金存款</value>
+  </data>
+  <data name="DepositChannelEnum_InternetBanking" xml:space="preserve">
+    <value>在线银行</value>
+  </data>
+  <data name="DepositChannelEnum_MobileBanking" xml:space="preserve">
+    <value>手机银行</value>
+  </data>
+  <data name="DepositChannelEnum_OverTheCounter" xml:space="preserve">
+    <value>柜台转账</value>
+  </data>
+  <data name="MemBetLog_BetId" xml:space="preserve">
+    <value>订单号</value>
+  </data>
+  <data name="MemBetLog_Rebate" xml:space="preserve">
+    <value>退水</value>
+  </data>
+  <data name="ActionTypeEnum_FindBackPwd" xml:space="preserve">
+    <value>找回密码</value>
+  </data>
+  <data name="ActionTypeEnum_UpdateProfile" xml:space="preserve">
+    <value>修改简介</value>
+  </data>
+  <data name="MemberInfo_IdCard_Require" xml:space="preserve">
+    <value>身份证不能为空</value>
+  </data>
+  <data name="Pwd_Confirm" xml:space="preserve">
+    <value>密码与确认密码不一致</value>
+  </data>
+  <data name="Pwd_Length" xml:space="preserve">
+    <value>{0} 长度需为 {2} ~ {1}  个字符.</value>
+  </data>
+  <data name="ActionTypeEnum_WalletTransfer" xml:space="preserve">
+    <value>钱包转账</value>
+  </data>
+  <data name="Notice_Editor" xml:space="preserve">
+    <value>编辑用户</value>
+  </data>
+  <data name="Notice_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新日期</value>
+  </data>
+  <data name="OrderBusinessType_Compensate" xml:space="preserve">
+    <value>补偿订单</value>
+  </data>
+  <data name="OrderBusinessType_GameToWallet" xml:space="preserve">
+    <value>游戏到钱包</value>
+  </data>
+  <data name="OrderBusinessType_WalletToGame" xml:space="preserve">
+    <value>钱包到游戏</value>
+  </data>
+  <data name="InternalMessage_Read" xml:space="preserve">
+    <value>已读</value>
+  </data>
+  <data name="InternalMessage_Unread" xml:space="preserve">
+    <value>未读</value>
+  </data>
+  <data name="InternalMessage_Delete" xml:space="preserve">
+    <value>已删除</value>
+  </data>
+  <data name="InternalMessage_UnDelete" xml:space="preserve">
+    <value>未删除</value>
+  </data>
+  <data name="InternalMessage_Message_Required" xml:space="preserve">
+    <value>消息不能为空</value>
+  </data>
+  <data name="InternalMessage_SubjectType_Required" xml:space="preserve">
+    <value>请选择类型</value>
+  </data>
+  <data name="MemPromotionStat_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemPromotionStat_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="MemPromotionStat_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MemPromotionStat_Week" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="MemPromotionStat_TotalNumber" xml:space="preserve">
+    <value>总人数</value>
+  </data>
+  <data name="MemPromotionStat_CurrentNumber" xml:space="preserve">
+    <value>当前人数</value>
+  </data>
+  <data name="MemPromotionStat_BeginDate" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="MemPromotionStat_EndDate" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="MemPromotionStat_ConsumeAmount" xml:space="preserve">
+    <value>消耗额度</value>
+  </data>
+  <data name="MemPromotionStat_Bonus" xml:space="preserve">
+    <value>奖金</value>
+  </data>
+  <data name="MemPromotionStat_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="MemPromotionStat_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemPromotionStat_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="MemPromotionStat_UpdateTime" xml:space="preserve">
+    <value>北京更新时间</value>
+  </data>
+  <data name="MemPromotionStat_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新时间</value>
+  </data>
+  <data name="MemPromotionStat_ApplyTime" xml:space="preserve">
+    <value>北京申请时间</value>
+  </data>
+  <data name="MemPromotionStat_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="MemSaleStatusEnum_Applying" xml:space="preserve">
+    <value>申请中</value>
+  </data>
+  <data name="MemSaleStatusEnum_Default" xml:space="preserve">
+    <value>待申领</value>
+  </data>
+  <data name="MemSaleStatusEnum_Pass" xml:space="preserve">
+    <value>审核通过</value>
+  </data>
+  <data name="MemSaleStatusEnum_Refuse" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="GameEnum_EBet" xml:space="preserve">
+    <value>EBet真人</value>
+  </data>
+  <data name="MemOfflinePay_MemId" xml:space="preserve">
+    <value>会员</value>
+  </data>
+  <data name="MemOfflinePay_BankTypeId" xml:space="preserve">
+    <value>银行类型</value>
+  </data>
+  <data name="MemOfflinePay_Bank" xml:space="preserve">
+    <value>银行</value>
+  </data>
+  <data name="MemOfflinePay_OfflinePayWay" xml:space="preserve">
+    <value>线下支付方式</value>
+  </data>
+  <data name="MemOfflinePay_PayName" xml:space="preserve">
+    <value>支付人</value>
+  </data>
+  <data name="MemOfflinePay_PayAccount" xml:space="preserve">
+    <value>支付金额</value>
+  </data>
+  <data name="MemOfflinePay_ReceiptAccount" xml:space="preserve">
+    <value>实际金额</value>
+  </data>
+  <data name="MemOfflinePay_PayTime" xml:space="preserve">
+    <value>北京支付时间</value>
+  </data>
+  <data name="MemOfflinePay_WaterOrderId" xml:space="preserve">
+    <value>流水订单号</value>
+  </data>
+  <data name="MemOfflinePay_CreateTime" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="MemOfflinePay_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="MemWalletLog_BusinessType" xml:space="preserve">
+    <value>业务类型</value>
+  </data>
+  <data name="MemWalletLog_CreateTime" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="MemWalletLog_CreateTimeEst" xml:space="preserve">
+    <value>美东创建日期</value>
+  </data>
+  <data name="MemWalletLog_FinalAmount" xml:space="preserve">
+    <value>最终金额</value>
+  </data>
+  <data name="MemWalletLog_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemWalletLog_OriginAmount" xml:space="preserve">
+    <value>原始金额</value>
+  </data>
+  <data name="MemWalletLog_Originator" xml:space="preserve">
+    <value>发起方</value>
+  </data>
+  <data name="MemWalletLog_TaceId" xml:space="preserve">
+    <value>追踪号</value>
+  </data>
+  <data name="MemWalletLog_TransferAmount" xml:space="preserve">
+    <value>交易金额</value>
+  </data>
+  <data name="MemOrder_MemBankId1" xml:space="preserve">
+    <value>会员银行</value>
+  </data>
+  <data name="SysFavorite_AddFail" xml:space="preserve">
+    <value>添加失败</value>
+  </data>
+  <data name="SysFavorite_AddSussess" xml:space="preserve">
+    <value>添加成功</value>
+  </data>
+  <data name="SysFavorite_DeleteFail" xml:space="preserve">
+    <value>删除失败</value>
+  </data>
+  <data name="SysFavorite_DeleteSuccess" xml:space="preserve">
+    <value>删除成功</value>
+  </data>
+  <data name="MemBankCard_Address_Require" xml:space="preserve">
+    <value>地址必填</value>
+  </data>
+  <data name="MemBankCard_BankBranch_Require" xml:space="preserve">
+    <value>银行分行必填</value>
+  </data>
+  <data name="MemBankCard_CardNumber_Require" xml:space="preserve">
+    <value>卡号必填</value>
+  </data>
+  <data name="MemBankCard_MemId_Require" xml:space="preserve">
+    <value>账户名必填</value>
+  </data>
+  <data name="OrderStautsEnum_Closed" xml:space="preserve">
+    <value>已关闭</value>
+  </data>
+  <data name="OrderStautsEnum_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="OrderStautsEnum_Paying" xml:space="preserve">
+    <value>申请中</value>
+  </data>
+  <data name="OrderStautsEnum_Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="OrderTypeEnum_Draw" xml:space="preserve">
+    <value>提款</value>
+  </data>
+  <data name="OrderTypeEnum_Pay" xml:space="preserve">
+    <value>充值</value>
+  </data>
+  <data name="SysAccount_AccountNo" xml:space="preserve">
+    <value>账户</value>
+  </data>
+  <data name="SysAccount_AccountName" xml:space="preserve">
+    <value>账户名称</value>
+  </data>
+  <data name="SysAccount_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="SysAccount_BankType" xml:space="preserve">
+    <value>银行类型</value>
+  </data>
+  <data name="SysAccount_DepositBank" xml:space="preserve">
+    <value>存款银行</value>
+  </data>
+  <data name="SysAccount_MemId" xml:space="preserve">
+    <value>用户账号</value>
+  </data>
+  <data name="SysAccount_OwnerType" xml:space="preserve">
+    <value>所属类型</value>
+  </data>
+  <data name="SysAccount_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysAccount_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysAccount_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysAccount_Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="SysAccount_UpdateTime" xml:space="preserve">
+    <value>北京修改时间</value>
+  </data>
+  <data name="MemOrder_Auditor" xml:space="preserve">
+    <value>审核人</value>
+  </data>
+  <data name="MemOrder_AuditTime" xml:space="preserve">
+    <value>北京审核时间</value>
+  </data>
+  <data name="MemOrder_OrderType" xml:space="preserve">
+    <value>订单类型</value>
+  </data>
+  <data name="MemOrder_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="MemWalletLog_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="MemWalletLog_FlowType" xml:space="preserve">
+    <value>流水类型</value>
+  </data>
+  <data name="MemWalletLog_MGFId" xml:space="preserve">
+    <value>MGFid</value>
+  </data>
+  <data name="MemWalletLog_OperUser" xml:space="preserve">
+    <value>操作人</value>
+  </data>
+  <data name="MemWalletLog_OrderId" xml:space="preserve">
+    <value>订单号</value>
+  </data>
+  <data name="MemWalletLog_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SysUser_ConfirmWalletPassword" xml:space="preserve">
+    <value>确认钱包密码</value>
+  </data>
+  <data name="WalletPwd_Confirm" xml:space="preserve">
+    <value>确认钱包密码与钱包密码不一致</value>
+  </data>
+  <data name="MemOrderExtar_Bank" xml:space="preserve">
+    <value>银行</value>
+  </data>
+  <data name="MemOrderExtar_BankTypeId" xml:space="preserve">
+    <value>银行类型</value>
+  </data>
+  <data name="MemOrderExtar_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="MemOrderExtar_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="MemOrderExtar_MemId" xml:space="preserve">
+    <value>会员</value>
+  </data>
+  <data name="MemOrderExtar_PayAccount" xml:space="preserve">
+    <value>支付金额</value>
+  </data>
+  <data name="MemOrderExtar_PayName" xml:space="preserve">
+    <value>支付人</value>
+  </data>
+  <data name="MemOrderExtar_PayTime" xml:space="preserve">
+    <value>北京支付时间</value>
+  </data>
+  <data name="MemOrderExtar_PayWay" xml:space="preserve">
+    <value>支付方式</value>
+  </data>
+  <data name="MemOrderExtar_ReceiptAccount" xml:space="preserve">
+    <value>收入金额</value>
+  </data>
+  <data name="MemOrderExtar_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="MemOrderExtar_TradeNo" xml:space="preserve">
+    <value>订单号</value>
+  </data>
+  <data name="FlowTypeEnum_ActvityBonus" xml:space="preserve">
+    <value>活动奖金</value>
+  </data>
+  <data name="FlowTypeEnum_AgentBrokerage" xml:space="preserve">
+    <value>代理佣金</value>
+  </data>
+  <data name="FlowTypeEnum_DeductMoney" xml:space="preserve">
+    <value>平台扣钱</value>
+  </data>
+  <data name="FlowTypeEnum_GameRebate" xml:space="preserve">
+    <value>游戏反水</value>
+  </data>
+  <data name="FlowTypeEnum_PromotionBonus" xml:space="preserve">
+    <value>推广金</value>
+  </data>
+  <data name="NeedAmountStatusEnum_Enough" xml:space="preserve">
+    <value> 已满足</value>
+  </data>
+  <data name="NeedAmountStatusEnum_UnEnough" xml:space="preserve">
+    <value>未满足</value>
+  </data>
+  <data name="SysActvityConfig_ActivityCode_Exists" xml:space="preserve">
+    <value>活动代码已存在</value>
+  </data>
+  <data name="SysActvityConfig_ActivityCode_Required" xml:space="preserve">
+    <value>活动代码必填</value>
+  </data>
+  <data name="SysUser_ReferralLink" xml:space="preserve">
+    <value>链接</value>
+  </data>
+  <data name="Member_ReferralLink" xml:space="preserve">
+    <value>推广链接</value>
+  </data>
+  <data name="FlowTypeEnum_Draw" xml:space="preserve">
+    <value>提款</value>
+  </data>
+  <data name="FlowTypeEnum_SaleBonus" xml:space="preserve">
+    <value>推广金</value>
+  </data>
+  <data name="FundAgentRebate_AgentType" xml:space="preserve">
+    <value>代理类别</value>
+  </data>
+  <data name="FundAgentRebate_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="FundAgentRebate_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundAgentRebate_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundAgentRebate_MemberCount" xml:space="preserve">
+    <value>会员数量</value>
+  </data>
+  <data name="FundAgentRebate_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundAgentRebate_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="FundAgentRebate_Payer" xml:space="preserve">
+    <value>审核人</value>
+  </data>
+  <data name="FundAgentRebate_PayTime" xml:space="preserve">
+    <value>支付日期</value>
+  </data>
+  <data name="FundAgentRebate_PayTimeEst" xml:space="preserve">
+    <value>美东支付日期</value>
+  </data>
+  <data name="FundAgentRebate_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="FundAgentRebate_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FundAgentRebate_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="FundGameTrade_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="FundGameTrade_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundGameTrade_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundGameTrade_FlowType" xml:space="preserve">
+    <value>流动类别</value>
+  </data>
+  <data name="FundGameTrade_FromGameId" xml:space="preserve">
+    <value>转出</value>
+  </data>
+  <data name="FundGameTrade_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundGameTrade_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FundGameTrade_ToGameId" xml:space="preserve">
+    <value>转入</value>
+  </data>
+  <data name="FundMemOrderExt_BankName" xml:space="preserve">
+    <value>银行名称</value>
+  </data>
+  <data name="FundMemOrderExt_BankTypeId" xml:space="preserve">
+    <value>银行类型</value>
+  </data>
+  <data name="FundMemOrderExt_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundMemOrderExt_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundMemOrderExt_PayAccount" xml:space="preserve">
+    <value>支付账户</value>
+  </data>
+  <data name="FundMemOrderExt_PayName" xml:space="preserve">
+    <value>支付人</value>
+  </data>
+  <data name="FundMemOrderExt_PayWay" xml:space="preserve">
+    <value>支付方式</value>
+  </data>
+  <data name="FundMemOrderExt_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="FundMemOrderExt_TradeNo" xml:space="preserve">
+    <value>交易号</value>
+  </data>
+  <data name="FundMemOrder_AditorTime" xml:space="preserve">
+    <value>北京处理时间</value>
+  </data>
+  <data name="FundMemOrder_AditorTimeEst" xml:space="preserve">
+    <value>美东处理时间</value>
+  </data>
+  <data name="FundMemOrder_Amount" xml:space="preserve">
+    <value>申请金额</value>
+  </data>
+  <data name="FundMemOrder_Auditor" xml:space="preserve">
+    <value>操作人</value>
+  </data>
+  <data name="FundMemOrder_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundMemOrder_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundMemOrder_FlowType" xml:space="preserve">
+    <value>流动类别</value>
+  </data>
+  <data name="FundMemOrder_MemAccountId" xml:space="preserve">
+    <value>会员账户</value>
+  </data>
+  <data name="FundMemOrder_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundMemOrder_OrderId" xml:space="preserve">
+    <value>单号</value>
+  </data>
+  <data name="FundMemOrder_OrderType" xml:space="preserve">
+    <value>订单类型</value>
+  </data>
+  <data name="FundMemOrder_PayChannel" xml:space="preserve">
+    <value>支付</value>
+  </data>
+  <data name="FundMemOrder_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="FundMemOrder_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FundMemOrder_SysAccountId" xml:space="preserve">
+    <value>系统账户</value>
+  </data>
+  <data name="FundMemOrder_TradeNo" xml:space="preserve">
+    <value>交易号</value>
+  </data>
+  <data name="FundMemSale_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="FundMemSale_BeginDate" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="FundMemSale_Count" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="FundMemSale_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundMemSale_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundMemSale_EndDate" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="FundMemSale_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundMemSale_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="FundMemSale_PayTime" xml:space="preserve">
+    <value>审核日期</value>
+  </data>
+  <data name="FundMemSale_PayTimeEst" xml:space="preserve">
+    <value>美东审核日期</value>
+  </data>
+  <data name="FundMemSale_PayUser" xml:space="preserve">
+    <value>审核人</value>
+  </data>
+  <data name="FundMemSale_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="FundMemSale_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FundMemSale_Total" xml:space="preserve">
+    <value>总数量</value>
+  </data>
+  <data name="FundMemSale_TotalAmount" xml:space="preserve">
+    <value>总金额</value>
+  </data>
+  <data name="FundMemSale_Week" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="FundMemSale_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="FundMemWalletLog_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="FundMemWalletLog_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundMemWalletLog_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundMemWalletLog_FinalAmount" xml:space="preserve">
+    <value>最终金额</value>
+  </data>
+  <data name="FundMemWalletLog_FlowType" xml:space="preserve">
+    <value>流动类型</value>
+  </data>
+  <data name="FundMemWalletLog_SourceType" xml:space="preserve">
+    <value>现金流向</value>
+  </data>
+  <data name="FundMemWalletLog_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundMemWalletLog_OriginAmount" xml:space="preserve">
+    <value>原始金额</value>
+  </data>
+  <data name="FundMemWalletLog_PkId" xml:space="preserve">
+    <value>PkId</value>
+  </data>
+  <data name="FundMemWalletLog_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SourceTypeEnum_GameTrade" xml:space="preserve">
+    <value>游戏交易</value>
+  </data>
+  <data name="SourceTypeEnum_MemOrder" xml:space="preserve">
+    <value>会员订单</value>
+  </data>
+  <data name="SourceTypeEnum_Manual" xml:space="preserve">
+    <value>手动修改</value>
+  </data>
+  <data name="SourceTypeEnum_AgentBrokerage" xml:space="preserve">
+    <value>佣金/占成</value>
+  </data>
+  <data name="FundStatusEnum_Default" xml:space="preserve">
+    <value>待确认</value>
+  </data>
+  <data name="FundStatusEnum_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="FundStatusEnum_Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="FundSysTrade_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="FundSysTrade_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundSysTrade_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundSysTrade_FlowType" xml:space="preserve">
+    <value>流向类别</value>
+  </data>
+  <data name="FundSysTrade_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundSysTrade_Payer" xml:space="preserve">
+    <value>支付人</value>
+  </data>
+  <data name="FundSysTrade_PayTime" xml:space="preserve">
+    <value>支付日期</value>
+  </data>
+  <data name="FundSysTrade_PayTimeEst" xml:space="preserve">
+    <value>美东支付日期</value>
+  </data>
+  <data name="FundSysTrade_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="FundSysTrade_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FundMemOrderExt_TransferTime" xml:space="preserve">
+    <value>北京存款时间</value>
+  </data>
+  <data name="Member_ReferralCode_IsExist" xml:space="preserve">
+    <value>推广码已经存在</value>
+  </data>
+  <data name="GameTradeStatusEnum_Default" xml:space="preserve">
+    <value>开始申请</value>
+  </data>
+  <data name="GameTradeStatusEnum_FromFail" xml:space="preserve">
+    <value>转出失败</value>
+  </data>
+  <data name="GameTradeStatusEnum_FromSuccess" xml:space="preserve">
+    <value>转出成功</value>
+  </data>
+  <data name="GameTradeStatusEnum_ToFail" xml:space="preserve">
+    <value>转入失败</value>
+  </data>
+  <data name="GameTradeStatusEnum_ToSuccess" xml:space="preserve">
+    <value>操作成功</value>
+  </data>
+  <data name="OrderStautsEnum_Refuse" xml:space="preserve">
+    <value>拒绝申请</value>
+  </data>
+  <data name="FlowTypeEnum_BackToWallet" xml:space="preserve">
+    <value>转账失败已退还到钱包</value>
+  </data>
+  <data name="GameTradeStatusEnum_BackSuccess" xml:space="preserve">
+    <value>返还成功</value>
+  </data>
+  <data name="Member_MemId_SpecificSymbol" xml:space="preserve">
+    <value>6~15位，只能包含字符、数字</value>
+  </data>
+  <data name="MemShare_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="MemShare_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MemShare_Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="MemShare_Share" xml:space="preserve">
+    <value>退佣/占成</value>
+  </data>
+  <data name="MemShare_UpdateTime" xml:space="preserve">
+    <value>北京修改时间</value>
+  </data>
+  <data name="SysCurrencyRate_CurrencyId" xml:space="preserve">
+    <value>币种</value>
+  </data>
+  <data name="SysCurrencyRate_Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="SysCurrencyRate_Rate" xml:space="preserve">
+    <value>汇率</value>
+  </data>
+  <data name="SysCurrencyRate_UpdateTime" xml:space="preserve">
+    <value>北京修改时间</value>
+  </data>
+  <data name="SysCurrency_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SysCurrency_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysCurrency_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SiteGameConfig_EffecBetMax" xml:space="preserve">
+    <value>最大有效投注</value>
+  </data>
+  <data name="SiteGameConfig_EffecBetMin" xml:space="preserve">
+    <value>最小有效投注</value>
+  </data>
+  <data name="SiteGameConfig_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="SiteGameConfig_Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="SiteGameConfig_Rabate" xml:space="preserve">
+    <value>反水比例</value>
+  </data>
+  <data name="SiteGameConfig_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SiteGameConfig_UpdateTime" xml:space="preserve">
+    <value>北京修改时间</value>
+  </data>
+  <data name="SiteGameShare_EffecMember" xml:space="preserve">
+    <value>有效会员数量</value>
+  </data>
+  <data name="SiteGameShare_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="SiteGameShare_Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="SiteGameShare_ProfitMax" xml:space="preserve">
+    <value>最大利润</value>
+  </data>
+  <data name="SiteGameShare_ProfitMin" xml:space="preserve">
+    <value>最小利润</value>
+  </data>
+  <data name="SiteGameShare_Share" xml:space="preserve">
+    <value>佣金/占成</value>
+  </data>
+  <data name="SiteGameShare_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SiteGameShare_Type" xml:space="preserve">
+    <value>代理类型</value>
+  </data>
+  <data name="SiteGameShare_UpdateTime" xml:space="preserve">
+    <value>北京修改时间</value>
+  </data>
+  <data name="Data_Duplication" xml:space="preserve">
+    <value>数据重复</value>
+  </data>
+  <data name="RoleGroupEnum_Agent" xml:space="preserve">
+    <value>代理商</value>
+  </data>
+  <data name="RoleGroupEnum_Operate" xml:space="preserve">
+    <value>运营商</value>
+  </data>
+  <data name="RoleGroupEnum_System" xml:space="preserve">
+    <value>系统商</value>
+  </data>
+  <data name="SysUser_OperId" xml:space="preserve">
+    <value>运营商</value>
+  </data>
+  <data name="SysOperator_Name" xml:space="preserve">
+    <value>运行商名称</value>
+  </data>
+  <data name="SysOperSite_Site_CZ" xml:space="preserve">
+    <value>站点已存在</value>
+  </data>
+  <data name="FundMemOrder_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="ActivityTypeEnum_FristPayBack" xml:space="preserve">
+    <value>首存送</value>
+  </data>
+  <data name="ActivityTypeEnum_PayAndBack" xml:space="preserve">
+    <value>存就送</value>
+  </data>
+  <data name="ActivityTypeEnum_RegisterBack" xml:space="preserve">
+    <value>注册送</value>
+  </data>
+  <data name="PromotionTypeEnum_Games" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="PromotionTypeEnum_NewMember" xml:space="preserve">
+    <value>新会员</value>
+  </data>
+  <data name="PromotionTypeEnum_Special" xml:space="preserve">
+    <value>特别</value>
+  </data>
+  <data name="PromotionTypeEnum_Sports" xml:space="preserve">
+    <value>体育</value>
+  </data>
+  <data name="PromotionTypeEnum_Vip" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="SysActivityGame_ActivityID" xml:space="preserve">
+    <value>活动ID</value>
+  </data>
+  <data name="SysActivityGame_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="SysActivityGame_GameID" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="SysActivityGame_SiteID" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysActivityRule_ActivityId" xml:space="preserve">
+    <value>活动ID</value>
+  </data>
+  <data name="SysActivityRule_Back" xml:space="preserve">
+    <value>返还</value>
+  </data>
+  <data name="SysActivityRule_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="SysActivityRule_MaxAmount" xml:space="preserve">
+    <value>最高数额</value>
+  </data>
+  <data name="SysActivityRule_MaxBack" xml:space="preserve">
+    <value>返还上限</value>
+  </data>
+  <data name="SysActivityRule_MinAmount" xml:space="preserve">
+    <value>最低数额</value>
+  </data>
+  <data name="SysActivityRule_MinBack" xml:space="preserve">
+    <value>返还下限</value>
+  </data>
+  <data name="SysActivityRule_Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="SysActivityRule_UpdateTime" xml:space="preserve">
+    <value>北京修改时间</value>
+  </data>
+  <data name="SysActvityConfig_ContentValue" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="SysActvityConfig_HasSend" xml:space="preserve">
+    <value>已发放</value>
+  </data>
+  <data name="ActionTypeEnum_UploadImage" xml:space="preserve">
+    <value>上传图片</value>
+  </data>
+  <data name="AgentTypeEnum_Agent" xml:space="preserve">
+    <value>佣金</value>
+  </data>
+  <data name="AgentTypeEnum_ZCAgent" xml:space="preserve">
+    <value>占成 </value>
+  </data>
+  <data name="MemMove_FromMemId" xml:space="preserve">
+    <value>移出账号</value>
+  </data>
+  <data name="MemMove_MoveTime" xml:space="preserve">
+    <value>北京移动时间</value>
+  </data>
+  <data name="MemMove_MoveUser" xml:space="preserve">
+    <value>移动人</value>
+  </data>
+  <data name="MemMove_ToMemId" xml:space="preserve">
+    <value>移入账号</value>
+  </data>
+  <data name="Member_AgentType" xml:space="preserve">
+    <value>代理类型</value>
+  </data>
+  <data name="MemLevel_ChildCount" xml:space="preserve">
+    <value>下级数量</value>
+  </data>
+  <data name="MemBetLog_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysWebConfig_MemId" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="SysWebConfig_OperId" xml:space="preserve">
+    <value>运营商</value>
+  </data>
+  <data name="SysWebConfig_Domain_HasExist" xml:space="preserve">
+    <value>域名已存在</value>
+  </data>
+  <data name="SysWebConfig_Domain_Required" xml:space="preserve">
+    <value>域名不能为空</value>
+  </data>
+  <data name="SysWebConfig_SiteTitle_HasExist" xml:space="preserve">
+    <value>站名已存在</value>
+  </data>
+  <data name="SysWebConfig_SiteTitle_Required" xml:space="preserve">
+    <value>站名不能为空</value>
+  </data>
+  <data name="SysWebConfig_MemId_Disabled" xml:space="preserve">
+    <value>此代理被禁用</value>
+  </data>
+  <data name="SysWebConfig_MemId_NoExist" xml:space="preserve">
+    <value>此代理不存在此网站</value>
+  </data>
+  <data name="SysWebConfig_OperId_Status" xml:space="preserve">
+    <value>运营商状态为禁用</value>
+  </data>
+  <data name="RptAgentPeriod_MemId" xml:space="preserve">
+    <value>MemId</value>
+  </data>
+  <data name="RptAgentPeriod_MemType" xml:space="preserve">
+    <value>会员/代理</value>
+  </data>
+  <data name="RptAgentPeriod_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="RptAgentPeriod_EffecBet" xml:space="preserve">
+    <value>有效投注</value>
+  </data>
+  <data name="RptAgentPeriod_WinOrLose" xml:space="preserve">
+    <value>盈利</value>
+  </data>
+  <data name="RptAgentPeriod_Share" xml:space="preserve">
+    <value>佣金/占成比例</value>
+  </data>
+  <data name="RptAgentPeriod_Rebate" xml:space="preserve">
+    <value>退水</value>
+  </data>
+  <data name="RptAgentPeriod_RebateRate" xml:space="preserve">
+    <value>退水比率</value>
+  </data>
+  <data name="RptAgentPeriod_Fee" xml:space="preserve">
+    <value>手续费</value>
+  </data>
+  <data name="RptAgentPeriod_OldResult" xml:space="preserve">
+    <value>往期结算盈利</value>
+  </data>
+  <data name="RptAgentPeriod_ThisResult" xml:space="preserve">
+    <value>当期结算盈利</value>
+  </data>
+  <data name="RptAgentPeriod_ValidResult" xml:space="preserve">
+    <value>当期可获得盈利</value>
+  </data>
+  <data name="RptAgentPeriod_Period" xml:space="preserve">
+    <value>期数</value>
+  </data>
+  <data name="RptAgentPeriod_ValidMems" xml:space="preserve">
+    <value>活跃会员数</value>
+  </data>
+  <data name="RptAgentPeriod_BeginTime" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="RptAgentPeriod_EndTime" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="RptAgentPeriod_SiteId" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="RptAgentPeriod_AgentType" xml:space="preserve">
+    <value>代理类型</value>
+  </data>
+  <data name="RptAgentPeriod_Level" xml:space="preserve">
+    <value>层级</value>
+  </data>
+  <data name="RptAgentPeriod_ParentId" xml:space="preserve">
+    <value>上级</value>
+  </data>
+  <data name="InternalMessage_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="SysAccount_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="GameTradeStatusEnum_Day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="GameTradeStatusEnum_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="GameTradeStatusEnum_Week" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="SysWebConfig_SalePrice" xml:space="preserve">
+    <value>会员推广价</value>
+  </data>
+  <data name="SysWebConfig_StatCycle" xml:space="preserve">
+    <value>统计周期</value>
+  </data>
+  <data name="FundReport_Creator" xml:space="preserve">
+    <value>操作者</value>
+  </data>
+  <data name="FundReport_FeeAmount" xml:space="preserve">
+    <value>手续费</value>
+  </data>
+  <data name="SourceTypeEnum_ActivityBonus" xml:space="preserve">
+    <value>活动奖金</value>
+  </data>
+  <data name="SourceTypeEnum_MemRebate" xml:space="preserve">
+    <value>会员反水</value>
+  </data>
+  <data name="SourceTypeEnum_MemSale" xml:space="preserve">
+    <value>推广奖金</value>
+  </data>
+  <data name="FundMemRebateStat_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundMemRebateStat_GameId" xml:space="preserve">
+    <value>平台</value>
+  </data>
+  <data name="FundMemRebateStat_EffecBet" xml:space="preserve">
+    <value>投注总流水</value>
+  </data>
+  <data name="FundMemRebateStat_WinOrLose" xml:space="preserve">
+    <value>输赢金额</value>
+  </data>
+  <data name="FundMemRebateStat_Rebate" xml:space="preserve">
+    <value>返水额</value>
+  </data>
+  <data name="FundMemRebateStat_RebateRate" xml:space="preserve">
+    <value>退水比率</value>
+  </data>
+  <data name="FundMemRebateStat_Period" xml:space="preserve">
+    <value>期数</value>
+  </data>
+  <data name="FundMemRebateStat_BeginTime" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="FundMemRebateStat_EndTime" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="FundMemRebateStat_ParentId" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="FundMemRebateStat_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="FundMemRebateStat_PayStatus" xml:space="preserve">
+    <value>支付状态</value>
+  </data>
+  <data name="FundMemRebateStat_Payer" xml:space="preserve">
+    <value>支付人</value>
+  </data>
+  <data name="FundMemRebateStat_PayTime" xml:space="preserve">
+    <value>北京支付时间</value>
+  </data>
+  <data name="FundMemRebateStat_PayTimeEst" xml:space="preserve">
+    <value>支付美东时间</value>
+  </data>
+  <data name="SysPayPlat_Plat" xml:space="preserve">
+    <value>平台简称</value>
+  </data>
+  <data name="SysPayPlat_Name" xml:space="preserve">
+    <value>平台名称</value>
+  </data>
+  <data name="SysPayPlat_PayType" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="SysPayPlat_Currency" xml:space="preserve">
+    <value>币种</value>
+  </data>
+  <data name="SysPayPlat_DayLimit" xml:space="preserve">
+    <value>单日上限</value>
+  </data>
+  <data name="SysPayPlat_TotalLimit" xml:space="preserve">
+    <value>累计上限</value>
+  </data>
+  <data name="SysPayPlat_Cost" xml:space="preserve">
+    <value>费率</value>
+  </data>
+  <data name="SysPayPlat_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SysPayPlat_UpdateTime" xml:space="preserve">
+    <value>北京更新时间</value>
+  </data>
+  <data name="PayStatusEnum_Paid" xml:space="preserve">
+    <value>已发放</value>
+  </data>
+  <data name="PayStatusEnum_Unpaid" xml:space="preserve">
+    <value>待发放</value>
+  </data>
+  <data name="FundMemWalletLog_Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="FundMemWalletLog_FeeAmount" xml:space="preserve">
+    <value>手续费</value>
+  </data>
+  <data name="FundMemWalletLog_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="RedemptionPointEnum_Chargeback" xml:space="preserve">
+    <value>扣款</value>
+  </data>
+  <data name="RedemptionPointEnum_Discount" xml:space="preserve">
+    <value>优惠</value>
+  </data>
+  <data name="RedemptionPointEnum_Recharge" xml:space="preserve">
+    <value>充值</value>
+  </data>
+  <data name="FundFlowType_MemIOType" xml:space="preserve">
+    <value>会员进出类型</value>
+  </data>
+  <data name="FundFlowType_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="FundFlowType_OperIOType" xml:space="preserve">
+    <value>运营商进出类型</value>
+  </data>
+  <data name="FundFlowType_ParentId" xml:space="preserve">
+    <value>上级</value>
+  </data>
+  <data name="FundFlowType_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="FundFlowType_SourceTable" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="FundFlowType_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FundStatusEnum_PartSuccess" xml:space="preserve">
+    <value>部分完成</value>
+  </data>
+  <data name="SourceTypeEnum_DepositAndBack" xml:space="preserve">
+    <value>转入游戏就送</value>
+  </data>
+  <data name="SourceTypeEnum_FirstDepositBack" xml:space="preserve">
+    <value>首存送</value>
+  </data>
+  <data name="SourceTypeEnum_FirstPayBack" xml:space="preserve">
+    <value>首充送</value>
+  </data>
+  <data name="SourceTypeEnum_ManualDiscount" xml:space="preserve">
+    <value>手动优惠</value>
+  </data>
+  <data name="SourceTypeEnum_ManualDraw" xml:space="preserve">
+    <value>手动扣款</value>
+  </data>
+  <data name="SourceTypeEnum_ManualPayment" xml:space="preserve">
+    <value>手动加钱</value>
+  </data>
+  <data name="SourceTypeEnum_PayAndBack" xml:space="preserve">
+    <value>充就送</value>
+  </data>
+  <data name="MemSale_IsStat" xml:space="preserve">
+    <value>是否统计</value>
+  </data>
+  <data name="RptAgentPeriod_LeftResult" xml:space="preserve">
+    <value>余额</value>
+  </data>
+  <data name="GameEnum_GameBoy" xml:space="preserve">
+    <value>CQ9电子</value>
+  </data>
+  <data name="GameBoyGameList_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="GameBoyGameList_Gamecode" xml:space="preserve">
+    <value>遊戲代碼</value>
+  </data>
+  <data name="GameBoyGameList_Gamehall" xml:space="preserve">
+    <value>遊戲廠商</value>
+  </data>
+  <data name="GameBoyGameList_GameId" xml:space="preserve">
+    <value>游戏ID</value>
+  </data>
+  <data name="GameBoyGameList_Gamename" xml:space="preserve">
+    <value>遊戲名稱</value>
+  </data>
+  <data name="GameBoyGameList_Gameplat" xml:space="preserve">
+    <value>遊玩平台</value>
+  </data>
+  <data name="GameBoyGameList_Gametech" xml:space="preserve">
+    <value>遊戲技術</value>
+  </data>
+  <data name="GameBoyGameList_Gametype" xml:space="preserve">
+    <value>遊戲種類</value>
+  </data>
+  <data name="GameBoyGameList_Lang" xml:space="preserve">
+    <value>語系</value>
+  </data>
+  <data name="GameBoyGameList_Nameset" xml:space="preserve">
+    <value>遊戲名稱陣列</value>
+  </data>
+  <data name="GameBoyGameList_Status" xml:space="preserve">
+    <value>遊戲狀態</value>
+  </data>
+  <data name="Member_MemberType_Required" xml:space="preserve">
+    <value>会员类型必填</value>
+  </data>
+  <data name="SysAccount_AccountNo_Error" xml:space="preserve">
+    <value>账户不合规范</value>
+  </data>
+  <data name="LiveCasino" xml:space="preserve">
+    <value>真人娱乐城</value>
+  </data>
+  <data name="OperNoAccount" xml:space="preserve">
+    <value>运营商账号为空</value>
+  </data>
+  <data name="BankTransfer_Description" xml:space="preserve">
+    <value>接受所有中国境内的银行存款，各种网银转账，银行柜台转账，ATM机转账以及手机转账。</value>
+  </data>
+  <data name="Electronic_games" xml:space="preserve">
+    <value>电子游戏</value>
+  </data>
+  <data name="Live_entertainment_city" xml:space="preserve">
+    <value>真人娱乐城</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="One_click_go_home" xml:space="preserve">
+    <value>一键归户</value>
+  </data>
+  <data name="Play_now" xml:space="preserve">
+    <value>立即游戏</value>
+  </data>
+  <data name="Please_note" xml:space="preserve">
+    <value>请注意：</value>
+  </data>
+  <data name="Please_note_Description" xml:space="preserve">
+    <value>存款金额需要一倍流水方可提款（若申请优惠需达到优惠规定的流水倍数）。</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>温馨提示：</value>
+  </data>
+  <data name="Tips_Description" xml:space="preserve">
+    <value>请使用和注册姓名一致的银行卡进行提款，我们不允许第三方姓名提交提款申请。</value>
+  </data>
+  <data name="Update_dictionary_cache" xml:space="preserve">
+    <value>更新字典缓存</value>
+  </data>
+  <data name="UserFlows_Description1" xml:space="preserve">
+    <value>您需转账至未来科技最新收款账户；</value>
+  </data>
+  <data name="UserFlows_Description2" xml:space="preserve">
+    <value>转账完成填写右侧存款表格并提交；</value>
+  </data>
+  <data name="UserFlows_Description3" xml:space="preserve">
+    <value>等待5分钟后，刷新页面查询到账金额；</value>
+  </data>
+  <data name="Sports" xml:space="preserve">
+    <value>体育投注</value>
+  </data>
+  <data name="GameBoyGameList_Popular" xml:space="preserve">
+    <value>热门排序</value>
+  </data>
+  <data name="ActivityTypeEnum_Custom" xml:space="preserve">
+    <value>自定义活动</value>
+  </data>
+  <data name="ActivityTypeEnum_FristPlay" xml:space="preserve">
+    <value>首次转入游戏</value>
+  </data>
+  <data name="GameInfo_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GameInfo_TypeId" xml:space="preserve">
+    <value>游戏分类</value>
+  </data>
+  <data name="GameInfo_ProviderId" xml:space="preserve">
+    <value>厂商</value>
+  </data>
+  <data name="GameInfo_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="GameInfo_Description" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="GameInfo_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="GameInfo_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="GameInfo_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="GameProvider_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GameProvider_Tag" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="GameProvider_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="GameProvider_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="GameProvider_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="GameProvider_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysActvity_ActivityCode" xml:space="preserve">
+    <value>ActivityCode</value>
+  </data>
+  <data name="SysActvity_ActivityName" xml:space="preserve">
+    <value>ActivityName</value>
+  </data>
+  <data name="SysActvity_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="SysActvity_SiteId" xml:space="preserve">
+    <value>SiteId</value>
+  </data>
+  <data name="SysActvity_ImgUrl" xml:space="preserve">
+    <value>ImgUrl</value>
+  </data>
+  <data name="SysActvity_MImgUrl" xml:space="preserve">
+    <value>MImgUrl</value>
+  </data>
+  <data name="SysActvity_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SysActvity_ContentValue" xml:space="preserve">
+    <value>ContentValue</value>
+  </data>
+  <data name="SysActvity_ActivityType" xml:space="preserve">
+    <value>ActivityType</value>
+  </data>
+  <data name="SysActvity_BeginTime" xml:space="preserve">
+    <value>BeginTime</value>
+  </data>
+  <data name="SysActvity_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="SysActvity_BackType" xml:space="preserve">
+    <value>BackType</value>
+  </data>
+  <data name="SysActvity_BonusMax" xml:space="preserve">
+    <value>BonusMax</value>
+  </data>
+  <data name="SysActvity_BonusTotal" xml:space="preserve">
+    <value>BonusTotal</value>
+  </data>
+  <data name="SysActvity_BonusUsed" xml:space="preserve">
+    <value>BonusUsed</value>
+  </data>
+  <data name="SysActvity_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SysActvity_CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </data>
+  <data name="SysActvity_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="SysActvity_Modifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="SysActvity_UpdateTime" xml:space="preserve">
+    <value>UpdateTime</value>
+  </data>
+  <data name="GameType_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="GameType_SortIndex" xml:space="preserve">
+    <value>SortIndex</value>
+  </data>
+  <data name="GameType_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FundMemRebateStat_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundMemRebateStat_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="ViewBetLog_Count" xml:space="preserve">
+    <value>笔数</value>
+  </data>
+  <data name="GameBoyGameList_IsNew" xml:space="preserve">
+    <value>最新</value>
+  </data>
+  <data name="GameBoyGameList_IsRecommend" xml:space="preserve">
+    <value>推荐</value>
+  </data>
+  <data name="SysWebConfig_Ip" xml:space="preserve">
+    <value>Ip</value>
+  </data>
+  <data name="GameInfo_StatRatio" xml:space="preserve">
+    <value>比率</value>
+  </data>
+  <data name="GameInfo_StatSource" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="RptBase_BetCount" xml:space="preserve">
+    <value>投注笔数</value>
+  </data>
+  <data name="RptBase_StatResult" xml:space="preserve">
+    <value>统计结果</value>
+  </data>
+  <data name="NoticeType_StatRatio" xml:space="preserve">
+    <value>比率</value>
+  </data>
+  <data name="NoticeType_StatSource" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="Member_LastLoginIp" xml:space="preserve">
+    <value>上次登录Ip</value>
+  </data>
+  <data name="ActionTypeEnum_RedemptionPoint" xml:space="preserve">
+    <value>补扣点</value>
+  </data>
+  <data name="MemActionLog_Operation" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="SysWebConfig_Email" xml:space="preserve">
+    <value>邮箱</value>
+  </data>
+  <data name="SysWebConfig_Keyword" xml:space="preserve">
+    <value>关键字</value>
+  </data>
+  <data name="SysWebConfig_LogoImg" xml:space="preserve">
+    <value>logo</value>
+  </data>
+  <data name="SysWebConfig_QQ" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="SysWebConfig_Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="SysWebConfig_Tel" xml:space="preserve">
+    <value>客服电话</value>
+  </data>
+  <data name="SysWebConfig_WX" xml:space="preserve">
+    <value>微信</value>
+  </data>
+  <data name="Member_RankId" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="BWTypeEnum_Black" xml:space="preserve">
+    <value>黑名单</value>
+  </data>
+  <data name="BWTypeEnum_White" xml:space="preserve">
+    <value>白名单</value>
+  </data>
+  <data name="FundMemSale_BeginTimeEst" xml:space="preserve">
+    <value>美东开始时间</value>
+  </data>
+  <data name="FundMemSale_EndTimeEst" xml:space="preserve">
+    <value>美东结束时间</value>
+  </data>
+  <data name="MemRank_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="MemRank_RabateRatio" xml:space="preserve">
+    <value>返水系数</value>
+  </data>
+  <data name="MemRank_PayDiscount" xml:space="preserve">
+    <value>优惠系数</value>
+  </data>
+  <data name="MemRank_SortIndex" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="MemRank_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SysIp_BWType" xml:space="preserve">
+    <value>名单类型</value>
+  </data>
+  <data name="SysIp_Ip_HasExist" xml:space="preserve">
+    <value>Ip已存在</value>
+  </data>
+  <data name="IPDisablelogin" xml:space="preserve">
+    <value>Ip禁止登入，请联系管理员！</value>
+  </data>
+  <data name="RptTotal_DateEst" xml:space="preserve">
+    <value>美东日期</value>
+  </data>
+  <data name="RptTotal_DrawAmount" xml:space="preserve">
+    <value>取款金额</value>
+  </data>
+  <data name="RptTotal_FirstPayAmount" xml:space="preserve">
+    <value>首存金额</value>
+  </data>
+  <data name="RptTotal_FirstPayCount" xml:space="preserve">
+    <value>首存数量</value>
+  </data>
+  <data name="RptTotal_PayAmount" xml:space="preserve">
+    <value>存款金额</value>
+  </data>
+  <data name="RptTotal_RegCount" xml:space="preserve">
+    <value>会员注册</value>
+  </data>
+  <data name="SysUser_IsChild" xml:space="preserve">
+    <value>子账号</value>
+  </data>
+  <data name="SysUser_ParentName" xml:space="preserve">
+    <value>父级账号</value>
+  </data>
+  <data name="VUserRole_IsChild" xml:space="preserve">
+    <value>子账号</value>
+  </data>
+  <data name="All_sites" xml:space="preserve">
+    <value>全部站点</value>
+  </data>
+  <data name="SysAccount_IOType" xml:space="preserve">
+    <value>进出款</value>
+  </data>
+  <data name="ActivityTypeEnum_PayGame" xml:space="preserve">
+    <value>转入游戏</value>
+  </data>
+  <data name="RptTotal_ActivityBonus" xml:space="preserve">
+    <value>活动奖金</value>
+  </data>
+  <data name="RptTotal_Rebate" xml:space="preserve">
+    <value>会员返水</value>
+  </data>
+  <data name="Member_IsContainsChild" xml:space="preserve">
+    <value>包含下級</value>
+  </data>
+  <data name="FlowTypeEnum_GameToOper" xml:space="preserve">
+    <value>下分</value>
+  </data>
+  <data name="FlowTypeEnum_OperToGame" xml:space="preserve">
+    <value>上分</value>
+  </data>
+  <data name="IPDisableRegister" xml:space="preserve">
+    <value>IP禁止注册，请联系管理员！</value>
+  </data>
+  <data name="SiteOrderConfig_FeeRatio" xml:space="preserve">
+    <value>手续费比率</value>
+  </data>
+  <data name="SiteOrderConfig_ManageFee" xml:space="preserve">
+    <value>管理费</value>
+  </data>
+  <data name="SysUser_LimitIp" xml:space="preserve">
+    <value>限定IP</value>
+  </data>
+  <data name="MemOnline_DeviceType" xml:space="preserve">
+    <value>使用设备</value>
+  </data>
+  <data name="Notice_MemRankId" xml:space="preserve">
+    <value>会员星级</value>
+  </data>
+  <data name="Notice_NoteType" xml:space="preserve">
+    <value>公告对象</value>
+  </data>
+  <data name="ProjectType_Admin" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="ProjectType_Member" xml:space="preserve">
+    <value>会员</value>
+  </data>
+  <data name="ProjectType_Proxy" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="ActionTypeEnum_SendMessage" xml:space="preserve">
+    <value>发送消息</value>
+  </data>
+  <data name="MemRank_IsDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="Modifier" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="UpdateTime" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+  <data name="UpdateTimeEst" xml:space="preserve">
+    <value>美东修改日期</value>
+  </data>
+  <data name="YesNoEnum_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="YesNoEnum_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="SiteGameRabate_MaxRabate" xml:space="preserve">
+    <value>单次限额(0为不限)</value>
+  </data>
+  <data name="SiteGameRabate_Period" xml:space="preserve">
+    <value>返水周期</value>
+  </data>
+  <data name="SiteGameRabate_RabateStep" xml:space="preserve">
+    <value>阶梯返水比例</value>
+  </data>
+  <data name="H5_games" xml:space="preserve">
+    <value>H5游戏</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>操作人</value>
+  </data>
+  <data name="SetBank" xml:space="preserve">
+    <value>选银行卡</value>
+  </data>
+  <data name="SetRabate" xml:space="preserve">
+    <value>设返水</value>
+  </data>
+  <data name="SetRabateStep" xml:space="preserve">
+    <value>阶梯设置</value>
+  </data>
+  <data name="RebatePeriodEnum_Day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="RebatePeriodEnum_No" xml:space="preserve">
+    <value>不返水</value>
+  </data>
+  <data name="SiteGameRebateStep_EffecBetMax" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="GameEnum_BYH5" xml:space="preserve">
+    <value>佰游H5</value>
+  </data>
+  <data name="FundMemRebateStat_BetNum" xml:space="preserve">
+    <value>下注次数</value>
+  </data>
+  <data name="CalcStatusEnum_HasCalc" xml:space="preserve">
+    <value>已结算</value>
+  </data>
+  <data name="CalcStatusEnum_NoCalc" xml:space="preserve">
+    <value>未结算</value>
+  </data>
+  <data name="MemBetLog_IsValid" xml:space="preserve">
+    <value>是否有效</value>
+  </data>
+  <data name="ValidStatusEnum_NotValid" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="ValidStatusEnum_Valid" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="SourceTypeEnum_ManualDiscountBack" xml:space="preserve">
+    <value>手动优惠扣款</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Adjust" xml:space="preserve">
+    <value>手工调整</value>
+  </data>
+  <data name="FundAgentBrokerageStat_AgentType" xml:space="preserve">
+    <value>代理类型</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Bonus" xml:space="preserve">
+    <value>红利成本</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Brokerage" xml:space="preserve">
+    <value>游戏佣金</value>
+  </data>
+  <data name="FundAgentBrokerageStat_CreateTime" xml:space="preserve">
+    <value>北京创建时间</value>
+  </data>
+  <data name="FundAgentBrokerageStat_CreateTimeEst" xml:space="preserve">
+    <value>美东创建时间</value>
+  </data>
+  <data name="FundAgentBrokerageStat_LeftResult" xml:space="preserve">
+    <value>结转下月</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Level" xml:space="preserve">
+    <value>层级</value>
+  </data>
+  <data name="FundAgentBrokerageStat_MemId" xml:space="preserve">
+    <value>代理账号</value>
+  </data>
+  <data name="FundAgentBrokerageStat_OldResult" xml:space="preserve">
+    <value>结转上月</value>
+  </data>
+  <data name="FundAgentBrokerageStat_ParentId" xml:space="preserve">
+    <value>上级</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Period" xml:space="preserve">
+    <value>美东结账月</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Rank" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="FundAgentBrokerageStat_RealPay" xml:space="preserve">
+    <value>实际发放</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Rebate" xml:space="preserve">
+    <value>反水成本</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="FundAgentBrokerageStat_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="FundAgentBrokerageStat_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FundAgentBrokerageStat_ThisResult" xml:space="preserve">
+    <value>本期佣金</value>
+  </data>
+  <data name="FundAgentBrokerageStat_UpdateTime" xml:space="preserve">
+    <value>北京更新时间</value>
+  </data>
+  <data name="FundAgentBrokerageStat_UpdateTimeEst" xml:space="preserve">
+    <value>美东更新时间</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_EffecBet" xml:space="preserve">
+    <value>有效投注</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_MemId" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_Period" xml:space="preserve">
+    <value>结账月</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_Result" xml:space="preserve">
+    <value>输赢</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_Share" xml:space="preserve">
+    <value>占成</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="FundAgentGameBrokerageStat_WinOrLose" xml:space="preserve">
+    <value>派彩</value>
+  </data>
+  <data name="AgentBrokerageStatusEnum_Audited" xml:space="preserve">
+    <value>已审核</value>
+  </data>
+  <data name="AgentBrokerageStatusEnum_Default" xml:space="preserve">
+    <value>待审核</value>
+  </data>
+  <data name="AgentBrokerageStatusEnum_Issued" xml:space="preserve">
+    <value>已发放</value>
+  </data>
+  <data name="SysWebConfig_MemId_LevelError" xml:space="preserve">
+    <value>站点代理层级错误</value>
+  </data>
+  <data name="AmountCanNot0" xml:space="preserve">
+    <value>额度不能为0</value>
+  </data>
+  <data name="OnlyOperationDefaultStatus" xml:space="preserve">
+    <value>只能操作待审核的数据</value>
+  </data>
+  <data name="GameEnum_QiLeYou" xml:space="preserve">
+    <value>奇乐游</value>
+  </data>
+  <data name="Cards_games" xml:space="preserve">
+    <value>棋牌游戏</value>
+  </data>
+  <data name="Member_ChildCount" xml:space="preserve">
+    <value>下级数量</value>
+  </data>
+  <data name="BackTypeEnum_Fixed" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="BackTypeEnum_Random" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="BackTypeEnum_Rate" xml:space="preserve">
+    <value>按比例</value>
+  </data>
+  <data name="GetWayEnum_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="GetWayEnum_Hand" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="MultiTypeEnum_Principal" xml:space="preserve">
+    <value>本金</value>
+  </data>
+  <data name="MultiTypeEnum_PrincipalAndInterest" xml:space="preserve">
+    <value>本金加红利</value>
+  </data>
+  <data name="SysActvityConfig_BackType" xml:space="preserve">
+    <value>返赠方式</value>
+  </data>
+  <data name="SysActvityConfig_GetWay" xml:space="preserve">
+    <value>领取方式</value>
+  </data>
+  <data name="SysActvityConfig_ImgUrl" xml:space="preserve">
+    <value>外层图</value>
+  </data>
+  <data name="SysActvityConfig_MaxSend" xml:space="preserve">
+    <value>总派发上限</value>
+  </data>
+  <data name="SysActvityConfig_MImgUrl" xml:space="preserve">
+    <value>里层图</value>
+  </data>
+  <data name="SysActvityConfig_PromotionType" xml:space="preserve">
+    <value>优惠类型</value>
+  </data>
+  <data name="SysActvityConfig_Validdays" xml:space="preserve">
+    <value>有效天数</value>
+  </data>
+  <data name="PayChannelEnum_OnlineBank" xml:space="preserve">
+    <value>在线网银</value>
+  </data>
+  <data name="SysUser_Email_IsNull" xml:space="preserve">
+    <value>邮箱为空</value>
+  </data>
+  <data name="SysWebConfig_WXImage" xml:space="preserve">
+    <value>微信二维码</value>
+  </data>
+  <data name="GameDisplayType_Child" xml:space="preserve">
+    <value>子游戏</value>
+  </data>
+  <data name="GameDisplayType_Main" xml:space="preserve">
+    <value>主遊戲</value>
+  </data>
+  <data name="GameDisplayType_MainAndChild" xml:space="preserve">
+    <value>主游戏和子游戏</value>
+  </data>
+  <data name="GameType_DisplayType" xml:space="preserve">
+    <value>游戏显示类型</value>
+  </data>
+  <data name="GameChildList_ChildId" xml:space="preserve">
+    <value>子游戏Id</value>
+  </data>
+  <data name="GameChildList_GameName" xml:space="preserve">
+    <value>子游戏名称</value>
+  </data>
+  <data name="GameChildList_GameTypeId" xml:space="preserve">
+    <value>游戏类型</value>
+  </data>
+  <data name="GameChildList_ImgUrl" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="GameChildList_ParentId" xml:space="preserve">
+    <value>父级游戏</value>
+  </data>
+  <data name="GameEnum_LksExteRnalSvc" xml:space="preserve">
+    <value>Lks</value>
+  </data>
+  <data name="FundMemOrder_TransactioId" xml:space="preserve">
+    <value>支付平台订单号</value>
+  </data>
+  <data name="SiteGameRebateStep_EffecBetMin" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="PayChannelEnum_AlipayWap" xml:space="preserve">
+    <value>支付宝Wap</value>
+  </data>
+  <data name="PayChannelEnum_BankCode" xml:space="preserve">
+    <value>网银扫码</value>
+  </data>
+  <data name="PayChannelEnum_QQ" xml:space="preserve">
+    <value>QQ扫码</value>
+  </data>
+  <data name="GameEnum_SanSheng" xml:space="preserve">
+    <value>三昇体育</value>
+  </data>
+  <data name="PromotionTypeEnum_All" xml:space="preserve">
+    <value>全部会员</value>
+  </data>
+  <data name="BetlogStatusEnum_Default" xml:space="preserve">
+    <value>未结算</value>
+  </data>
+  <data name="BetlogStatusEnum_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="BetlogStatusEnum_HasCalc" xml:space="preserve">
+    <value>已结算</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>标识</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="BetAmount" xml:space="preserve">
+    <value>注单金额</value>
+  </data>
+  <data name="BetMemberNum" xml:space="preserve">
+    <value>投注人数</value>
+  </data>
+  <data name="BetNum" xml:space="preserve">
+    <value>注单数量</value>
+  </data>
+  <data name="HWinOrLose" xml:space="preserve">
+    <value>输赢额度(半场)</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>联赛名</value>
+  </data>
+  <data name="MatchDate" xml:space="preserve">
+    <value>比赛时间</value>
+  </data>
+  <data name="Profitability" xml:space="preserve">
+    <value>盈利率</value>
+  </data>
+  <data name="WinOrLose" xml:space="preserve">
+    <value>输赢额度</value>
+  </data>
+  <data name="DateInt" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="GameId" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="MemWinOrLose" xml:space="preserve">
+    <value>会员输赢</value>
+  </data>
+  <data name="PayAmount" xml:space="preserve">
+    <value>充值金额</value>
+  </data>
+  <data name="PayMemNum" xml:space="preserve">
+    <value>充值人数</value>
+  </data>
+  <data name="RebateType" xml:space="preserve">
+    <value>返水类型</value>
+  </data>
+  <data name="NotRebate" xml:space="preserve">
+    <value>未返水</value>
+  </data>
+  <data name="Rebate" xml:space="preserve">
+    <value>返水</value>
+  </data>
+  <data name="RebateWithoutWater" xml:space="preserve">
+    <value>返水不限水</value>
+  </data>
+  <data name="RebateZero" xml:space="preserve">
+    <value>返零</value>
+  </data>
+  <data name="BetTypeCode" xml:space="preserve">
+    <value>玩法</value>
+  </data>
+  <data name="Handicap" xml:space="preserve">
+    <value>盘口</value>
+  </data>
+  <data name="BD" xml:space="preserve">
+    <value>波胆</value>
+  </data>
+  <data name="BQC" xml:space="preserve">
+    <value>半全场</value>
+  </data>
+  <data name="BZ" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="BZ_GG" xml:space="preserve">
+    <value>标准过关</value>
+  </data>
+  <data name="BZ_SBC" xml:space="preserve">
+    <value>标准上半场</value>
+  </data>
+  <data name="DS" xml:space="preserve">
+    <value>单/双</value>
+  </data>
+  <data name="DX" xml:space="preserve">
+    <value>独赢</value>
+  </data>
+  <data name="DX_SBC" xml:space="preserve">
+    <value>大小上半场</value>
+  </data>
+  <data name="DY" xml:space="preserve">
+    <value>独赢</value>
+  </data>
+  <data name="HH_GG" xml:space="preserve">
+    <value>混合过关</value>
+  </data>
+  <data name="LQ_DS" xml:space="preserve">
+    <value>篮球单双</value>
+  </data>
+  <data name="LQ_DX" xml:space="preserve">
+    <value>篮球大小</value>
+  </data>
+  <data name="LQ_RQ" xml:space="preserve">
+    <value>篮球让球</value>
+  </data>
+  <data name="LQ_RQ_GG" xml:space="preserve">
+    <value>篮球让球过关</value>
+  </data>
+  <data name="LQ_ZD_DS" xml:space="preserve">
+    <value>篮球走地大小</value>
+  </data>
+  <data name="LQ_ZD_DX" xml:space="preserve">
+    <value>篮球走地大小</value>
+  </data>
+  <data name="LQ_ZD_RQ" xml:space="preserve">
+    <value>篮球走地让球</value>
+  </data>
+  <data name="RQ_GG" xml:space="preserve">
+    <value>让球过关</value>
+  </data>
+  <data name="RQ_SBC" xml:space="preserve">
+    <value>让球上半场</value>
+  </data>
+  <data name="YS_GG" xml:space="preserve">
+    <value>优胜冠军</value>
+  </data>
+  <data name="ZD_BZ" xml:space="preserve">
+    <value>走地标准</value>
+  </data>
+  <data name="ZD_BZ_SBC" xml:space="preserve">
+    <value>走地标准上半场</value>
+  </data>
+  <data name="ZD_DS" xml:space="preserve">
+    <value>走地单双</value>
+  </data>
+  <data name="ZD_DX" xml:space="preserve">
+    <value>走地-独赢</value>
+  </data>
+  <data name="ZD_DX_SBC" xml:space="preserve">
+    <value>走地大小上半场</value>
+  </data>
+  <data name="ZD_DY" xml:space="preserve">
+    <value>走地独赢</value>
+  </data>
+  <data name="ZD_RQ_SBC" xml:space="preserve">
+    <value>走地让球上半场</value>
+  </data>
+  <data name="ZRQ" xml:space="preserve">
+    <value>总入球</value>
+  </data>
+  <data name="RQ" xml:space="preserve">
+    <value>让球</value>
+  </data>
+  <data name="ZD_RQ" xml:space="preserve">
+    <value>走地让球</value>
+  </data>
+  <data name="AgentChildCount" xml:space="preserve">
+    <value>下级代理数量</value>
+  </data>
+  <data name="MemberChildCount" xml:space="preserve">
+    <value>下级会员数量</value>
+  </data>
+  <data name="AccountNo_HasExist" xml:space="preserve">
+    <value>账户已存在</value>
+  </data>
+  <data name="AccountNo_Required" xml:space="preserve">
+    <value>账户必填</value>
+  </data>
+  <data name="FundMemOrder_PayPlat" xml:space="preserve">
+    <value>支付平台</value>
+  </data>
+  <data name="SiteId_Required" xml:space="preserve">
+    <value>站点必填</value>
+  </data>
+  <data name="DistributionEnum_Assigned" xml:space="preserve">
+    <value>已分配</value>
+  </data>
+  <data name="DistributionEnum_Unallocated" xml:space="preserve">
+    <value>未分配</value>
+  </data>
+  <data name="SourceTypeEnum_TakeBackBrokerage" xml:space="preserve">
+    <value>收取佣金/占成</value>
+  </data>
+  <data name="CustomerDistribution_CreateId" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="CustomerDistribution_IsDistribution" xml:space="preserve">
+    <value>分配状态</value>
+  </data>
+  <data name="CustomerDistribution_ServerId" xml:space="preserve">
+    <value>分配客服</value>
+  </data>
+  <data name="Dial" xml:space="preserve">
+    <value>拨号</value>
+  </data>
+  <data name="DrawRefuse" xml:space="preserve">
+    <value>提款拒绝</value>
+  </data>
+  <data name="ManualDiscountToGame" xml:space="preserve">
+    <value>优惠上分</value>
+  </data>
+  <data name="ManualDiscountToOper" xml:space="preserve">
+    <value>优惠下分</value>
+  </data>
+  <data name="MemWinOrLoss" xml:space="preserve">
+    <value>玩家输赢</value>
+  </data>
+  <data name="GameEnum_IBO" xml:space="preserve">
+    <value>IBO真人</value>
+  </data>
+  <data name="FirstPayMemNum" xml:space="preserve">
+    <value>新充值人数</value>
+  </data>
+  <data name="OperToGameAmount" xml:space="preserve">
+    <value>上分金额</value>
+  </data>
+  <data name="OperToGameNum" xml:space="preserve">
+    <value>上分人数</value>
+  </data>
+  <data name="GameEnum_CQ9" xml:space="preserve">
+    <value>CQ9电子</value>
+  </data>
+  <data name="RegisterMemNum" xml:space="preserve">
+    <value>会员注册人数</value>
+  </data>
+  <data name="ManualDraw" xml:space="preserve">
+    <value>手动扣钱</value>
+  </data>
+  <data name="ManualPayment" xml:space="preserve">
+    <value>手动加钱</value>
+  </data>
+  <data name="ManualPaymentNum" xml:space="preserve">
+    <value>手动加钱数量</value>
+  </data>
+  <data name="PayoutEst" xml:space="preserve">
+    <value>美东结算日</value>
+  </data>
+  <data name="PayoutTime" xml:space="preserve">
+    <value>北京结算时间</value>
+  </data>
+  <data name="PayoutTimeEst" xml:space="preserve">
+    <value>美东结算时间</value>
+  </data>
+  <data name="FundAgentBrokerageStat_PlatFee" xml:space="preserve">
+    <value>平台费</value>
+  </data>
+  <data name="SiteGameConfig_Fee" xml:space="preserve">
+    <value>平台费</value>
+  </data>
+  <data name="Chess" xml:space="preserve">
+    <value>棋牌</value>
+  </data>
+  <data name="Eelectric" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Lottery" xml:space="preserve">
+    <value>彩票</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>真人</value>
+  </data>
+  <data name="PayChannelEnum_OnlineBankTransfer" xml:space="preserve">
+    <value>线上银行转账</value>
+  </data>
+  <data name="GameEnum_GNS" xml:space="preserve">
+    <value>GNS电子</value>
+  </data>
+  <data name="GameEnum_T9Y" xml:space="preserve">
+    <value>9Y彩票</value>
+  </data>
+  <data name="GameEnum_BG" xml:space="preserve">
+    <value>BG电子</value>
+  </data>
+  <data name="GameEnum_MG" xml:space="preserve">
+    <value>MG电子</value>
+  </data>
+  <data name="PayChannelEnum_WeChatWap" xml:space="preserve">
+    <value>微信H5</value>
+  </data>
+  <data name="GameEnum_PT" xml:space="preserve">
+    <value>PT电子</value>
+  </data>
+  <data name="GameEnum_BBIN" xml:space="preserve">
+    <value>BBIN真人</value>
+  </data>
+  <data name="GameEnum_OG" xml:space="preserve">
+    <value>OG电子</value>
+  </data>
+  <data name="GameEnum_SHABA" xml:space="preserve">
+    <value>沙巴体育</value>
+  </data>
+  <data name="GameEnum_BBINelectronic" xml:space="preserve">
+    <value>BBIN电子</value>
+  </data>
+  <data name="GameEnum_BBINlottery" xml:space="preserve">
+    <value>BBIN彩票</value>
+  </data>
+  <data name="GameEnum_BBINSport" xml:space="preserve">
+    <value>BBIN体育</value>
+  </data>
+  <data name="IsAgentRebate" xml:space="preserve">
+    <value>代理发放返水</value>
+  </data>
+  <data name="AgentRebate" xml:space="preserve">
+    <value>代理发放返水</value>
+  </data>
+  <data name="RealRebate" xml:space="preserve">
+    <value>实际发放</value>
+  </data>
+  <data name="AgentPay" xml:space="preserve">
+    <value>代理待发放</value>
+  </data>
+  <data name="MemLotteryGameOdd_Odds" xml:space="preserve">
+    <value>赔率</value>
+  </data>
+  <data name="InGameAmount" xml:space="preserve">
+    <value>转入金额</value>
+  </data>
+  <data name="OutGameAmount" xml:space="preserve">
+    <value>转出金额</value>
+  </data>
+  <data name="CreateTime" xml:space="preserve">
+    <value>创建时间</value>
+  </data>
+  <data name="SiteId" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="BetMemCount" xml:space="preserve">
+    <value>投注人数</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>北京日期</value>
+  </data>
+  <data name="DateTimeEst" xml:space="preserve">
+    <value>美东日期</value>
+  </data>
+  <data name="PayCount" xml:space="preserve">
+    <value>充值次数</value>
+  </data>
+  <data name="PayMemCount" xml:space="preserve">
+    <value>充值人数</value>
+  </data>
+  <data name="IsDisplay" xml:space="preserve">
+    <value>是否显示入口</value>
+  </data>
+  <data name="GameBoyGameList_GameImg" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="FundAgentEat_Share" xml:space="preserve">
+    <value>水值</value>
+  </data>
+  <data name="Updater" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="GameId_HasExist" xml:space="preserve">
+    <value>此游戏已存在</value>
+  </data>
+  <data name="MemId_NoExist" xml:space="preserve">
+    <value>会员不存在</value>
+  </data>
+  <data name="EatAmount" xml:space="preserve">
+    <value>吃水额</value>
+  </data>
+  <data name="FundMemOddDifference_DifferenceAmount" xml:space="preserve">
+    <value>差值</value>
+  </data>
+  <data name="FundMemOddDifference_OddsDifference" xml:space="preserve">
+    <value>赔率差值</value>
+  </data>
+  <data name="Brokerage0" xml:space="preserve">
+    <value>A级佣金</value>
+  </data>
+  <data name="Brokerage1" xml:space="preserve">
+    <value>B级佣金</value>
+  </data>
+  <data name="Brokerage2" xml:space="preserve">
+    <value>C级佣金</value>
+  </data>
+  <data name="RealShare0" xml:space="preserve">
+    <value>A级占成</value>
+  </data>
+  <data name="RealShare1" xml:space="preserve">
+    <value>B级占成</value>
+  </data>
+  <data name="RealShare2" xml:space="preserve">
+    <value>C级占成</value>
+  </data>
+  <data name="FeeRate" xml:space="preserve">
+    <value>平台费率</value>
+  </data>
+  <data name="PlatFee" xml:space="preserve">
+    <value>平台费</value>
+  </data>
+  <data name="ALevel" xml:space="preserve">
+    <value>A級</value>
+  </data>
+  <data name="BLevel" xml:space="preserve">
+    <value>B級</value>
+  </data>
+  <data name="CLevel" xml:space="preserve">
+    <value>C級</value>
+  </data>
+  <data name="GameEnum_KaKaWan" xml:space="preserve">
+    <value>卡卡湾真人</value>
+  </data>
+  <data name="MemResult" xml:space="preserve">
+    <value>会员输赢</value>
+  </data>
+  <data name="PayChannelEnum_Cloudflashover" xml:space="preserve">
+    <value>云闪付</value>
+  </data>
+  <data name="Game_Required" xml:space="preserve">
+    <value>游戏必填</value>
+  </data>
+  <data name="GameChildClassEnum_FengGe" xml:space="preserve">
+    <value>游戏风格</value>
+  </data>
+  <data name="GameChildClassEnum_JiangChi" xml:space="preserve">
+    <value>奖池</value>
+  </data>
+  <data name="GameChildClassEnum_LeiXing" xml:space="preserve">
+    <value>游戏类型</value>
+  </data>
+  <data name="GameChildClassEnum_XianShu" xml:space="preserve">
+    <value>赔付线数</value>
+  </data>
+  <data name="GameBoyGameList_IsJackpot" xml:space="preserve">
+    <value>奖池</value>
+  </data>
+  <data name="GameBoyGameList_Linenumber" xml:space="preserve">
+    <value>线数</value>
+  </data>
+</root>

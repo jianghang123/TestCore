@@ -1,0 +1,90 @@
+﻿@{
+    var list = ViewBag.List as List<TestCore.Domain.CommonEntity.ReturnUserPrice>;
+    var otherList = ViewBag.otherList as List<TestCore.Domain.Entity.Acc>;
+    var id = ViewBag.Userid;
+    Layout = null;
+}
+<table class="table table-hover" id="tb">
+    <thead>
+        <tr class="info">
+            <th>
+                编号
+            </th>
+            <th>
+                通道名称
+            </th>
+            <th>
+                默认分成
+            </th>
+            <th>
+                用户分成
+            </th>
+            <th>
+                设置状态
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (list != null)
+        {
+            
+            foreach (var item in list)
+            {
+                <tr>
+                    <td class="text-center">
+                        @item.Id
+                    </td>
+                    @if (otherList != null && otherList.Where(x => x.Acwid == item.Acwid).Count() > 0)
+                    {
+                        <td>
+                            <select name="channelid" class="form-control">
+                                @foreach (var ol in otherList.Where(x => x.Acwid == item.Acwid).OrderBy(x=>x.Is_display).ToList())
+                                {
+                                    <option value="@ol.Id" @(ol.Id == item.Id ? "selected" : "")>
+                                        @ol.Name
+                                        @(ol.Is_display == 1 ? "(非默认)" : "")
+                                    </option>
+
+                                }
+                            </select>
+                        </td>
+                    }
+                    <td name="price">
+                        @item.Uprice_default
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" size="4" name="uprice"
+                               value="@item.Uprice_default">
+                    </td>
+                    <td>
+                        <select name="is_state" class="form-control">
+                            <option value="0" @(item.Is_state == 0 ? "selected" : "")>
+                                已开通
+                            </option>
+                            <option value="1" @(item.Is_state == 1 ? "selected" : "")>
+                                已暂停
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<input type="hidden" id="userpriceid" value="@id" />
+<div class="text-center">
+    <button id="submit" onclick="userPriceSubmit()" class="btn btn-success">
+        &nbsp;
+        <span class="glyphicon glyphicon-save">
+        </span>
+        &nbsp;保存设置&nbsp;
+    </button>
+    &nbsp;&nbsp;
+    <a onclick="if(!confirm('是否要执行此操作？'))return false;" href=""
+       class="btn btn-danger">
+        <span class="glyphicon glyphicon-refresh">
+        </span>
+        &nbsp;重置分成
+    </a>
+</div>
+<br>

@@ -1,0 +1,12 @@
+D:\vs2019\MyTestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.deps.json
+D:\vs2019\MyTestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.dll
+D:\vs2019\MyTestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
+D:\vs2019\MyTestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Common.dll
+D:\vs2019\MyTestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Common.pdb
+D:\vs2019\MyTestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csprojAssemblyReference.cache
+D:\vs2019\MyTestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csproj.CoreCompileInputs.cache
+D:\vs2019\MyTestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.AssemblyInfoInputs.cache
+D:\vs2019\MyTestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.AssemblyInfo.cs
+D:\vs2019\MyTestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csproj.CopyComplete
+D:\vs2019\MyTestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.dll
+D:\vs2019\MyTestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.pdb

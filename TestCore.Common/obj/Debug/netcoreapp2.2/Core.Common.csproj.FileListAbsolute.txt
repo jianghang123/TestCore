@@ -1,0 +1,9 @@
+D:\vs2019\Mytest\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.deps.json
+D:\vs2019\Mytest\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.dll
+D:\vs2019\Mytest\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.pdb
+D:\vs2019\Mytest\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csproj.CoreCompileInputs.cache
+D:\vs2019\Mytest\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfoInputs.cache
+D:\vs2019\Mytest\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfo.cs
+D:\vs2019\Mytest\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.dll
+D:\vs2019\Mytest\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.pdb
+D:\vs2019\Mytest\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csprojAssemblyReference.cache

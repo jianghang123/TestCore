@@ -1,0 +1,195 @@
+﻿@model TestCore.Domain.ViewEntity.ViewUser;
+@{
+    Layout = null;
+}
+<style>
+    table.customize {
+        border-collapse: collapse;
+        width: 100%
+    }
+
+        table.customize td {
+            height: 40px;
+            border-bottom: 1px solid #ddd
+        }
+
+            table.customize td.title {
+                color: #999;
+                background: #fff
+            }
+</style>
+<div class="panel panel-info">
+    <div class="panel-heading">
+        注册信息
+    </div>
+    <div class="panel-body">
+        <table class="customize">
+            <tr>
+                <td class="title">
+                    注册编号：
+                </td>
+                <td>
+                    @Model.Id
+                </td>
+                <td class="title">
+                    用户名：
+                </td>
+                <td>
+                    @Model.Username
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    已付款：
+                </td>
+                <td>
+                    @Model.Paid
+                    元
+                </td>
+                <td class="title">
+                    未付余额：
+                </td>
+                <td>
+                    @Model.Unpaid
+                    元
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    结算类型：
+                </td>
+                <td>
+                    用户提现( T+0)
+                </td>
+                <td class="title">
+                    开通提现：
+                </td>
+                <td>
+                    @if (Model.Is_takecash == 0)
+                    {
+                        <span class="label label-warning">未开通</span>
+                    }
+                    else
+                    {
+                        <span class="label label-success">已开通</span>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    注册时间：
+                </td>
+                <td>
+                    @Model.Addtime.ToString("yyyy-MM-dd HH:mm:ss")
+                </td>
+                <td class="title">
+                    账号状态：
+                </td>
+                <td>
+                    @if (Model.Is_state == 0)
+                    {
+                        <span class="label label-warning">未开通</span>
+                    }
+                    else if (Model.Is_state == 1)
+                    {
+                        <span class="label label-success">已开通</span>
+                    }
+                    else
+                    {
+                        <span class="label label-danger">已停用</span>
+                    }
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="panel panel-warning">
+    <div class="panel-heading">
+        联系信息
+    </div>
+    <div class="panel-body">
+        <table class="customize">
+            <tr>
+                <td class="title">
+                    注册邮箱：
+                </td>
+                <td>
+                    @Model.Email
+                </td>
+                <td class="title">
+                    邮箱验证：
+                </td>
+                <td>
+                    @if (Model.Is_verify_email == 0)
+                    {
+                        <span class="label label-warning">未验证</span>
+                    }
+                    else
+                    {
+                        <span class="label label-success">已验证</span>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    站点名称：
+                </td>
+                <td>
+                    @Model.Sitename
+                </td>
+                <td class="title">
+                    网站地址：
+                </td>
+                <td>
+                    @Model.Siteurl
+                    &nbsp;
+                    <a href="http://@(Model.Siteurl)?>" target="_blank">
+                        <span class="glyphicon glyphicon-link">
+                        </span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    手机号码：
+                </td>
+                <td>
+                    @Model.Phone
+                </td>
+                <td class="title">
+                    手机验证：
+                </td>
+                <td>
+                    @if (Model.Is_verify_phone == 0)
+                    {
+                        <span class="label label-warning">未验证</span>
+                    }
+                    else
+                    {
+                        <span class="label label-success">已验证</span>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    联系QQ：
+                </td>
+                <td>
+                    @Model.QQ
+                    &nbsp;
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=@(Model.QQ)&Site=&Menu=yes"
+                       target="_blank">
+                        <span class="glyphicon glyphicon-share">
+                        </span>
+                    </a>
+                </td>
+                <td class="title">
+                    最后更新：
+                </td>
+                <td>
+                    @Model.Addtime.ToString("yyyy-MM-dd HH:mm:ss")
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

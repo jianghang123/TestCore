@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestCore.Common\TestCore.Common.csproj" />
+    <ProjectReference Include="..\TestCore.Data\TestCore.Data.csproj" />
+    <ProjectReference Include="..\TestCore.Domain\TestCore.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,291 @@
+﻿@{
+    Layout = null;
+}
+<link href="~/common/ifream.css" rel="stylesheet"/>
+<link href="~/common/app.css" rel="stylesheet" />
+<link href="~/common/datetimepicker.min.css" rel="stylesheet" />
+
+<style>
+    #wypage {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+        #wypage p {
+            float: left;
+            color: #333;
+        }
+
+        #wypage a {
+            float: left;
+            display: inline-block;
+            border: 1px solid #ddd;
+            padding: 4px 6px;
+            margin-left: 4px;
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+
+            #wypage a:hover {
+                background-color: #ddd;
+            }
+
+            #wypage a.wy_page_current {
+                background-color: #ddd;
+            }
+</style>
+<div class="right-content">
+    <h3>
+        <span class="current">
+            用户列表
+        </span>
+        &nbsp;/&nbsp;
+        <span>
+            <a href="">用户注册</a>
+        </span>
+    </h3>
+    <br>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <form class="form-inline" action="" method="get">
+                <div class="form-group">
+                    <select name="is_state" class="form-control">
+                        <option value="-1">全部</option>
+                        <option value="0">未审核</option>
+                        <option value="1">已审核</option>
+                        <option value="2">已停用</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="userName" placeholder="用户名/编号" value="">
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar">
+                            </span>
+                        </span>
+                        <input size="16" type="text" name="fdate" readonly class="form_datetime form-control"
+                               value="">
+                        <span class="input-group-addon">
+                            至
+                        </span>
+                        <input size="16" type="text" name="tdate" readonly class="form_datetime form-control"
+                               value="">
+                    </div>
+                </div>
+                <button type="submit" id="btnSearch" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-search">
+                    </span>
+                    &nbsp;立即查询
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr class="info">
+                    <th>
+                        用户编号
+                    </th>
+                    <th>
+                        用户名
+                    </th>
+                    <th>
+                        真实姓名
+                    </th>
+                    <th>
+                        手机号码
+                    </th>
+                    <th>
+                        QQ
+                    </th>
+                    <th>
+                        注册时间
+                    </th>
+                    <th>
+                        提现手续费(元)
+                    </th>
+                    <th>
+                        状态
+                    </th>
+                    <th>
+                        上级代理
+                    </th>
+                    <th>
+                        操作
+                    </th>
+                    <th>
+                        通道
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.userList != null)
+                {
+                    foreach (TestCore.Domain.ViewEntity.ViewUser item in ViewBag.userList)
+                    {
+                        <tr data-id="@item.Id">
+                            <td>
+                                @item.Id
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="javascript:;" class="dropdown-toggle" id="menulist" data-toggle="dropdown" aria-expanded="true">
+                                        @item.Username
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="menulist">
+                                        <li>
+                                            <a href="javascript:;" onclick="showContent('基本信息','/users/user/GetUserDetials',@item.Id)">
+                                                <span class="glyphicon glyphicon-triangle-right">
+                                                </span>
+                                                &nbsp;基本信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" onclick="showContent('设置分成比率','/users/user/GetUserPrice/',@item.Id)">
+                                                <span class="glyphicon glyphicon-triangle-right">
+                                                </span>
+                                                &nbsp;分成比率
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" onclick="showContent('收款信息',@Url.Action("", ""))">
+                                                <span class="glyphicon glyphicon-triangle-right">
+                                                </span>
+                                                &nbsp;收款信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" onclick="showContent('接入信息',@Url.Action("", ""))">
+                                                <span class="glyphicon glyphicon-triangle-right">
+                                                </span>
+                                                &nbsp;接入信息
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("", "")">
+                                                <span class="glyphicon glyphicon-triangle-right">
+                                                </span>
+                                                &nbsp;登陆日志
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>
+                                @item.Realname
+                            </td>
+                            <td>
+                                @item.Phone
+                                &nbsp;
+                                @if (item.Is_verify_phone == 0)
+                                {
+                                    <span class="label label-warning">
+                                        <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="未验证"></span>
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="label label-success">
+                                        <span class="glyphicon glyphicon-ok-sign" data-toggle="tooltip" title="已验证"></span>
+                                    </span>
+                                }
+                            </td>
+                            <td>
+                                @(string.IsNullOrEmpty(item.QQ) ? "--" : item.QQ)
+                                &nbsp;
+                                <a href="http://wpa.qq.com/msgrd?v=3&uin='@item.QQ'&Site=&Menu=yes"
+                                   target="_blank">
+                                    <span class="glyphicon glyphicon-share">
+                                    </span>
+                                </a>
+                            </td>
+                            <td>
+                                @item.Addtime.ToString("yyyy-MM-dd HH:mm:ss")
+                            </td>
+                            <td>
+                                @item.Payfee
+                            </td>
+                            <td>
+                                @switch (item.Is_state)
+                                {
+                                    case 0:
+                                        <span class="label label-warning">
+                                            未开通
+                                        </span>
+                                        break;
+                                    case 1:
+                                        <span class="label label-success">
+                                            已开通
+                                        </span>
+                                        break;
+                                    case 2:
+                                        <span class="label label-danger">
+                                            已停用
+                                        </span>
+                                        break;
+                                }
+                            </td>
+                            <td>
+                                @item.Superid
+                                &nbsp;
+                                <a href="@Url.Action("", "")"
+                                   target="_blank">
+                                    <span class="glyphicon glyphicon-share">
+                                    </span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="@Url.Action("", "")" data-toggle="tooltip"
+                                   title="邮件通知">
+                                    <span class="glyphicon glyphicon-refresh">
+                                    </span>
+                                </a>
+                                &nbsp;
+                                <a href="@Url.Action("", "")" data-toggle="tooltip"
+                                   title="编辑">
+                                    <span class="glyphicon glyphicon-edit">
+                                    </span>
+                                </a>
+                                &nbsp;
+                                <a href="javascript:;" onclick="del(@item.Id,'@Url.Action("")')" data-toggle="tooltip" title="删除">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="/Account/tongdao" data-toggle="tooltip" title="通道管理">
+                                    <span class="glyphicon glyphicon-cog"> </span>
+                                </a>
+                            </td>
+                        </tr>
+
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="11">
+                            no data.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="wypage">
+    <p style="padding-top:5px">每页20条，共1条记录</p>
+    <p><a href="?is_state=-1&amp;kw=&amp;fdate=&amp;tdate=&amp;p=1" class="wy_page_current">1</a></p>
+    <p style="clear:left"></p>
+</div>
+<script src="~/common/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="~/common/jquery.zclip.min.js" type="text/javascript"></script>
+<script src="~/common/datetimepicker.min.js" type="text/javascript"></script>
+<script src="~/common/bootstrap.min.js"></script>
+<script src="~/common/app.js" type="text/javascript"></script>

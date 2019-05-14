@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="User\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestCore.Data\TestCore.Data.csproj" />
+    <ProjectReference Include="..\TestCore.Domain\TestCore.Domain.csproj" />
+    <ProjectReference Include="..\TestCore.IRepository\TestCore.IRepository.csproj" />
+  </ItemGroup>
+
+</Project>
