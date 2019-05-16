@@ -89,6 +89,7 @@ function goBack(e)
     $("#rightContent", parent.document).attr("src", "" + url + "");
 }
 
+//更新用户分成
 function userPriceSubmit() {
     //var tr = $("#tb tr", parent.document);
     var tr = $("#tb").contents().find("tr");
@@ -112,13 +113,21 @@ function userPriceSubmit() {
         contentType: "application/json;charset=UTF-8",
         data: JSON.stringify(jsonData),// 将json数据转化为字符串
         success: function (data) {
-            //if (data.result == 1) {
-            //    window.location.href = "/users/user/Woodyapp?action=" + data.data;
-            //}
-            //else {
-            //    alert(data.Message);
-            //}
             $('#waModal', parent.document).attr("style","display: none");
+            $("#rightContent", parent.document).attr("src", "/users/user/Woodyapp?route=" + data.data);
+        }
+    })
+}
+
+//重置用户分成
+function userPriceReset() {
+    if (!confirm('是否要执行此操作？')) return false;
+    $.ajax({
+        type: "post",
+        url: "/users/user/ResetUserPrice/",
+        contentType: "application/json;charset=UTF-8",
+        success: function (data) {
+            $('#waModal', parent.document).attr("style", "display: none");
             $("#rightContent", parent.document).attr("src", "/users/user/Woodyapp?route=" + data.data);
         }
     })
@@ -151,7 +160,6 @@ function freeze(id,url){
         },'json');
     }
 }
-
 
 function op(id,userid){
 

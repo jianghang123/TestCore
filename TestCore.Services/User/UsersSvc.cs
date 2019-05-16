@@ -152,14 +152,29 @@ namespace TestCore.Services.User
         /// </summary>
         /// <param name="userprices"></param>
         /// <returns></returns>
-        public OperationResult InsertUpriceList(List<Userprice> userprices)
+        public OperationResult InsertUpriceList(List<Userprice> userprices,int userId)
         {
-            var res = _userRepository.InsertList(userprices);
+            var res = _userRepository.InsertList(userprices, userId);
             if (res>0)
             {
                return new OperationResult { IsSuccess = true, Message = "更新成功" };
             }
             return new OperationResult { IsSuccess = false, Message = "更新失败" };
+        }
+
+        /// <summary>
+        /// 重置用户分成
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        public OperationResult ResetUprice(int userId)
+        {
+            var res = _userRepository.ResetUserPrice(userId);
+            if (res > 0)
+            {
+                return new OperationResult { IsSuccess = true, Message = "操作成功" };
+            }
+            return new OperationResult { IsSuccess = false, Message = "操作失败" };
         }
     }
 }

@@ -35,6 +35,13 @@ namespace TestCore.IService.User
         /// 更改用户分成
         /// </summary>
         /// <returns></returns>
-        OperationResult InsertUpriceList(List<Userprice> userprices);
+        OperationResult InsertUpriceList(List<Userprice> userprices, int userId);
+
+        /// <summary>
+        /// 重置用户分成
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        OperationResult ResetUprice(int userId);
     }
 }

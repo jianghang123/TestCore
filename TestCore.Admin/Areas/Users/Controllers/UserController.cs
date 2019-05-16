@@ -126,7 +126,7 @@ namespace TestCore.Admin.Areas.Users.Controllers
                     };
                     list.Add(userprice);
                 }
-                var res = _usersSvc.InsertUpriceList(list);
+                var res = _usersSvc.InsertUpriceList(list,this.UserId);
                 if (res.IsSuccess)
                 {
                     this.ResponseResult.Result = 1;
@@ -154,7 +154,20 @@ namespace TestCore.Admin.Areas.Users.Controllers
         [HttpPost]
         public IActionResult ResetUserPrice()
         {
-            return Ok();
+            var res = _usersSvc.ResetUprice(this.UserId);
+            if (res.IsSuccess)
+            {
+                this.ResponseResult.Result = 1;
+                this.ResponseResult.Message = res.Message;
+                this.ResponseResult.Data = "Users/User";
+            }
+            else
+            {
+                this.ResponseResult.Result = 0;
+                this.ResponseResult.Message = res.Message;
+                this.ResponseResult.Data = "Users/User";
+            }
+            return Json(this.ResponseResult);
         }
         #endregion
     }
