@@ -2,7 +2,6 @@
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
-using TestCore.Common.Configuration;
 
 namespace TestCore.Common.Encryption
 {
@@ -15,22 +14,12 @@ namespace TestCore.Common.Encryption
         #region Fields
 
         private byte[] Keys = new byte[] { 0x12, 0x34, 0x56, 120, 0x90, 0xab, 0xcd, 0xef };
-        private readonly TestCoreConfig config;
-
-        #endregion
-
-        #region Ctor
-
-        public DESEncrypt(TestCoreConfig config)
-        {
-            this.config = config;
-        }
 
         #endregion
 
         public string Decrypt(string Text)
         {
-            return Decrypt(Text, config.DESEncryptKey);
+            return Decrypt(Text);
         }
 
         public string Decrypt(string decryptString, string decryptKey)
@@ -67,7 +56,7 @@ namespace TestCore.Common.Encryption
 
         public string Encrypt(string Text)
         {
-            return Encrypt(Text, config.DESEncryptKey);
+            return Encrypt(Text);
         }
 
         public string Encrypt(string encryptString, string encryptKey)

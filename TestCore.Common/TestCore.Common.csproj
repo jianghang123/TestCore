@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="RedisClient\**" />
     <Compile Remove="Strategy\**" />
+    <EmbeddedResource Remove="RedisClient\**" />
     <EmbeddedResource Remove="Strategy\**" />
+    <None Remove="RedisClient\**" />
     <None Remove="Strategy\**" />
   </ItemGroup>
 
@@ -39,10 +42,8 @@
     <Folder Include="IO\" />
     <Folder Include="ResponseResult\" />
     <Folder Include="Captch\" />
-    <Folder Include="Routing\" />
     <Folder Include="Dapper\" />
     <Folder Include="Logging\" />
-    <Folder Include="RedisClient\" />
   </ItemGroup>
 
 </Project>

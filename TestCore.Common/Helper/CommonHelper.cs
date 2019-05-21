@@ -6,7 +6,6 @@ using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using TestCore.Common.Infrastructure;
 
 namespace TestCore.Common.Helper
 {
@@ -319,13 +318,5 @@ namespace TestCore.Common.Helper
 
         #endregion
 
-        #region Properties
-
-        /// <summary>
-        /// 获取或设置默认文件提供程序
-        /// </summary>
-        public static ITestCoreFileProvider DefaultFileProvider { get; set; }
-
-        #endregion
     }
 }

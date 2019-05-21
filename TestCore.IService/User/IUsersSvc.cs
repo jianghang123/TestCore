@@ -43,5 +43,7 @@ namespace TestCore.IService.User
         /// <param name="userId"></param>
         /// <returns></returns>
         OperationResult ResetUprice(int userId);
+
+        
     }
 }

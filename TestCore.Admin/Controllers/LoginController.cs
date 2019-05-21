@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using TestCore.Admin.Infrastructure;
 using TestCore.Admin.ViewModels;
 using TestCore.Common;
 using TestCore.Common.Captch;
@@ -15,10 +15,10 @@ using TestCore.IService.SysAdmin;
 
 namespace TestCore.Admin.Controllers
 {
+    [Authorize]
     public class LoginController : Controller
     {
         private readonly IVerifyCode verifyCode;
-        private readonly IWorkContext workContext;
         private readonly IWebHelper webHelper;
         private readonly IAdminSvc adminSvc;
         /// <summary>
@@ -29,10 +29,9 @@ namespace TestCore.Admin.Controllers
         /// <param name="webHelper"></param>
         /// <param name="messages"></param>
         /// <param name="adminSvc"></param>
-        public LoginController(IVerifyCode verifyCode, IWorkContext workContext, IWebHelper webHelper,IAdminSvc adminSvc)
+        public LoginController(IVerifyCode verifyCode,IWebHelper webHelper,IAdminSvc adminSvc)
         {  
             this.verifyCode = verifyCode;
-            this.workContext = workContext;
             this.webHelper = webHelper;
             this.adminSvc = adminSvc;  
         }

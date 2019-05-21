@@ -78,17 +78,16 @@ function showContent(title, url, parameters) {
        $('#contentShow', parent.document).html(data);
     });
 }
-
+//返回首页
 function homeBack() {
     $("#rightContent", parent.document).attr("src", "/Home/Privacy");
 }
-
+//返回上一页
 function goBack(e)
 {
     var url = $(e).attr("name");
     $("#rightContent", parent.document).attr("src", "" + url + "");
 }
-
 //更新用户分成
 function userPriceSubmit() {
     //var tr = $("#tb tr", parent.document);
@@ -118,7 +117,6 @@ function userPriceSubmit() {
         }
     })
 }
-
 //重置用户分成
 function userPriceReset() {
     if (!confirm('是否要执行此操作？')) return false;

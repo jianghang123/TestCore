@@ -1,5 +1,4 @@
-﻿using Caiba.MvcUtils;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 using TestCore.Domain.CommonEntity;
@@ -21,7 +20,7 @@ namespace TestCore.MvcUtils
                 }
                 if (context.ExceptionHandled) return;
 
-                LogHelper.WriteLog(context, ProjectType, LogTypeEnum.Exception);
+               // LogHelper.WriteLog(context, ProjectType, LogTypeEnum.Exception);
 
                 if (context.HttpContext.Request.IsAjaxRequest())
                 {

@@ -1,11 +1,10 @@
-﻿using TestCore.Common.Configuration;
-using System;
+﻿using System;
 using System.Security.Cryptography;
 using System.Text;
 using TestCore.Common.Helper;
 
 namespace TestCore.Common.Encryption
-{ 
+{
     /// <summary>
     /// AES加密/解密
     /// </summary>
@@ -14,25 +13,13 @@ namespace TestCore.Common.Encryption
         #region Fields
 
         private byte[] Keys = new byte[] { 0x41, 0x72, 0x65, 0x79, 0x6f, 0x75, 0x6d, 0x79, 0x53, 110, 0x6f, 0x77, 0x6d, 0x61, 110, 0x3f };
-
-        private readonly TestCoreConfig config;
-
-        #endregion
-
-        #region Ctor
-
-        public AESEncrypt(TestCoreConfig config)
-        {
-            this.config = config;
-        }
-
         #endregion
 
         #region Methods
 
         public string Decrypt(string Text)
         {
-            return Decrypt(Text, config.AESEncryptKey);
+            return Decrypt(Text);
         }
 
         public string Decrypt(string decryptString, string decryptKey)
@@ -54,7 +41,7 @@ namespace TestCore.Common.Encryption
 
         public string Encrypt(string Text)
         {
-            return Encrypt(Text, config.AESEncryptKey);
+            return Encrypt(Text);
         }
 
         public string Encrypt(string encryptString, string encryptKey)

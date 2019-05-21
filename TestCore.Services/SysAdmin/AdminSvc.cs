@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using TestCore.Common.Configuration;
 using TestCore.Common.Encryption;
 using TestCore.Common.Helper;
 using TestCore.Domain.SysEntity;
-using TestCore.IRepository;
 using TestCore.IRepository.SysAdmin;
 using TestCore.IService.SysAdmin;
 
@@ -13,13 +11,11 @@ namespace TestCore.Services.SysAdmin
     public class AdminSvc : BaseSvc<Admin>, IAdminSvc
    {
         private readonly IAdminRepository _adminRepository;
-        private readonly SysManageSecurityConfig _config;
         private readonly IWebHelper _webHelper;
         private readonly IAdminLogsRepository _adminlogsRepository;
 
-        public AdminSvc(IAdminRepository adminRepository, SysManageSecurityConfig config, IWebHelper webHelper, IAdminLogsRepository adminlogsRepository)
+        public AdminSvc(IAdminRepository adminRepository, IWebHelper webHelper, IAdminLogsRepository adminlogsRepository)
         {
-            this._config = config;
             this._adminRepository = adminRepository;
             this._webHelper = webHelper;
             this._adminlogsRepository = adminlogsRepository;
@@ -45,7 +41,7 @@ namespace TestCore.Services.SysAdmin
                 if (user.Is_state == 1)
                 {
                     //登录错误次数
-                    int maxLoginFailedTimes = _config.MaxLoginFailedTimes;
+                    int maxLoginFailedTimes = 0;//@TODO应该从配置文件读取
                     if (maxLoginFailedTimes <= 0)
                     {
                         maxLoginFailedTimes = 5;

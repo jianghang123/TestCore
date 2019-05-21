@@ -1,3 +1,7 @@
+D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.csproj.CoreCompileInputs.cache
+D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.AssemblyInfoInputs.cache
+D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.AssemblyInfo.cs
+D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.csprojAssemblyReference.cache
 D:\vs2019\MyTestCore\TestCore.Repository\bin\Debug\netcoreapp2.2\TestCore.Repository.deps.json
 D:\vs2019\MyTestCore\TestCore.Repository\bin\Debug\netcoreapp2.2\TestCore.Repository.dll
 D:\vs2019\MyTestCore\TestCore.Repository\bin\Debug\netcoreapp2.2\TestCore.Repository.pdb
@@ -12,10 +16,6 @@ D:\vs2019\MyTestCore\TestCore.Repository\bin\Debug\netcoreapp2.2\TestCore.Common
 D:\vs2019\MyTestCore\TestCore.Repository\bin\Debug\netcoreapp2.2\en-US\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.Repository\bin\Debug\netcoreapp2.2\zh-CN\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.Repository\bin\Debug\netcoreapp2.2\zh-TW\TestCore.Domain.resources.dll
-D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.csprojAssemblyReference.cache
-D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.csproj.CoreCompileInputs.cache
-D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.AssemblyInfoInputs.cache
-D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.csproj.CopyComplete
 D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.dll
 D:\vs2019\MyTestCore\TestCore.Repository\obj\Debug\netcoreapp2.2\TestCore.Repository.pdb

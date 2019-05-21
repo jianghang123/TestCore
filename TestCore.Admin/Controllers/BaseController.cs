@@ -65,7 +65,7 @@ namespace TestCore.Admin.Controllers
                 return entity;
             }
             loginfo.Info(string.Format("获取用户token信息---{0}", token));
-            var use = Common.Cache.RedisConfig.GetValue(token);
+            var use = "";//Common.Cache.RedisConfig.GetValue(token);
             var res = JsonConvert.DeserializeObject<Users>(use);
             loginfo.Info(string.Format("获取用户信息---{0}", res));
             if (res != null)
@@ -101,7 +101,7 @@ namespace TestCore.Admin.Controllers
         protected Guid AddCurUserInfo(Users entity)
         {
             var guid = Guid.NewGuid();
-            Common.Cache.RedisConfig.SetValue(guid.ToString(), JsonConvert.SerializeObject(entity), new TimeSpan(0, 2, 0));
+            // Common.Cache.RedisConfig.SetValue(guid.ToString(), JsonConvert.SerializeObject(entity), new TimeSpan(0, 2, 0));
             return guid;
         }
 

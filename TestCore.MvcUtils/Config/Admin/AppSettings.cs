@@ -20,15 +20,6 @@ namespace TestCore.MvcUtils.Admin
         public string EmailAddress { set; get; }
         public string EmailPassword { set; get; }
 
-        ///public string PayApiUrl { set; get; }
-        //public string ApiTokenSecret { set; get; }
-
-        //public string PayOne_Url { set; get; }
-        //public string PayOne_merNo { set; get; }
-        //public string PayOne_PrivateKey { set; get; }
-        //public string PayOne_notifyUrl { set; get; }
-        //public string PayOne_returnUrl { set; get; }
-
         //public int SiteId { set;get; }
         /// <summary>
         /// 站点域名
@@ -75,6 +66,13 @@ namespace TestCore.MvcUtils.Admin
         public string BannerImages { get; set; }
         public string IndexGameImg { get; set; }
         public string IsMaintain { get; set; }
+
+        /// <summary>
+        /// 获取或设置一个值，该值指示是否在生产环境中显示完整错误。它在开发环境中被忽略（总是启用）
+        /// </summary>
+        public bool DisplayFullErrorStack { get; set; }
+
+        public string ShipCycle { get; set; }
 
     }
 }

@@ -52,8 +52,8 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\TestCore.Common\TestCore.Common.csproj" />
     <ProjectReference Include="..\TestCore.Framework\TestCore.Framework.csproj" />
+    <ProjectReference Include="..\TestCore.MvcUtils\TestCore.MvcUtils.csproj" />
     <ProjectReference Include="..\TestCore.Services\TestCore.Services.csproj" />
   </ItemGroup>
 

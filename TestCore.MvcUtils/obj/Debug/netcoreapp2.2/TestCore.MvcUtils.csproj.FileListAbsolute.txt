@@ -1,3 +1,7 @@
+D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.csprojAssemblyReference.cache
+D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.csproj.CoreCompileInputs.cache
+D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.AssemblyInfoInputs.cache
+D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.MvcUtils\bin\Debug\netcoreapp2.2\TestCore.MvcUtils.deps.json
 D:\vs2019\MyTestCore\TestCore.MvcUtils\bin\Debug\netcoreapp2.2\TestCore.MvcUtils.dll
 D:\vs2019\MyTestCore\TestCore.MvcUtils\bin\Debug\netcoreapp2.2\TestCore.MvcUtils.pdb
@@ -16,10 +20,6 @@ D:\vs2019\MyTestCore\TestCore.MvcUtils\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
 D:\vs2019\MyTestCore\TestCore.MvcUtils\bin\Debug\netcoreapp2.2\en-US\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.MvcUtils\bin\Debug\netcoreapp2.2\zh-CN\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.MvcUtils\bin\Debug\netcoreapp2.2\zh-TW\TestCore.Domain.resources.dll
-D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.csprojAssemblyReference.cache
-D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.csproj.CoreCompileInputs.cache
-D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.AssemblyInfoInputs.cache
-D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.csproj.CopyComplete
 D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.dll
 D:\vs2019\MyTestCore\TestCore.MvcUtils\obj\Debug\netcoreapp2.2\TestCore.MvcUtils.pdb

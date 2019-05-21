@@ -13,6 +13,12 @@ D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\TestCore.IRepository.d
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\TestCore.Domain.pdb
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\TestCore.IRepository.pdb
+D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.csprojAssemblyReference.cache
+D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.csproj.CoreCompileInputs.cache
+D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.RazorAssemblyInfo.cache
+D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.RazorAssemblyInfo.cs
+D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.AssemblyInfoInputs.cache
+D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\netcoreapp2.2\TestCore.Api.deps.json
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\netcoreapp2.2\TestCore.Api.runtimeconfig.json
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\netcoreapp2.2\TestCore.Api.runtimeconfig.dev.json
@@ -37,12 +43,6 @@ D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\netcoreapp2.2\TestCore
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\netcoreapp2.2\en-US\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\netcoreapp2.2\zh-CN\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.Api\bin\Debug\netcoreapp2.2\netcoreapp2.2\zh-TW\TestCore.Domain.resources.dll
-D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.csprojAssemblyReference.cache
-D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.csproj.CoreCompileInputs.cache
-D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.RazorAssemblyInfo.cache
-D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.RazorAssemblyInfo.cs
-D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.AssemblyInfoInputs.cache
-D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.RazorTargetAssemblyInfo.cache
 D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.csproj.CopyComplete
 D:\vs2019\MyTestCore\TestCore.Api\obj\Debug\netcoreapp2.2\TestCore.Api.dll

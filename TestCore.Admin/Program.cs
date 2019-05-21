@@ -14,12 +14,6 @@ namespace TestCore.Admin
     {
         public static void Main(string[] args)
         {
-            //var host = WebHost.CreateDefaultBuilder(args)
-            //                .UseUrls("http://*:8001")
-            //                .UseKestrel(options => options.AddServerHeader = false)
-            //                .UseStartup<Startup>()
-            //                .Build();
-            //host.Run();
             CreateWebHostBuilder(args).Build().Run();
         }
 
