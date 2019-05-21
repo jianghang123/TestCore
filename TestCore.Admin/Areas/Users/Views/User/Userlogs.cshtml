@@ -1,0 +1,153 @@
+﻿
+@{
+    Layout = null;
+}
+<link href="~/common/ifream.css" rel="stylesheet" />
+<link href="~/common/app.css" rel="stylesheet" />
+<link href="~/common/datetimepicker.min.css" rel="stylesheet" />
+<style>
+    #wypage {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+        #wypage p {
+            float: left;
+            color: #333;
+        }
+
+        #wypage a {
+            float: left;
+            display: inline-block;
+            border: 1px solid #ddd;
+            padding: 4px 6px;
+            margin-left: 4px;
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+
+            #wypage a:hover {
+                background-color: #ddd;
+            }
+
+            #wypage a.wy_page_current {
+                background-color: #ddd;
+            }
+</style>
+<h3>
+    <span class="current">
+        登录日志
+    </span>
+</h3>
+<br>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <form class="form-inline" action="" method="get">
+            <div class="form-group">
+                <input type="text" class="form-control" name="uname" placeholder="用户名/编号"
+                       value="" size="12">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="ip" placeholder="IP" value=""
+                       size="14">
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar">
+                        </span>
+                    </span>
+                    <input size="16" type="text" name="fdate" readonly class="form_datetime form-control"
+                           value="">
+                    <span class="input-group-addon">
+                        至
+                    </span>
+                    <input size="16" type="text" name="tdate" readonly class="form_datetime form-control"
+                           value="">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <span class="glyphicon glyphicon-search">
+                </span>
+                &nbsp;立即查询
+            </button>
+        </form>
+    </div>
+</div>
+<div class="set set0 table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr class="info">
+                <th>
+                    编号
+                </th>
+                <th>
+                    账号名称
+                </th>
+                <th>
+                    IP
+                </th>
+                <th>
+                    日期
+                </th>
+                <th>
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.logList != null)
+            {
+                foreach (TestCore.Domain.ViewEntity.ViewUserlogs item in ViewBag.logList)
+                {
+                    <tr data-id="@item.Id">
+                        <td>
+                            @item.Id
+                        </td>
+                        <td>
+                            @item.Username
+                        </td>
+                        <td>
+                            @item.Ip
+                            &nbsp;
+                            <a href="https://www.baidu.com/s?wd=@item.Ip" target="_blank">
+                                <span class="glyphicon glyphicon-link">
+                                </span>
+                            </a>
+                        </td>
+                        <td>
+                            @item.Addtime.ToString("M-d HH:mm:ss")
+                        </td>
+                        <td>
+                            <a href="javascript:;" onclick="del(@item.Id,'/users/user/DelUserLog/')"
+                               data-toggle="tooltip" title="删除">
+                                <span class="glyphicon glyphicon-trash">
+                                </span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">
+                        no data.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div id="wypage">
+    <p style="padding-top:5px">每页20条，共1条记录</p>
+    <p><a href="?is_state=-1&amp;kw=&amp;fdate=&amp;tdate=&amp;p=1" class="wy_page_current">1</a></p>
+    <p style="clear:left"></p>
+</div>
+<script src="~/common/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="~/common/jquery.zclip.min.js" type="text/javascript"></script>
+<script src="~/common/datetimepicker.min.js" type="text/javascript"></script>
+<script src="~/common/bootstrap.min.js"></script>
+<script src="~/common/app.js" type="text/javascript"></script>

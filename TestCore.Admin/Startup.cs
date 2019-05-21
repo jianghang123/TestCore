@@ -1,12 +1,18 @@
 ﻿using log4net.Repository;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System;
-using TestCore.Admin.Infrastructure.Extensions;
+using TestCore.Common;
+using TestCore.Common.Helper;
+using TestCore.Common.Ioc;
+using TestCore.MvcUtils;
+using TestCore.MvcUtils.Admin;
 
 namespace TestCore.Admin
 {
@@ -14,60 +20,84 @@ namespace TestCore.Admin
     {
         public static ILoggerRepository Repository { get; set; }
 
-        public Startup(IHostingEnvironment environment)
+        public Startup(IConfiguration configuration)
         {
-            Configuration = new ConfigurationBuilder()
-                .SetBasePath(environment.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddEnvironmentVariables()
-                .Build();
+            Configuration = configuration;
         }
 
-        public IConfigurationRoot Configuration { get; }
+        public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.Configure<CookiePolicyOptions>(options =>
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+            ///mvc 加过滤器
+            services.AddMvc(cfg =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.None;
+                cfg.Filters.Add(typeof(HandleException));
+
+            }).AddViewLocalization().AddDataAnnotationsLocalization();
+            services.AddOptions();
+            services.AddMemoryCache();
+            services.AddSession(options =>
+            {
+                // Set a short timeout for easy testing.
+                options.IdleTimeout = TimeSpan.FromMinutes(60);
+
             });
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                    .AddCookie(options =>
+                    {
+                        options.LoginPath = "/Login/Index";
+                        options.LogoutPath = "/Login/Logout";
+                        options.AccessDeniedPath = "/Login/NoRight";
+                    });
 
+            services.Configure<FormOptions>(options =>
+            {
+                options.MultipartBodyLengthLimit = 1024 * 1024 * 2;
+            });
+            services.Configure<ConnectionStrings>(Configuration.GetSection("ConnectionStrings"));
+            services.Configure<TestCore.MvcUtils.Admin.AppSettings>(Configuration.GetSection("AppSettings"));
+            services.Configure<ApiSettings>(Configuration.GetSection("ApiSettings"));
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            ///httpContext 使用
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-            return services.ConfigureApplicationServices(Configuration, Repository);
+            var ServiceProvider = IoCBootstrapper.Startup(services);
+            return ServiceProvider;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IServiceProvider svrProvider)
         {
-            if (env.IsDevelopment())
+            if (AdminConfig.AppSettings.DisplayFullErrorStack || env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseDatabaseErrorPage();
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            ///设置服务处理器
+            CoreHttpContext.contextFactory = svrProvider.GetRequiredService<IHttpContextAccessor>();
+        
             app.UseStaticFiles();
-            app.UseCookiePolicy();
             app.UseSession();
-
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                // Areas support
                 routes.MapRoute(
                   name: "areas",
                   template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

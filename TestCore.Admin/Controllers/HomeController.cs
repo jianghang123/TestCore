@@ -4,29 +4,28 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using TestCore.Admin.Infrastructure;
 using TestCore.Admin.Models;
 using TestCore.Domain.CommonEntity;
 using TestCore.IService.SysAdmin;
 
 namespace TestCore.Admin.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
-        private readonly IWorkContext _workContext;
         private readonly IAdminSvc _adminSvc;
         private StringBuilder _menuHtml = new StringBuilder();
-        public HomeController(IWorkContext workContext, IAdminSvc adminSvc)
+        public HomeController(IAdminSvc adminSvc)
         {
-            this._workContext = workContext;
             this._adminSvc = adminSvc;
         }
         public async Task<IActionResult> Index()
         {
-            TestCore.Domain.SysEntity.Admin admInfo = await _workContext.GetCurrentUser();
+            TestCore.Domain.SysEntity.Admin admInfo = await _adminSvc.GetModelAsync(new { Id = 13 });//@todo身份验证
             //区域
             List<string> list = new List<string>{"users","orders","channels","articles", "agents"};
             if (admInfo != null)
@@ -42,7 +41,7 @@ namespace TestCore.Admin.Controllers
                     {
                         if (list.Contains(jProperty.Name)) 
                         {
-                            actions = jProperty.Name;
+                            actions = jProperty.Name + "/" + jProperty.Name.TrimEnd('s');
                             _menuHtml.Append("<dl>");
                             _menuHtml.AppendFormat("<dt><span class=\"glyphicon glyphicon-user\"></span>&nbsp;{0}</dt>", jProperty.Value);
                         }

@@ -8,10 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
-using TestCore.Common.Configuration;
-using TestCore.Core.Exceptions;
-using TestCore.Common.Infrastructure;
 using TestCore.Common.Extensions;
+using TestCore.Core.Exceptions;
 
 namespace TestCore.Common.Helper
 {
@@ -29,8 +27,6 @@ namespace TestCore.Common.Helper
         #region Fields 
 
         private readonly IHttpContextAccessor httpContextAccessor;
-        private readonly HostingConfig _hostingConfig;
-        //private readonly ITestCoreFileProvider _fileProvider;
 
         #endregion
 
@@ -41,10 +37,8 @@ namespace TestCore.Common.Helper
         /// </summary>
         /// <param name="hostingConfig">Hosting config</param>
         /// <param name="httpContextAccessor">HTTP context accessor</param>
-        public WebHelper(HostingConfig hostingConfig, 
-            IHttpContextAccessor httpContextAccessor)
+        public WebHelper(IHttpContextAccessor httpContextAccessor)
         {
-            this._hostingConfig = hostingConfig;
             this.httpContextAccessor = httpContextAccessor;
         }
 
@@ -118,12 +112,7 @@ namespace TestCore.Common.Helper
                 {
                     //X-TunDeD-Of（XFF）HTTP报头字段是用于识别通过HTTP代理或负载均衡器连接到Web服务器的客户端的始发IP地址的阿德FACTO标准
                     var forwardedHttpHeaderKey = "X-FORWARDED-FOR";
-                    if (!string.IsNullOrEmpty(_hostingConfig.ForwardedHttpHeader))
-                    {
-                        //但在某些情况下，服务器在这种情况下使用其他HTTP报头，管理员可以指定定制转发的HTTP报头（例如，连接IP、X-NotoDeDr.Pro等的CF）
-                        forwardedHttpHeaderKey = _hostingConfig.ForwardedHttpHeader;
-                    }
-
+                   
                     var forwardedHeader = httpContextAccessor.HttpContext.Request.Headers[forwardedHttpHeaderKey];
                     if (!StringValues.IsNullOrEmpty(forwardedHeader))
                         result = forwardedHeader.FirstOrDefault();
@@ -161,13 +150,13 @@ namespace TestCore.Common.Helper
             if (!IsRequestAvailable())
                 return false;
 
-            //检查主机是否使用负载均衡器使用HTTP_CLUSTER_HTTPS
-            if (_hostingConfig.UseHttpClusterHttps)
-                return httpContextAccessor.HttpContext.Request.Headers["HTTP_CLUSTER_HTTPS"].ToString().Equals("on", StringComparison.OrdinalIgnoreCase);
+            ////检查主机是否使用负载均衡器使用HTTP_CLUSTER_HTTPS
+            //if (_hostingConfig.UseHttpClusterHttps)
+            //    return httpContextAccessor.HttpContext.Request.Headers["HTTP_CLUSTER_HTTPS"].ToString().Equals("on", StringComparison.OrdinalIgnoreCase);
 
-            //使用HTTP_X_FORWARDED_PROTO?
-            if (_hostingConfig.UseHttpXForwardedProto)
-                return httpContextAccessor.HttpContext.Request.Headers["X-Forwarded-Proto"].ToString().Equals("https", StringComparison.OrdinalIgnoreCase);
+            ////使用HTTP_X_FORWARDED_PROTO?
+            //if (_hostingConfig.UseHttpXForwardedProto)
+            //    return httpContextAccessor.HttpContext.Request.Headers["X-Forwarded-Proto"].ToString().Equals("https", StringComparison.OrdinalIgnoreCase);
 
             return httpContextAccessor.HttpContext.Request.IsHttps;
         }

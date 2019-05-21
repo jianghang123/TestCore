@@ -1,3 +1,7 @@
+D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.csprojAssemblyReference.cache
+D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.csproj.CoreCompileInputs.cache
+D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.AssemblyInfoInputs.cache
+D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Admin.deps.json
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Admin.runtimeconfig.json
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Admin.runtimeconfig.dev.json
@@ -9,10 +13,12 @@ D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Domain.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Framework.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.IRepository.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.IService.dll
+D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.MvcUtils.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Repository.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Services.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Common.pdb
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Framework.pdb
+D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.MvcUtils.pdb
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Services.pdb
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Domain.pdb
@@ -22,10 +28,6 @@ D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\TestCore.Repository.
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\en-US\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\zh-CN\TestCore.Domain.resources.dll
 D:\vs2019\MyTestCore\TestCore.Admin\bin\Debug\netcoreapp2.2\zh-TW\TestCore.Domain.resources.dll
-D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.csprojAssemblyReference.cache
-D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.csproj.CoreCompileInputs.cache
-D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.AssemblyInfoInputs.cache
-D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.csproj.CopyComplete
 D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.dll
 D:\vs2019\MyTestCore\TestCore.Admin\obj\Debug\netcoreapp2.2\TestCore.Admin.pdb

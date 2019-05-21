@@ -54,22 +54,22 @@ namespace TestCore.MvcUtils.Admin
             }
         }
 
-        private static string gamePlatformConnString;
+        private static string connectionSqlService;
 
         /// <summary>
         /// 平台数据库的默认连接字符串
         /// </summary>
-        public static string GamePlatformConnString
+        public static string ConnectionSqlService
         {
             get
             {
                 try
                 {
-                    if (gamePlatformConnString == null)
+                    if (connectionSqlService == null)
                     {
-                        gamePlatformConnString = ConnectionStrings.ConnectionSqlService;
+                        connectionSqlService = ConnectionStrings.ConnectionSqlService;
                     }
-                    return gamePlatformConnString;
+                    return connectionSqlService;
                 }
                 catch
                 {

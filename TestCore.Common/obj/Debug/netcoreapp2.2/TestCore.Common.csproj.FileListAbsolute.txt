@@ -15,4 +15,3 @@ D:\vs2019\MyTestCore\TestCore.Common\obj\Debug\netcoreapp2.2\TestCore.Common.Ass
 D:\vs2019\MyTestCore\TestCore.Common\obj\Debug\netcoreapp2.2\TestCore.Common.AssemblyInfo.cs
 D:\vs2019\MyTestCore\TestCore.Common\obj\Debug\netcoreapp2.2\TestCore.Common.dll
 D:\vs2019\MyTestCore\TestCore.Common\obj\Debug\netcoreapp2.2\TestCore.Common.pdb
-D:\vs2019\MyTestCore\TestCore.Common\obj\Debug\netcoreapp2.2\TestCore.Common.csprojAssemblyReference.cache

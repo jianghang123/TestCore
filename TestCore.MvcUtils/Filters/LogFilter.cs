@@ -1,5 +1,4 @@
-﻿using Caiba.MvcUtils;
-using Microsoft.AspNetCore.Mvc.Filters;
+﻿using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 using TestCore.Common.Helper;
 using TestCore.Domain.CommonEntity;
@@ -40,7 +39,7 @@ namespace TestCore.MvcUtils
                 if (method == "GET" && !action.IsEquals("logout"))
                     return;
 
-                LogHelper.WriteLog(context, ProjectType, LogTypeEnum.Normal);
+                //LogHelper.WriteLog(context, ProjectType, LogTypeEnum.Normal);
             }
             catch (Exception ex)
             {

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Autofac;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -7,11 +9,10 @@ using System.Linq;
 using TestCore.Admin.Controllers;
 using TestCore.Domain.CommonEntity;
 using TestCore.Domain.Entity;
-using TestCore.Domain.InputEntity;
 using TestCore.Domain.ViewEntity;
 using TestCore.Framework;
-using TestCore.IRepository.User;
 using TestCore.IService.User;
+using TestCore.MvcUtils.Admin;
 
 namespace TestCore.Admin.Areas.Users.Controllers
 {
@@ -19,11 +20,13 @@ namespace TestCore.Admin.Areas.Users.Controllers
     public class UserController : BaseController
     {
         private readonly IUsersSvc _usersSvc;
-       
+
         public UserController(IUsersSvc usersSvc)
         {
             this._usersSvc = usersSvc;
         }
+
+        #region 用户管理 
         public IActionResult Index()
         {
             var userList = _usersSvc.GetList<ViewUser>(null).ToList().OrderByDescending(t => t.Id);
@@ -131,20 +134,20 @@ namespace TestCore.Admin.Areas.Users.Controllers
                 {
                     this.ResponseResult.Result = 1;
                     this.ResponseResult.Message = res.Message;
-                    this.ResponseResult.Data = "Users/User";
+                    this.ResponseResult.Data = "Users/User/Index";
                 }
                 else
                 {
                     this.ResponseResult.Result = 0;
                     this.ResponseResult.Message = res.Message;
-                    this.ResponseResult.Data = "Users/User";
+                    this.ResponseResult.Data = "Users/User/Index";
                 }
             }
             else
             {
                 this.ResponseResult.Result = 0;
                 this.ResponseResult.Message = "更新失败";
-                this.ResponseResult.Data = "Users/User";
+                this.ResponseResult.Data = "Users/User/Index";
             }
             return Json(this.ResponseResult);
         }
@@ -159,15 +162,45 @@ namespace TestCore.Admin.Areas.Users.Controllers
             {
                 this.ResponseResult.Result = 1;
                 this.ResponseResult.Message = res.Message;
-                this.ResponseResult.Data = "Users/User";
+                this.ResponseResult.Data = "Users/User/Index";
             }
             else
             {
                 this.ResponseResult.Result = 0;
                 this.ResponseResult.Message = res.Message;
-                this.ResponseResult.Data = "Users/User";
+                this.ResponseResult.Data = "Users/User/Index";
             }
             return Json(this.ResponseResult);
+        }
+        #endregion
+
+        #endregion
+
+        #region 代收款登记
+        public IActionResult Usercfo()
+        {
+            var cfo = _usersSvc.GetList<ViewCfo>(null).ToList().OrderByDescending(t => t.Id);
+            ViewBag.cfoList = cfo;
+            return View();
+        }
+        #endregion
+
+        #region 登录日志
+        public IActionResult Userlogs()
+        {
+            var cfo = _usersSvc.GetList<ViewUserlogs>(null).ToList().OrderByDescending(t => t.Id);
+            ViewBag.logList = cfo;
+            return View();
+        }
+        #endregion
+
+        #region 用户结算
+        public IActionResult Usership()
+        {
+            var userList = _usersSvc.GetList<ViewUser>(null).ToList().OrderByDescending(t => t.Id);
+            ViewBag.userList = userList;
+            ViewBag.Type = AdminConfig.AppSettings.ShipCycle;
+            return View();
         }
         #endregion
     }

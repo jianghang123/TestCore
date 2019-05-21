@@ -1,13 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using TestCore.Common.Cache;
 using TestCore.Common.Encryption;
 using TestCore.Domain.CommonEntity;
 using TestCore.Domain.Entity;
 using TestCore.Domain.InputEntity;
 using TestCore.IRepository.User;
 using TestCore.IService.User;
-using TestCore.Repository;
 
 namespace TestCore.Services.User
 {
@@ -50,11 +48,11 @@ namespace TestCore.Services.User
         public OperationResult GetRegisterResult(RegisterInput input)
         {
             Users user;
-            string code = input.ImgCode.ToUpper();
-            if (input.ImgCode.ToLower() != CacheUtils.CacheService.Get<string>(code))
-            {
-                return new OperationResult { IsSuccess = false, Message = "图形验证码不正确！" };
-            }
+            //string code = input.ImgCode.ToUpper();
+            //if (input.ImgCode.ToLower() != CacheUtils.CacheService.Get<string>(code))
+            //{
+            //    return new OperationResult { IsSuccess = false, Message = "图形验证码不正确！" };
+            //}
 
             if (input.Userpass != input.ConfirmUserpass)
             {

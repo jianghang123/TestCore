@@ -1,0 +1,140 @@
+﻿@{
+    Layout = null;
+}
+<link href="~/common/ifream.css" rel="stylesheet" />
+<link href="~/common/app.css" rel="stylesheet" />
+<link href="~/common/datetimepicker.min.css" rel="stylesheet" />
+
+<style>
+    #wypage {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+        #wypage p {
+            float: left;
+            color: #333;
+        }
+
+        #wypage a {
+            float: left;
+            display: inline-block;
+            border: 1px solid #ddd;
+            padding: 4px 6px;
+            margin-left: 4px;
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+
+            #wypage a:hover {
+                background-color: #ddd;
+            }
+
+            #wypage a.wy_page_current {
+                background-color: #ddd;
+            }
+</style>
+<h3><span class="current">用户结算</span></h3>
+<div style="position:absolute;text-align:right;margin-top:-30px;margin-left:100px;" class="red">
+    (点击结算后，未结订单收入将结算到账户余额中，然后等待付款。未结收入不含当天的订单)
+</div>
+<br>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="form-group">
+            <input type="text" class="form-control" name="kw" placeholder="用户名/编号" value="">
+        </div>
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr class="info">
+                <th width="100">
+                    用户编号
+                </th>
+                <th>
+                    用户名
+                </th>
+                <th>
+                    结算类型
+                </th>
+                <th>
+                    已付金额
+                </th>
+                <th>
+                    账户余额
+                </th>
+                <th>
+                    未结订单数
+                </th>
+                <th>
+                    未结订单收入
+                </th>
+                <th>
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.userList != null)
+            {
+                foreach (TestCore.Domain.ViewEntity.ViewUser item in ViewBag.userList)
+                {
+                    <tr>
+                        <td>
+                            @item.Id
+                        </td>
+                        <td>
+                            @item.Username
+                        </td>
+                        <td>
+                            用户提现(@ViewBag.Type)
+                        </td>
+                        <td class="green">
+                            @item.Paid
+                            元
+                        </td>
+                        <td class="red">
+                            @item.Unpaid
+                            元
+                        </td>
+                        <td>
+                            0条
+                        </td>
+                        <td class="orange">
+                            0
+                            元
+                        </td>
+                        <td>
+                            <a href="javascript:;" onclick="showContent('付款给商户','');" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;结算</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="8">
+                        no data.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<br>
+<br>
+<div id="wypage">
+    <p style="padding-top:5px">每页20条，共1条记录</p>
+    <p><a href="?is_state=-1&amp;kw=&amp;fdate=&amp;tdate=&amp;p=1" class="wy_page_current">1</a></p>
+    <p style="clear:left"></p>
+</div>
+<script src="~/common/jquery-1.12.1.min.js" type="text/javascript"></script>
+<script src="~/common/jquery.zclip.min.js" type="text/javascript"></script>
+<script src="~/common/datetimepicker.min.js" type="text/javascript"></script>
+<script src="~/common/bootstrap.min.js"></script>
+<script src="~/common/app.js" type="text/javascript"></script>
+
